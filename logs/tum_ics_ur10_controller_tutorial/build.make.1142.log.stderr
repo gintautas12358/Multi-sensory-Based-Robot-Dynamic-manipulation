@@ -1,0 +1,64 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::impedance_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector7d, Tum::Vector6d, double, double)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:803:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Vector3d F1_0[m[K’
+  803 |       Vector3d [01;31m[KF1_0[m[K = Fj_0.row(0).transpose();
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:785:16:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Vector3d F1_0[m[K’ previously declared here
+  785 |       Vector3d [01;36m[KF1_0[m[K(Vector3d::Zero());
+      |                [01;36m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:804:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Vector3d F2_0[m[K’
+  804 |       Vector3d [01;31m[KF2_0[m[K = Fj_0.row(1).transpose();
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:786:16:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Vector3d F2_0[m[K’ previously declared here
+  786 |       Vector3d [01;36m[KF2_0[m[K(Vector3d::Zero());
+      |                [01;36m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:805:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Vector3d F3_0[m[K’
+  805 |       Vector3d [01;31m[KF3_0[m[K = Fj_0.row(2).transpose();
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:787:16:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Vector3d F3_0[m[K’ previously declared here
+  787 |       Vector3d [01;36m[KF3_0[m[K(Vector3d::Zero());
+      |                [01;36m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:806:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Vector3d F4_0[m[K’
+  806 |       Vector3d [01;31m[KF4_0[m[K = Fj_0.row(3).transpose();
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:788:16:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Vector3d F4_0[m[K’ previously declared here
+  788 |       Vector3d [01;36m[KF4_0[m[K(Vector3d::Zero());
+      |                [01;36m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:807:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Vector3d F5_0[m[K’
+  807 |       Vector3d [01;31m[KF5_0[m[K = Fj_0.row(4).transpose();
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:789:16:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Vector3d F5_0[m[K’ previously declared here
+  789 |       Vector3d [01;36m[KF5_0[m[K(Vector3d::Zero());
+      |                [01;36m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:808:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Vector3d F6_0[m[K’
+  808 |       Vector3d [01;31m[KF6_0[m[K = Fj_0.row(5).transpose();
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:790:16:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Vector3d F6_0[m[K’ previously declared here
+  790 |       Vector3d [01;36m[KF6_0[m[K(Vector3d::Zero());
+      |                [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotTime.h:10[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:15[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:812:38:[m[K [01;31m[Kerror: [m[K‘[01m[KiF6_0[m[K’ was not declared in this scope; did you mean ‘[01m[KF6_0[m[K’?
+  812 |       ROS_WARN_STREAM("iF6_0: \n" << [01;31m[KiF6_0[m[K.transpose());
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:361:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+  361 |     __rosconsole_print_stream_at_location_with_filter__ss__ << [01;36m[Kargs[m[K; \
+      |                                                                [01;36m[K^~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:409:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+  409 |       [01;36m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K(args); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:582:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+  582 | #define ROS_LOG_STREAM(level, name, args) [01;36m[KROS_LOG_STREAM_COND[m[K(true, level, name, args)
+      |                                           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:163:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+  163 | #define ROS_WARN_STREAM(args) [01;36m[KROS_LOG_STREAM[m[K(::ros::console::levels::Warn, ROSCONSOLE_DEFAULT_NAME, args)
+      |                               [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:812:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_WARN_STREAM[m[K’
+  812 |       [01;36m[KROS_WARN_STREAM[m[K("iF6_0: \n" << iF6_0.transpose());
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

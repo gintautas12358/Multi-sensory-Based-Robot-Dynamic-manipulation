@@ -1,0 +1,7 @@
+In file included from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:211:16:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::[m[K’ on member ‘[01m[Koperational_control_multi_obstacle_avoidance[m[K’ [[01;31m[K-fpermissive[m[K]
+  211 |       Vector6d [01;31m[KJointSpaceController_1[m[K::operational_control_multi_obstacle_avoidance(Vector6d Q, Vector6d Qp, Vector6d Qpp, double start_time, double end_time, const RobotTime &time);
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

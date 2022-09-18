@@ -1,0 +1,1 @@
+/home/gin/ros/workspaces/final/devel/.private/visual_perception/share/visual_perception/cmake/visual_perceptionConfig.cmake

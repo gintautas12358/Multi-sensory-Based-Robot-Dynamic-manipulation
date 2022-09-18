@@ -1,0 +1,17 @@
+In file included from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller_1.h:39:12:[m[K [01;31m[Kerror: [m[Kusing-declaration for non-member at class scope
+   39 |       ros::[01;31m[KPublisherplot_pub_joint_dest[m[K;
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:[m[K In constructor ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::JointSpaceController_1(double, const QString&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:71:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kplot_pub_joint_dest[m[K’ was not declared in this scope; did you mean ‘[01m[Kplot_pub_joint_errors[m[K’?
+   71 |       [01;31m[Kplot_pub_joint_dest[m[K = nh_.advertise<sensor_msgs::JointState>( "my_joint_dest", 1 );
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |       [32m[Kplot_pub_joint_errors[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::joint_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:1075:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kplot_pub_joint_dest[m[K’ was not declared in this scope; did you mean ‘[01m[Kplot_pub_joint_errors[m[K’?
+ 1075 |       plot_joint_data(Qd, Qdp, Qdpp, [01;31m[Kplot_pub_joint_dest[m[K);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                      [32m[Kplot_pub_joint_errors[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:76: CMakeFiles/ur10_control.dir/src/jointspace_controller_1.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

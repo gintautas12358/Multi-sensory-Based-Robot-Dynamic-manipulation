@@ -1,0 +1,1 @@
+/home/gin/ros/workspaces/final/devel/.private/object_msgs/lib/python3/dist-packages/object_msgs/srv/_AddMovingObjects.py

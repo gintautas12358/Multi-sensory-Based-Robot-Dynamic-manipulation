@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/gin/ros/workspaces/final/devel/.private/tum_ics_ur10_bringup/setup.sh

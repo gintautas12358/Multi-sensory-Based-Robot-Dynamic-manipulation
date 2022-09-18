@@ -1,0 +1,19 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:22:5:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[KJointSpaceController[m[K’
+   22 |     [01;31m[KJointSpaceController[m[K::JointSpaceController(double weight, const QString &name) :
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::operational_control_obstacle_avoidance(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:690:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_to_j_joint[m[K’ was not declared in this scope
+  690 |       double nd1_0 = [01;31m[Kdistance_to_j_joint[m[K(Q, 0);
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In function ‘[01m[Kdouble tum_ics_ur_robot_lli::RobotControllers::distance_to_j_joint(Tum::Vector6d, int)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:754:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+  754 |       cc::HomogeneousTransformation T_j_0 = [01;31m[Kmodel_[m[K.T_j_0(Q,j);
+      |                                             [01;31m[K^~~~~~[m[K
+      |                                             [32m[Kmode_t[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:757:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kobstacle_pos_[m[K’ was not declared in this scope; did you mean ‘[01m[Kobstacle_pos_w_h[m[K’?
+  757 |       obstacle_pos_w_h << [01;31m[Kobstacle_pos_[m[K, 1;
+      |                           [01;31m[K^~~~~~~~~~~~~[m[K
+      |                           [32m[Kobstacle_pos_w_h[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

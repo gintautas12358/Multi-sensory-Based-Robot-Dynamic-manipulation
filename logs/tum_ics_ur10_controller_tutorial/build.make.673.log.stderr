@@ -1,0 +1,24 @@
+In file included from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:174:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[K::[m[K’ token
+  174 |     public[01;31m[K:[m[K[32m[K:[m[K
+      |           [01;31m[K^[m[K[32m[K~[m[K
+      |           [32m[K:[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:175:7:[m[K [01;31m[Kerror: [m[Kexpected id-expression before ‘[01m[Kvoid[m[K’
+  175 |       [01;31m[Kvoid[m[K marker_sub_callback(visualization_msgs::MarkerArray& msg);
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In constructor ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::JointSpaceController_1(double, const QString&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:224:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_sub_callback[m[K’ is not a member of ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1[m[K’
+  224 |       marker_sub = nh_.subscribe("target_markers", 1000, &JointSpaceController_1::[01;31m[Kmarker_sub_callback[m[K, this);
+      |                                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K At global scope:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:589:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::marker_sub_callback(visualization_msgs::MarkerArray&)[m[K’
+  589 |     void [01;31m[KJointSpaceController_1[m[K::marker_sub_callback(visualization_msgs::MarkerArray& msg) {
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:589:10:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::marker_sub_callback(visualization_msgs::MarkerArray&)[m[K’
+In file included from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:69:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1[m[K’ defined here
+   69 |     class [01;36m[KJointSpaceController_1[m[K : public ControlEffort
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

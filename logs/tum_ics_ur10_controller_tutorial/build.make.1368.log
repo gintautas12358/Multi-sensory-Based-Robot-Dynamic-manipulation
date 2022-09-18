@@ -1,0 +1,55 @@
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target tum_ics_ur_robot_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target tum_ics_ur_robot_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target tum_ics_ur_robot_msgs_generate_messages_cpp
+[  0%] Built target tum_ics_ur_robot_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target tum_ics_ur_robot_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target ur10_control[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/ur10_control.dir/src/jointspace_controller_1.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library /home/gin/ros/workspaces/final/devel/.private/tum_ics_ur10_controller_tutorial/lib/libur10_control.so[0m
+[ 42%] Built target ur10_control
+[35m[1mScanning dependencies of target test_jointspace_controller_1[0m
+[ 57%] [32m[1mLinking CXX executable /home/gin/ros/workspaces/final/devel/.private/tum_ics_ur10_controller_tutorial/lib/tum_ics_ur10_controller_tutorial/test_jointspace_controller[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/test_jointspace_controller_1.dir/src/Applications/test_jointspace_controller_1.cpp.o[0m
+[ 85%] Built target test_jointspace_controller
+[100%] [32m[1mLinking CXX executable /home/gin/ros/workspaces/final/devel/.private/tum_ics_ur10_controller_tutorial/lib/tum_ics_ur10_controller_tutorial/test_jointspace_controller_1[0m
+[100%] Built target test_jointspace_controller_1

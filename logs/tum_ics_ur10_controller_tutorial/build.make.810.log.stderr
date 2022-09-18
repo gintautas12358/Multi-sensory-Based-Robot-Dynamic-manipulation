@@ -1,0 +1,99 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::operational_control_tracking(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:743:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Quaternion<double>::Quaternion(Eigen::Quaternion<double> (&)())[m[K’
+  743 |       Quaterniond Qd(Quaterniond::Identity[01;31m[K)[m[K;
+      |                                           [01;31m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:42[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:279:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherScalar, int OtherOptions> Eigen::Quaternion<Scalar, Options>::Quaternion(const Eigen::Quaternion<OtherScalar, OtherOptions>&)[m[K’
+  279 |   EIGEN_DEVICE_FUNC explicit inline [01;36m[KQuaternion[m[K(const Quaternion<OtherScalar, OtherOptions>& other)
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:279:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:743:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::Quaternion<_Scalar, _Options>[m[K’ and ‘[01m[KEigen::Quaternion<double>()[m[K’
+  743 |       Quaterniond Qd(Quaterniond::Identity[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:42[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:275:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived> Eigen::Quaternion<Scalar, Options>::Quaternion(const Eigen::MatrixBase<OtherDerived>&)[m[K’
+  275 |   EIGEN_DEVICE_FUNC explicit inline [01;36m[KQuaternion[m[K(const MatrixBase<Derived>& other) { *this = other; }
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:275:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:743:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::MatrixBase<Derived>[m[K’ and ‘[01m[KEigen::Quaternion<double>()[m[K’
+  743 |       Quaterniond Qd(Quaterniond::Identity[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:42[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:268:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Quaternion<Scalar, Options>::Quaternion(const AngleAxisType&) [with _Scalar = double; int _Options = 0; Eigen::Quaternion<Scalar, Options>::AngleAxisType = Eigen::AngleAxis<double>][m[K’
+  268 |   EIGEN_DEVICE_FUNC explicit inline [01;36m[KQuaternion[m[K(const AngleAxisType& aa) { *this = aa; }
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:268:69:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Quaternion<double>()[m[K’ to ‘[01m[Kconst AngleAxisType&[m[K’ {aka ‘[01m[Kconst Eigen::AngleAxis<double>&[m[K’}
+  268 |   EIGEN_DEVICE_FUNC explicit inline Quaternion([01;36m[Kconst AngleAxisType& aa[m[K) { *this = aa; }
+      |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:265:65:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived> Eigen::Quaternion<Scalar, Options>::Quaternion(const Eigen::QuaternionBase<OtherDerived>&)[m[K’
+  265 |   template<class Derived> EIGEN_DEVICE_FUNC EIGEN_STRONG_INLINE [01;36m[KQuaternion[m[K(const QuaternionBase<Derived>& other) { this->Base::operator=(other); }
+      |                                                                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:265:65:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:743:43:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::QuaternionBase<Derived>[m[K’ and ‘[01m[KEigen::Quaternion<double>()[m[K’
+  743 |       Quaterniond Qd(Quaterniond::Identity[01;36m[K)[m[K;
+      |                                           [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:42[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:262:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Quaternion<Scalar, Options>::Quaternion(const Scalar*) [with _Scalar = double; int _Options = 0; Eigen::Quaternion<Scalar, Options>::Scalar = double][m[K’
+  262 |   EIGEN_DEVICE_FUNC explicit inline [01;36m[KQuaternion[m[K(const Scalar* data) : m_coeffs(data) {}
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:262:62:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Quaternion<double>()[m[K’ to ‘[01m[Kconst Scalar*[m[K’ {aka ‘[01m[Kconst double*[m[K’}
+  262 |   EIGEN_DEVICE_FUNC explicit inline Quaternion([01;36m[Kconst Scalar* data[m[K) : m_coeffs(data) {}
+      |                                                [01;36m[K~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:259:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Quaternion<Scalar, Options>::Quaternion(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = double; int _Options = 0; Eigen::Quaternion<Scalar, Options>::Scalar = double][m[K’
+  259 |   EIGEN_DEVICE_FUNC inline [01;36m[KQuaternion[m[K(const Scalar& w, const Scalar& x, const Scalar& y, const Scalar& z) : m_coeffs(x, y, z, w){}
+      |                            [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:259:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:250:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Quaternion<Scalar, Options>::Quaternion() [with _Scalar = double; int _Options = 0][m[K’
+  250 |   EIGEN_DEVICE_FUNC inline [01;36m[KQuaternion[m[K() {}
+      |                            [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:250:28:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:88[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:243:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Quaternion<Scalar, Options>::Quaternion(const Eigen::Quaternion<Scalar, Options>&) [with _Scalar = double; int _Options = 0][m[K’
+  243 |   [01;36m[KEIGEN_INHERIT_ASSIGNMENT_OPERATORS[m[K(Quaternion)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:243:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Quaternion<double>()[m[K’ to ‘[01m[Kconst Eigen::Quaternion<double>&[m[K’
+  243 |   [01;36m[KEIGEN_INHERIT_ASSIGNMENT_OPERATORS[m[K(Quaternion)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

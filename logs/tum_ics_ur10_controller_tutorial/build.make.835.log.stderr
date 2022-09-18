@@ -1,0 +1,73 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::operational_control()[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1236:7:[m[K [01;31m[Kerror: [m[K‘[01m[KDeltaX_[m[K’ was not declared in this scope
+ 1236 |       [01;31m[KDeltaX_[m[K.head(3) = X_ef_0.head(3) - Xd.head(3);
+      |       [01;31m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1236:25:[m[K [01;31m[Kerror: [m[K‘[01m[KX_ef_0[m[K’ was not declared in this scope
+ 1236 |       DeltaX_.head(3) = [01;31m[KX_ef_0[m[K.head(3) - Xd.head(3);
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1236:42:[m[K [01;31m[Kerror: [m[K‘[01m[KXd[m[K’ was not declared in this scope
+ 1236 |       DeltaX_.head(3) = X_ef_0.head(3) - [01;31m[KXd[m[K.head(3);
+      |                                          [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1238:29:[m[K [01;31m[Kerror: [m[K‘[01m[KQd[m[K’ was not declared in this scope; did you mean ‘[01m[KQt[m[K’?
+ 1238 |       DeltaX_.tail(3) = -ke([01;31m[KQd[m[K*Q_ef_0.inverse());
+      |                             [01;31m[K^~[m[K
+      |                             [32m[KQt[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1238:32:[m[K [01;31m[Kerror: [m[K‘[01m[KQ_ef_0[m[K’ was not declared in this scope
+ 1238 |       DeltaX_.tail(3) = -ke(Qd*[01;31m[KQ_ef_0[m[K.inverse());
+      |                                [01;31m[K^~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1240:7:[m[K [01;31m[Kerror: [m[K‘[01m[KDeltaXp_[m[K’ was not declared in this scope
+ 1240 |       [01;31m[KDeltaXp_[m[K.head(3) = Xp_ef_0.head(3) - Xdp.head(3);
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1240:26:[m[K [01;31m[Kerror: [m[K‘[01m[KXp_ef_0[m[K’ was not declared in this scope
+ 1240 |       DeltaXp_.head(3) = [01;31m[KXp_ef_0[m[K.head(3) - Xdp.head(3);
+      |                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1240:44:[m[K [01;31m[Kerror: [m[K‘[01m[KXdp[m[K’ was not declared in this scope
+ 1240 |       DeltaXp_.head(3) = Xp_ef_0.head(3) - [01;31m[KXdp[m[K.head(3);
+      |                                            [01;31m[K^~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1243:7:[m[K [01;31m[Kerror: [m[K‘[01m[KDeltaXi_[m[K’ was not declared in this scope
+ 1243 |       [01;31m[KDeltaXi_[m[K = DeltaXi_ +  delta_t * DeltaX_;
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1243:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdelta_t[m[K’ was not declared in this scope; did you mean ‘[01m[Kdev_t[m[K’?
+ 1243 |       DeltaXi_ = DeltaXi_ +  [01;31m[Kdelta_t[m[K * DeltaX_;
+      |                              [01;31m[K^~~~~~~[m[K
+      |                              [32m[Kdev_t[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1246:28:[m[K [01;31m[Kerror: [m[K‘[01m[KxKp_[m[K’ was not declared in this scope
+ 1246 |       Vector6d Xrp = Xdp - [01;31m[KxKp_[m[K*DeltaX_ - xKi_*DeltaXi_;
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1246:43:[m[K [01;31m[Kerror: [m[K‘[01m[KxKi_[m[K’ was not declared in this scope
+ 1246 |       Vector6d Xrp = Xdp - xKp_*DeltaX_ - [01;31m[KxKi_[m[K*DeltaXi_;
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1247:23:[m[K [01;31m[Kerror: [m[K‘[01m[KXdpp[m[K’ was not declared in this scope; did you mean ‘[01m[KXrpp[m[K’?
+ 1247 |       Vector6d Xrpp = [01;31m[KXdpp[m[K - xKp_*DeltaXp_ - xKi_*DeltaXi_;
+      |                       [01;31m[K^~~~[m[K
+      |                       [32m[KXrpp[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1250:23:[m[K [01;31m[Kerror: [m[K‘[01m[KJ_ef_0[m[K’ was not declared in this scope
+ 1250 |       Matrix6d Jinv = [01;31m[KJ_ef_0[m[K.inverse();
+      |                       [01;31m[K^~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1251:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+ 1251 |       Matrix6d Jp = [01;31m[Kmodel_[m[K.Jp_ef_0(Q, Qp);
+      |                     [01;31m[K^~~~~~[m[K
+      |                     [32m[Kmode_t[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1251:36:[m[K [01;31m[Kerror: [m[K‘[01m[KQ[m[K’ was not declared in this scope
+ 1251 |       Matrix6d Jp = model_.Jp_ef_0([01;31m[KQ[m[K, Qp);
+      |                                    [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1251:39:[m[K [01;31m[Kerror: [m[K‘[01m[KQp[m[K’ was not declared in this scope; did you mean ‘[01m[KJp[m[K’?
+ 1251 |       Matrix6d Jp = model_.Jp_ef_0(Q, [01;31m[KQp[m[K);
+      |                                       [01;31m[K^~[m[K
+      |                                       [32m[KJp[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1254:7:[m[K [01;31m[Kerror: [m[K‘[01m[KYr_[m[K’ was not declared in this scope
+ 1254 |       [01;31m[KYr_[m[K = model_.regressor(Q, Qp, Qrp, Qrpp);
+      |       [01;31m[K^~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1262:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_gamma_[m[K’ was not declared in this scope
+ 1262 |           Gamma(i,i) = [01;31m[Kx_gamma_[m[K;
+      |                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1265:7:[m[K [01;31m[Kerror: [m[K‘[01m[KTheta_hat_[m[K’ was not declared in this scope; did you mean ‘[01m[KTheta_hat_d[m[K’?
+ 1265 |       [01;31m[KTheta_hat_[m[K = Theta_hat_ - Theta_hat_d*delta_t;
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[KTheta_hat_d[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1268:23:[m[K [01;31m[Kerror: [m[K‘[01m[KxKd_[m[K’ was not declared in this scope
+ 1268 |       Vector6d tau = -[01;31m[KxKd_[m[K * Jinv*Sx + Yr_*Theta_hat_;
+      |                       [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

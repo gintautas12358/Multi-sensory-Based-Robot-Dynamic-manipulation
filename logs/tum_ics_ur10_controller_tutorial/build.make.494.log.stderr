@@ -1,0 +1,42 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::operational_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:772:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcontrol_core::QuaternionBase<control_core::AngularPosition<double> >::QuaternionBase(Eigen::Quaterniond&)[m[K’
+  772 |       control_core::QuaternionBase<cc::AngularPosition> a(kd[01;31m[K)[m[K;
+      |                                                             [01;31m[K^[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/angular_position_base.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_references/angular_position_ref.h:29[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/angular_position.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/angular_state.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:40[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:39:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr control_core::QuaternionBase<control_core::AngularPosition<double> >::QuaternionBase()[m[K’
+   39 | class [01;36m[KQuaternionBase[m[K :
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:39:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:39:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr control_core::QuaternionBase<control_core::AngularPosition<double> >::QuaternionBase(const control_core::QuaternionBase<control_core::AngularPosition<double> >&)[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:39:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’} to ‘[01m[Kconst control_core::QuaternionBase<control_core::AngularPosition<double> >&[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:39:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr control_core::QuaternionBase<control_core::AngularPosition<double> >::QuaternionBase(control_core::QuaternionBase<control_core::AngularPosition<double> >&&)[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:39:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’} to ‘[01m[Kcontrol_core::QuaternionBase<control_core::AngularPosition<double> >&&[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:773:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcontrol_core::QuaternionBase<control_core::AngularPosition<double> >::QuaternionBase(Eigen::Quaterniond&)[m[K’
+  773 |       control_core::QuaternionBase<cc::AngularPosition> b(k[01;31m[K)[m[K;
+      |                                                            [01;31m[K^[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/angular_position_base.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_references/angular_position_ref.h:29[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/angular_position.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/angular_state.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:40[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:39:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr control_core::QuaternionBase<control_core::AngularPosition<double> >::QuaternionBase()[m[K’
+   39 | class [01;36m[KQuaternionBase[m[K :
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:39:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:39:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr control_core::QuaternionBase<control_core::AngularPosition<double> >::QuaternionBase(const control_core::QuaternionBase<control_core::AngularPosition<double> >&)[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:39:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’} to ‘[01m[Kconst control_core::QuaternionBase<control_core::AngularPosition<double> >&[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:39:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr control_core::QuaternionBase<control_core::AngularPosition<double> >::QuaternionBase(control_core::QuaternionBase<control_core::AngularPosition<double> >&&)[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:39:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’} to ‘[01m[Kcontrol_core::QuaternionBase<control_core::AngularPosition<double> >&&[m[K’
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

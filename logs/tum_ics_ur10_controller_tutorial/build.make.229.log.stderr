@@ -1,0 +1,33 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::VectorRegressor_1 tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::calc_Theta()[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1153:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_[m[K’ was not declared in this scope
+ 1153 | [01;31m[K_[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1153:1:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+                 from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+                 from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/iter_apply.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/find_if_pred.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/mpl/find_if.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/mpl/find.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/contains_impl.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/contains.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/math/policies/policy.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/serialization.h:34[m[K,
+                 from [01m[K/opt/ros/noetic/include/sensor_msgs/JointState.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:13[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:14:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_[m[K’
+   14 | typedef arg< -1 > [01;36m[K_[m[K;
+      |                   [01;36m[K^[m[K
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:14:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_[m[K’
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:14:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_[m[K’
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1905: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

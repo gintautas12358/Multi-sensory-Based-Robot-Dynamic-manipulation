@@ -1,0 +1,43 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotTime.h:10[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:15[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[Kvoid tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::marker_sub_callback(visualization_msgs::MarkerArray&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:590:45:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kconst _Tp* std::vector<_Tp, _Alloc>::data() const [with _Tp = visualization_msgs::Marker_<std::allocator<void> >; _Alloc = std::allocator<visualization_msgs::Marker_<std::allocator<void> > >][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  590 |       ROS_INFO("I heard: [%s]", [01;31m[Kmsg.markers.data[m[K);
+      |                                 [01;31m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:590:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  590 |       [01;36m[KROS_INFO[m[K("I heard: [%s]", msg.markers.data);
+      |       [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/subscriber.h:33[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:33[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotTime.h:10[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:15[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+/opt/ros/noetic/include/ros/parameter_adapter.h: In instantiation of ‘[01m[Kstatic ros::ParameterAdapter<M>::Parameter ros::ParameterAdapter<M>::getParameter(const Event&) [with M = visualization_msgs::MarkerArray_<std::allocator<void> >&; ros::ParameterAdapter<M>::Parameter = visualization_msgs::MarkerArray_<std::allocator<void> >&; ros::ParameterAdapter<M>::Event = ros::MessageEvent<const visualization_msgs::MarkerArray_<std::allocator<void> > >; typename boost::remove_reference<typename boost::remove_const<M>::type>::type = visualization_msgs::MarkerArray_<std::allocator<void> >][m[K’:
+[01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:144:48:[m[K   required from ‘[01m[Kvoid ros::SubscriptionCallbackHelperT<P, Enabled>::call(ros::SubscriptionCallbackHelperCallParams&) [with P = visualization_msgs::MarkerArray_<std::allocator<void> >&; Enabled = void][m[K’
+[01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:141:16:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/parameter_adapter.h:78:30:[m[K [01;31m[Kerror: [m[Kbinding reference of type ‘[01m[Kros::ParameterAdapter<visualization_msgs::MarkerArray_<std::allocator<void> >&>::Parameter[m[K’ {aka ‘[01m[Kvisualization_msgs::MarkerArray_<std::allocator<void> >&[m[K’} to ‘[01m[Kconst visualization_msgs::MarkerArray_<std::allocator<void> >[m[K’ discards qualifiers
+   78 |     return *event.getMessage([01;31m[K)[m[K;
+      |                              [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

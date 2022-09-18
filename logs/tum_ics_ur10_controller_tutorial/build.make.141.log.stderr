@@ -1,0 +1,27 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:182:84:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KJointSpaceController[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+  182 |     JointSpaceController_1::JointSpaceController(double weight, const QString &name[01;31m[K)[m[K :
+      |                                                                                    [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:182:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::JointSpaceController(double, const QString&)[m[K’
+  182 |     [01;31m[KJointSpaceController_1[m[K::JointSpaceController(double weight, const QString &name) :
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:182:5:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kint tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::JointSpaceController(double, const QString&)[m[K’
+In file included from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:64:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1[m[K’ defined here
+   64 |     class [01;36m[KJointSpaceController_1[m[K : public ControlEffort
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:196:29:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[K~tum_ics_ur_robot_lli::RobotControllers::JointSpaceController[m[K’ as member of ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1[m[K’
+  196 |     JointSpaceController_1::[01;31m[K~JointSpaceController[m[K()
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:225:11:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::init(const tum_ics_ur_robot_lli::JointState&)[m[K’
+  225 |      bool [01;31m[KJointSpaceController_1[m[K::init(const JointState &current)
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:97:12:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvirtual bool tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::init()[m[K’
+   97 |       bool [01;36m[Kinit[m[K();
+      |            [01;36m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:64:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1[m[K’ defined here
+   64 |     class [01;36m[KJointSpaceController_1[m[K : public ControlEffort
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1905: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

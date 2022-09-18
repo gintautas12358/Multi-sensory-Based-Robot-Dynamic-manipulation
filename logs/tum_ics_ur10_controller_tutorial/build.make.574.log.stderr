@@ -1,0 +1,13 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:864:22:[m[K [01;31m[Kerror: [m[K‘[01m[KQuaterniiond[m[K’ was not declared in this scope; did you mean ‘[01m[KQQuaternion[m[K’?
+  864 |     Quaterniond w2kp([01;31m[KQuaterniiond[m[K k, Vector3d w) {
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+      |                      [32m[KQQuaternion[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:864:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kw[m[K’
+  864 |     Quaterniond w2kp(Quaterniiond k, Vector3d [01;31m[Kw[m[K) {
+      |                                               [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:864:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+  864 |     Quaterniond w2kp(Quaterniiond k, Vector3d w) [01;31m[K{[m[K
+      |                                                  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

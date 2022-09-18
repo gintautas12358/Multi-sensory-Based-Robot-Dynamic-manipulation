@@ -1,0 +1,1 @@
+/home/gin/ros/workspaces/final/devel/.private/control_core/share/control_core/cmake/control_coreConfig-version.cmake

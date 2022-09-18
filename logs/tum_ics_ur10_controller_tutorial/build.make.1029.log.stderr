@@ -1,0 +1,206 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::operational_control_obstacle_avoidance(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:718:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’})
+  718 |       tau += [32m[K0[m[K [01;31m[K+[m[K [34m[Ktorque_att[m[K + torque_rep;
+      |              [32m[K~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~[m[K
+      |              [32m[K|[m[K   [34m[K|[m[K
+      |              [32m[Kint[m[K [34m[KTum::Vector6d {aka Eigen::Matrix<double, 6, 1>}[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/SparseCore:48[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Sparse:26[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:2[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h:698:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DenseDerived, class SparseDerived> const Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<typename Lhs::Scalar, typename Rhs::Scalar>, const DenseDerived, const SparseDerived> Eigen::operator+(const Eigen::MatrixBase<Derived>&, const Eigen::SparseMatrixBase<SparseDerived>&)[m[K’
+  698 | [01;36m[Koperator[m[K+(const MatrixBase<DenseDerived> &a, const SparseMatrixBase<SparseDerived> &b)
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h:698:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:718:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::MatrixBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+  718 |       tau += 0 + [01;36m[Ktorque_att[m[K + torque_rep;
+      |                  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/SparseCore:48[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Sparse:26[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:2[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h:705:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class SparseDerived, class DenseDerived> const Eigen::CwiseBinaryOp<Eigen::internal::scalar_sum_op<typename Lhs::Scalar, typename Rhs::Scalar>, const DenseDerived, const SparseDerived> Eigen::operator+(const Eigen::SparseMatrixBase<OtherDerived>&, const Eigen::MatrixBase<U>&)[m[K’
+  705 | [01;36m[Koperator[m[K+(const SparseMatrixBase<SparseDerived> &a, const MatrixBase<DenseDerived> &b)
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h:705:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:718:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::SparseMatrixBase<OtherDerived>[m[K’ and ‘[01m[Kint[m[K’
+  718 |       tau += 0 + [01;36m[Ktorque_att[m[K + torque_rep;
+      |                  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:49[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:47[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QVector:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathDefs.h:4[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:4[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:657:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst QByteArray operator+(const QByteArray&, const QByteArray&)[m[K’
+  657 | inline const QByteArray [01;36m[Koperator[m[K+(const QByteArray &a1, const QByteArray &a2)
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:657:75:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst QByteArray&[m[K’
+  657 | inline const QByteArray operator+(const QByteArray &a1, [01;36m[Kconst QByteArray &a2[m[K)
+      |                                                         [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:659:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst QByteArray operator+(const QByteArray&, const char*)[m[K’
+  659 | inline const QByteArray [01;36m[Koperator[m[K+(const QByteArray &a1, const char *a2)
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:659:69:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst char*[m[K’
+  659 | inline const QByteArray operator+(const QByteArray &a1, [01;36m[Kconst char *a2[m[K)
+      |                                                         [01;36m[K~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:661:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst QByteArray operator+(const QByteArray&, char)[m[K’
+  661 | inline const QByteArray [01;36m[Koperator[m[K+(const QByteArray &a1, char a2)
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:661:62:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kchar[m[K’
+  661 | inline const QByteArray operator+(const QByteArray &a1, [01;36m[Kchar a2[m[K)
+      |                                                         [01;36m[K~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:663:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst QByteArray operator+(const char*, const QByteArray&)[m[K’
+  663 | inline const QByteArray [01;36m[Koperator[m[K+(const char *a1, const QByteArray &a2)
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:663:69:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst QByteArray&[m[K’
+  663 | inline const QByteArray operator+(const char *a1, [01;36m[Kconst QByteArray &a2[m[K)
+      |                                                   [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:665:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst QByteArray operator+(char, const QByteArray&)[m[K’
+  665 | inline const QByteArray [01;36m[Koperator[m[K+(char a1, const QByteArray &a2)
+      |                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:665:62:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst QByteArray&[m[K’
+  665 | inline const QByteArray operator+(char a1, [01;36m[Kconst QByteArray &a2[m[K)
+      |                                            [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:47[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QVector:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathDefs.h:4[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:4[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1349:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst QString operator+(const QString&, const QString&)[m[K’
+ 1349 | inline const QString [01;36m[Koperator[m[K+(const QString &s1, const QString &s2)
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1349:66:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst QString&[m[K’
+ 1349 | inline const QString operator+(const QString &s1, [01;36m[Kconst QString &s2[m[K)
+      |                                                   [01;36m[K~~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1351:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst QString operator+(const QString&, QChar)[m[K’
+ 1351 | inline const QString [01;36m[Koperator[m[K+(const QString &s1, QChar s2)
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1351:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[KQChar[m[K’
+ 1351 | inline const QString operator+(const QString &s1, [01;36m[KQChar s2[m[K)
+      |                                                   [01;36m[K~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1353:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst QString operator+(QChar, const QString&)[m[K’
+ 1353 | inline const QString [01;36m[Koperator[m[K+(QChar s1, const QString &s2)
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1353:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst QString&[m[K’
+ 1353 | inline const QString operator+(QChar s1, [01;36m[Kconst QString &s2[m[K)
+      |                                          [01;36m[K~~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1356:41:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst QString operator+(const QString&, const char*)[m[K’
+ 1356 | inline QT_ASCII_CAST_WARN const QString [01;36m[Koperator[m[K+(const QString &s1, const char *s2)
+      |                                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1356:82:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst char*[m[K’
+ 1356 | inline QT_ASCII_CAST_WARN const QString operator+(const QString &s1, [01;36m[Kconst char *s2[m[K)
+      |                                                                      [01;36m[K~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1358:41:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst QString operator+(const char*, const QString&)[m[K’
+ 1358 | inline QT_ASCII_CAST_WARN const QString [01;36m[Koperator[m[K+(const char *s1, const QString &s2)
+      |                                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1358:82:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst QString&[m[K’
+ 1358 | inline QT_ASCII_CAST_WARN const QString operator+(const char *s1, [01;36m[Kconst QString &s2[m[K)
+      |                                                                   [01;36m[K~~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1360:41:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst QString operator+(char, const QString&)[m[K’
+ 1360 | inline QT_ASCII_CAST_WARN const QString [01;36m[Koperator[m[K+(char c, const QString &s)
+      |                                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1360:74:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst QString&[m[K’
+ 1360 | inline QT_ASCII_CAST_WARN const QString operator+(char c, [01;36m[Kconst QString &s[m[K)
+      |                                                           [01;36m[K~~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1362:41:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst QString operator+(const QString&, char)[m[K’
+ 1362 | inline QT_ASCII_CAST_WARN const QString [01;36m[Koperator[m[K+(const QString &s, char c)
+      |                                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1362:74:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kchar[m[K’
+ 1362 | inline QT_ASCII_CAST_WARN const QString operator+(const QString &s, [01;36m[Kchar c[m[K)
+      |                                                                     [01;36m[K~~~~~^[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1364:41:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst QString operator+(const QByteArray&, const QString&)[m[K’
+ 1364 | inline QT_ASCII_CAST_WARN const QString [01;36m[Koperator[m[K+(const QByteArray &ba, const QString &s)
+      |                                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1364:88:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst QString&[m[K’
+ 1364 | inline QT_ASCII_CAST_WARN const QString operator+(const QByteArray &ba, [01;36m[Kconst QString &s[m[K)
+      |                                                                         [01;36m[K~~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1366:41:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst QString operator+(const QString&, const QByteArray&)[m[K’
+ 1366 | inline QT_ASCII_CAST_WARN const QString [01;36m[Koperator[m[K+(const QString &s, const QByteArray &ba)
+      |                                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1366:87:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst QByteArray&[m[K’
+ 1366 | inline QT_ASCII_CAST_WARN const QString operator+(const QString &s, [01;36m[Kconst QByteArray &ba[m[K)
+      |                                                                     [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1845:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString operator+(const QString&, const QStringRef&)[m[K’
+ 1845 | inline QString [01;36m[Koperator[m[K+(const QString &s1, const QStringRef &s2)
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1845:63:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst QStringRef&[m[K’
+ 1845 | inline QString operator+(const QString &s1, [01;36m[Kconst QStringRef &s2[m[K)
+      |                                             [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1847:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString operator+(const QStringRef&, const QString&)[m[K’
+ 1847 | inline QString [01;36m[Koperator[m[K+(const QStringRef &s1, const QString &s2)
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1847:63:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst QString&[m[K’
+ 1847 | inline QString operator+(const QStringRef &s1, [01;36m[Kconst QString &s2[m[K)
+      |                                                [01;36m[K~~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1849:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString operator+(const QStringRef&, QLatin1String)[m[K’
+ 1849 | inline QString [01;36m[Koperator[m[K+(const QStringRef &s1, QLatin1String s2)
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1849:62:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[KQLatin1String[m[K’
+ 1849 | inline QString operator+(const QStringRef &s1, [01;36m[KQLatin1String s2[m[K)
+      |                                                [01;36m[K~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1851:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString operator+(QLatin1String, const QStringRef&)[m[K’
+ 1851 | inline QString [01;36m[Koperator[m[K+(QLatin1String s1, const QStringRef &s2)
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1851:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[KQLatin1String[m[K’
+ 1851 | inline QString operator+([01;36m[KQLatin1String s1[m[K, const QStringRef &s2)
+      |                          [01;36m[K~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1853:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString operator+(const QStringRef&, const QStringRef&)[m[K’
+ 1853 | inline QString [01;36m[Koperator[m[K+(const QStringRef &s1, const QStringRef &s2)
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1853:66:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst QStringRef&[m[K’
+ 1853 | inline QString operator+(const QStringRef &s1, [01;36m[Kconst QStringRef &s2[m[K)
+      |                                                [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1855:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString operator+(const QStringRef&, QChar)[m[K’
+ 1855 | inline QString [01;36m[Koperator[m[K+(const QStringRef &s1, QChar s2)
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1855:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[KQChar[m[K’
+ 1855 | inline QString operator+(const QStringRef &s1, [01;36m[KQChar s2[m[K)
+      |                                                [01;36m[K~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1857:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString operator+(QChar, const QStringRef&)[m[K’
+ 1857 | inline QString [01;36m[Koperator[m[K+(QChar s1, const QStringRef &s2)
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1857:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[KTum::Vector6d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 6, 1>[m[K’} to ‘[01m[Kconst QStringRef&[m[K’
+ 1857 | inline QString operator+(QChar s1, [01;36m[Kconst QStringRef &s2[m[K)
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:1097[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QVector:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathDefs.h:4[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:4[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h:245:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQStringList operator+(const QList<QString>&, const QStringList&)[m[K’
+  245 | inline QStringList [01;36m[Koperator[m[K+(const QList<QString> &one, const QStringList &other)
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h:245:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst QList<QString>&[m[K’
+  245 | inline QStringList operator+([01;36m[Kconst QList<QString> &one[m[K, const QStringList &other)
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

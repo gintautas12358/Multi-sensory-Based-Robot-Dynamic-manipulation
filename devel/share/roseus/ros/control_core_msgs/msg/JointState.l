@@ -1,0 +1,1 @@
+/home/gin/ros/workspaces/final/devel/.private/control_core_msgs/share/roseus/ros/control_core_msgs/msg/JointState.l

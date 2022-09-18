@@ -1,0 +1,133 @@
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/angular_position_base.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_references/angular_position_ref.h:29[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/angular_position.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/angular_state.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:40[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h: In instantiation of ‘[01m[Kclass control_core::QuaternionBase<double>[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:772:44:[m[K   required from here
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:46:48:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct cc::traits<double>[m[K’
+   46 |   typedef typename cc::traits<Derived>::Scalar [01;31m[KScalar[m[K;
+      |                                                [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/state_base.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_references/joint_state_ref.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/joint_state.h:34[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:39[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/utilities/support_templates.h:55:29:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct cc::traits<double>[m[K’
+   55 | template<typename T> struct [01;36m[Ktraits[m[K;
+      |                             [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/angular_position_base.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_references/angular_position_ref.h:29[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/angular_position.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/angular_state.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:40[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:47:47:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct cc::traits<double>[m[K’
+   47 |   typedef typename cc::traits<Derived>::Index [01;31m[KIndex[m[K;
+      |                                               [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/state_base.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_references/joint_state_ref.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/joint_state.h:34[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:39[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/utilities/support_templates.h:55:29:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct cc::traits<double>[m[K’
+   55 | template<typename T> struct [01;36m[Ktraits[m[K;
+      |                             [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/angular_position_base.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_references/angular_position_ref.h:29[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/angular_position.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/angular_state.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:40[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:48:8:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kcc::traits<double>[m[K’ used in nested name specifier
+   48 |   enum [01;31m[K{[m[K
+      |        [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:48:8:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kcc::traits<double>[m[K’ used in nested name specifier
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:48:8:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kcc::traits<double>[m[K’ used in nested name specifier
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:88:33:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct cc::traits<double>[m[K’
+   88 |   control_core::Vector3<Scalar> [01;31m[KeulerAngles[m[K(Index i1, Index i2, Index i3) const
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/state_base.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_references/joint_state_ref.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/joint_state.h:34[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:39[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/utilities/support_templates.h:55:29:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct cc::traits<double>[m[K’
+   55 | template<typename T> struct [01;36m[Ktraits[m[K;
+      |                             [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/angular_position_base.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_references/angular_position_ref.h:29[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/angular_position.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/angular_state.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:40[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:101:29:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct cc::traits<double>[m[K’
+  101 |   Eigen::Quaternion<Scalar> [01;31m[KyawQuaternion[m[K() const
+      |                             [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/state_base.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_references/joint_state_ref.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/joint_state.h:34[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:39[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/utilities/support_templates.h:55:29:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct cc::traits<double>[m[K’
+   55 | template<typename T> struct [01;36m[Ktraits[m[K;
+      |                             [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/angular_position_base.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_references/angular_position_ref.h:29[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/angular_position.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/angular_state.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:40[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/quaternion_base.h:126:33:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct cc::traits<double>[m[K’
+  126 |   control_core::Vector3<Scalar> [01;31m[KlogMap[m[K() const
+      |                                 [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/state_base.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_references/joint_state_ref.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/joint_state.h:34[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:39[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/utilities/support_templates.h:55:29:[m[K [01;36m[Knote: [m[Kdeclaration of ‘[01m[Kstruct cc::traits<double>[m[K’
+   55 | template<typename T> struct [01;36m[Ktraits[m[K;
+      |                             [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/math.h:34[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:5[m[K:
+/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/math/quaternion.h: In instantiation of ‘[01m[Kcc::Vector3 cc::logErrorWorld(const control_core::QuaternionBase<_Derived>&, const control_core::QuaternionBase<Derived2>&) [with Derived1 = double; Derived2 = double; cc::Vector3 = control_core::Vector3<double>][m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:774:48:[m[K   required from here
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/math/quaternion.h:216:71:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kinverse[m[K’ in ‘[01m[K((const control_core::RotationBase<double>*)(& Q))->control_core::RotationBase<double>::derived()[m[K’, which is of non-class type ‘[01m[Kconst Derived[m[K’ {aka ‘[01m[Kconst double[m[K’}
+  216 |   control_core::AngularPosition<Scalar> Qe = Qd.derived()*Q.derived().inverse();
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/rotation3_base.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/rotation3.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:35[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/rotation_base.h: In instantiation of ‘[01m[Kconst Derived& control_core::RotationBase<_Derived>::derived() const [with _Derived = double; control_core::RotationBase<_Derived>::Derived = double][m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/math/quaternion.h:216:58:[m[K   required from ‘[01m[Kcc::Vector3 cc::logErrorWorld(const control_core::QuaternionBase<_Derived>&, const control_core::QuaternionBase<Derived2>&) [with Derived1 = double; Derived2 = double; cc::Vector3 = control_core::Vector3<double>][m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:774:48:[m[K   required from here
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/rotation_base.h:55:13:[m[K [01;31m[Kerror: [m[Kinvalid static_cast from type ‘[01m[Kconst control_core::RotationBase<double>*[m[K’ to type ‘[01m[Kconst Derived*[m[K’ {aka ‘[01m[Kconst double*[m[K’}
+   55 |     return *[01;31m[Kstatic_cast<const Derived*>(this)[m[K;
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

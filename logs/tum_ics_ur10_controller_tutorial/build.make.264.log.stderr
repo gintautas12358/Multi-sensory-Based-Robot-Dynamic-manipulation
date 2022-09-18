@@ -1,0 +1,21 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector18d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::interpolate_joint2(Tum::Vector6d, Tum::Vector6d, double, double, double)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:661:16:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kapt[m[K’
+  661 |       Vector6d [01;31m[Kapt[m[K = pt.transpose()*a;
+      |                [01;31m[K^~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:663:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KTum::Vector6d avt[m[K’
+  663 |       Vector6d [01;31m[Kavt[m[K = at.transpose()*a;
+      |                [01;31m[K^~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:662:16:[m[K [01;36m[Knote: [m[K‘[01m[KTum::Vector6d avt[m[K’ previously declared here
+  662 |       Vector6d [01;36m[Kavt[m[K = vt.transpose()*a;
+      |                [01;36m[K^~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:665:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kapt[m[K’ was not declared in this scope; did you mean ‘[01m[Kavt[m[K’?
+  665 |       out << [01;31m[Kapt[m[K, avt, aat;
+      |              [01;31m[K^~~[m[K
+      |              [32m[Kavt[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:665:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kaat[m[K’ was not declared in this scope; did you mean ‘[01m[Kavt[m[K’?
+  665 |       out << apt, avt, [01;31m[Kaat[m[K;
+      |                        [01;31m[K^~~[m[K
+      |                        [32m[Kavt[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1905: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,24 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::joint_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:633:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::DiagonalMatrix<double, 44, 44>::diagonal(int&)[m[K’
+  633 |           Gamma.diagonal(i[01;31m[K)[m[K = 0.0000;
+      |                           [01;31m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:475[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:136:38:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst DiagonalVectorType& Eigen::DiagonalMatrix<_Scalar, SizeAtCompileTime, MaxSizeAtCompileTime>::diagonal() const [with _Scalar = double; int SizeAtCompileTime = 44; int MaxSizeAtCompileTime = 44; Eigen::DiagonalMatrix<_Scalar, SizeAtCompileTime, MaxSizeAtCompileTime>::DiagonalVectorType = Eigen::Matrix<double, 44, 1>][m[K’
+  136 |     inline const DiagonalVectorType& [01;36m[Kdiagonal[m[K() const { return m_diagonal; }
+      |                                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:136:38:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:139:32:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::DiagonalMatrix<_Scalar, SizeAtCompileTime, MaxSizeAtCompileTime>::DiagonalVectorType& Eigen::DiagonalMatrix<_Scalar, SizeAtCompileTime, MaxSizeAtCompileTime>::diagonal() [with _Scalar = double; int SizeAtCompileTime = 44; int MaxSizeAtCompileTime = 44; Eigen::DiagonalMatrix<_Scalar, SizeAtCompileTime, MaxSizeAtCompileTime>::DiagonalVectorType = Eigen::Matrix<double, 44, 1>][m[K’
+  139 |     inline DiagonalVectorType& [01;36m[Kdiagonal[m[K() { return m_diagonal; }
+      |                                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:139:32:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

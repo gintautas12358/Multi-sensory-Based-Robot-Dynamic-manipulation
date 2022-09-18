@@ -1,0 +1,4 @@
+[ 18%] Built target interactive_obstacle_node
+[ 54%] Built target object_server_node
+[ 81%] Built target moving_obstacle_node
+[100%] Built target visual_markers_node

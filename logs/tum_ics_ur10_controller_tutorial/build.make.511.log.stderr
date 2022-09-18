@@ -1,0 +1,16 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::operational_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:772:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Quaterniond Deltak[m[K’
+  772 |       Quaterniond [01;31m[KDeltak[m[K(Deltak.coeffs * (-1));
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:19:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Quaterniond Deltak[m[K’ previously declared here
+  771 |       Quaterniond [01;36m[KDeltak[m[K = k.inverse() * kd;
+      |                   [01;36m[K^~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:772:40:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[K<unresolved overloaded function type>[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator*[m[K’
+  772 |       Quaterniond Deltak([32m[KDeltak.coeffs[m[K [01;31m[K*[m[K [34m[K(-1)[m[K);
+      |                          [32m[K~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~[m[K
+      |                                 [32m[K|[m[K         [34m[K|[m[K
+      |                                 [32m[K|[m[K         [34m[Kint[m[K
+      |                                 [32m[K<unresolved overloaded function type>[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

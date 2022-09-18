@@ -1,0 +1,10 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[Kvirtual bool tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::init()[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:435:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::string ns[m[K’
+  435 |       std::string [01;31m[Kns[m[K = "~model";
+      |                   [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:357:19:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string ns[m[K’ previously declared here
+  357 |       std::string [01;36m[Kns[m[K = "~jointspace_controller";
+      |                   [01;36m[K^~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,18 @@
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:42[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h: In instantiation of ‘[01m[KDerived& Eigen::QuaternionBase<Derived>::operator=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 4, 4>; Derived = Eigen::Quaternion<double>][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:275:90:[m[K   required from ‘[01m[KEigen::Quaternion<Scalar, Options>::Quaternion(const Eigen::MatrixBase<OtherDerived>&) [with Derived = Eigen::Matrix<double, 4, 4>; _Scalar = double; int _Options = 0][m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:517:28:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:530:59:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KEigen::internal::quaternionbase_assign_impl<Eigen::Matrix<double, 4, 4>, 4, 4>[m[K’ used in nested name specifier
+  530 |   [01;31m[Kinternal::quaternionbase_assign_impl<MatrixDerived>::run(*this, xpr.derived())[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

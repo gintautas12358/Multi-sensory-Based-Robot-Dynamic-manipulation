@@ -1,0 +1,1 @@
+/home/gin/ros/workspaces/final/devel/.private/object_msgs/share/roseus/ros/object_msgs/msg/Object.l

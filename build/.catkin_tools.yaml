@@ -1,0 +1,6 @@
+devel_space: /home/gin/ros/workspaces/final/devel
+install: false
+install_space: /home/gin/ros/workspaces/final/install
+profile: default
+source_space: /home/gin/ros/workspaces/final/src
+workspace: /home/gin/ros/workspaces/final

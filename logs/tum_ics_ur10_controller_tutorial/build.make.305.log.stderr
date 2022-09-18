@@ -1,0 +1,32 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::MatrixRegressor_1 tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::calc_Yr(Tum::MatrixRegressor_1, Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, Tum::Vector6d)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1368:20:[m[K [01;31m[Kerror: [m[K‘[01m[KL2[m[K’ was not declared in this scope; did you mean ‘[01m[KL_[m[K’?
+ 1368 |       double a37 = [01;31m[KL2[m[K * L2 * qrpp1;
+      |                    [01;31m[K^~[m[K
+      |                    [32m[KL_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1369:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgy[m[K’ was not declared in this scope; did you mean ‘[01m[Kg_[m[K’?
+ 1369 |       double a38 = L2 * [01;31m[Kgy[m[K;
+      |                         [01;31m[K^~[m[K
+      |                         [32m[Kg_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1370:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgx[m[K’ was not declared in this scope; did you mean ‘[01m[Kg_[m[K’?
+ 1370 |       double a39 = L2 * [01;31m[Kgx[m[K;
+      |                         [01;31m[K^~[m[K
+      |                         [32m[Kg_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1378:20:[m[K [01;31m[Kerror: [m[K‘[01m[KL3[m[K’ was not declared in this scope; did you mean ‘[01m[KL_[m[K’?
+ 1378 |       double a47 = [01;31m[KL3[m[K * L3 * qrpp1;
+      |                    [01;31m[K^~[m[K
+      |                    [32m[KL_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1390:20:[m[K [01;31m[Kerror: [m[K‘[01m[KL4[m[K’ was not declared in this scope; did you mean ‘[01m[KL_[m[K’?
+ 1390 |       double a67 = [01;31m[KL4[m[K * L4 * qrpp1;
+      |                    [01;31m[K^~[m[K
+      |                    [32m[KL_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1408:21:[m[K [01;31m[Kerror: [m[K‘[01m[KL5[m[K’ was not declared in this scope; did you mean ‘[01m[KL_[m[K’?
+ 1408 |       double a117 = [01;31m[KL5[m[K * gy;
+      |                     [01;31m[K^~[m[K
+      |                     [32m[KL_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1435:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kgz[m[K’ was not declared in this scope; did you mean ‘[01m[Kg_[m[K’?
+ 1435 |       double a177 = L2 * [01;31m[Kgz[m[K;
+      |                          [01;31m[K^~[m[K
+      |                          [32m[Kg_[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

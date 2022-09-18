@@ -1,0 +1,2 @@
+set(control_core_msgs_MESSAGE_FILES "msg/AngularState.msg;msg/AngularStateStamped.msg;msg/CartesianState.msg;msg/CartesianStateStamped.msg;msg/CartesianStateTrajectory.msg;msg/JointState.msg;msg/JointStateStamped.msg;msg/JointStateTrajectory.msg;msg/LinearState.msg;msg/LinearStateStamped.msg;msg/LinearStateTrajectory.msg;msg/Vector.msg;msg/VectorStamped.msg")
+set(control_core_msgs_SERVICE_FILES "")

@@ -1,0 +1,12 @@
+/usr/bin/ld: /home/gin/ros/workspaces/final/devel/.private/tum_ics_ur10_controller_tutorial/lib/libur10_control.so: undefined reference to `tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::calc_Theta()'
+/usr/bin/ld: /home/gin/ros/workspaces/final/devel/.private/tum_ics_ur10_controller_tutorial/lib/libur10_control.so: undefined reference to `tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::calc_Yr(Eigen::Matrix<double, 6, 1, 0, 6, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1>)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/test_jointspace_controller_1.dir/build.make:212: /home/gin/ros/workspaces/final/devel/.private/tum_ics_ur10_controller_tutorial/lib/tum_ics_ur10_controller_tutorial/test_jointspace_controller_1] Error 1
+make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/test_jointspace_controller_1.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: /home/gin/ros/workspaces/final/devel/.private/tum_ics_ur10_controller_tutorial/lib/libur10_control.so: undefined reference to `tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::calc_Theta()'
+/usr/bin/ld: /home/gin/ros/workspaces/final/devel/.private/tum_ics_ur10_controller_tutorial/lib/libur10_control.so: undefined reference to `tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::calc_Yr(Eigen::Matrix<double, 6, 1, 0, 6, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1>, Eigen::Matrix<double, 6, 1, 0, 6, 1>)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/test_jointspace_controller.dir/build.make:212: /home/gin/ros/workspaces/final/devel/.private/tum_ics_ur10_controller_tutorial/lib/tum_ics_ur10_controller_tutorial/test_jointspace_controller] Error 1
+make[1]: *** [CMakeFiles/Makefile2:403: CMakeFiles/test_jointspace_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

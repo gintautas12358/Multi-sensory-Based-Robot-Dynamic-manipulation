@@ -1,0 +1,262 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::operational_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:45:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand types are ‘[01m[KEigen::Quaternion<double>[m[K’ and ‘[01m[Kint[m[K’)
+  771 |       Quaterniond Deltak = [32m[Kk.inverse() * kd[m[K [01;31m[K*[m[K [34m[K(-1)[m[K;
+      |                            [32m[K~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~[m[K
+      |                                        [32m[K|[m[K       [34m[K|[m[K
+      |                                        [32m[K|[m[K       [34m[Kint[m[K
+      |                                        [32m[KEigen::Quaternion<double>[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:42[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:150:89:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Quaternion<typename Eigen::internal::traits<T>::Scalar> Eigen::QuaternionBase<Derived>::operator*(const Eigen::QuaternionBase<OtherDerived>&) const [with OtherDerived = OtherDerived; Derived = Eigen::Quaternion<double>][m[K’
+  150 |   template<class OtherDerived> EIGEN_DEVICE_FUNC EIGEN_STRONG_INLINE Quaternion<Scalar> [01;36m[Koperator[m[K* (const QuaternionBase<OtherDerived>& q) const;
+      |                                                                                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:150:89:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:50:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::QuaternionBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+  771 |       Quaterniond Deltak = k.inverse() * kd * (-1[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:40[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:89:57:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<int Mode, int Options> Eigen::Transform<typename Eigen::internal::traits<T>::Scalar, Dim, Mode> Eigen::RotationBase<Derived, _Dim>::operator*(const Eigen::Transform<typename Eigen::internal::traits<T>::Scalar, Dim, Mode, Options>&) const [with int Mode = Mode; int Options = Options; Derived = Eigen::Quaternion<double>; int _Dim = 3][m[K’
+   89 |     EIGEN_DEVICE_FUNC inline Transform<Scalar,Dim,Mode> [01;36m[Koperator[m[K*(const Transform<Scalar,Dim,Mode,Options>& t) const
+      |                                                         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:89:57:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:50:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::Transform<double, 3, Mode, Options>[m[K’ and ‘[01m[Kint[m[K’
+  771 |       Quaterniond Deltak = k.inverse() * kd * (-1[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:40[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:71:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> typename Eigen::internal::rotation_base_generic_product_selector<Derived, OtherDerived, OtherDerived::IsVectorAtCompileTime>::ReturnType Eigen::RotationBase<Derived, _Dim>::operator*(const Eigen::EigenBase<OtherDerived>&) const [with OtherDerived = OtherDerived; Derived = Eigen::Quaternion<double>; int _Dim = 3][m[K’
+   71 |     [01;36m[Koperator[m[K*(const EigenBase<OtherDerived>& e) const
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:71:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:50:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kint[m[K’
+  771 |       Quaterniond Deltak = k.inverse() * kd * (-1[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:40[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:60:49:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::RotationBase<Derived, _Dim>::RotationMatrixType Eigen::RotationBase<Derived, _Dim>::operator*(const Eigen::UniformScaling<typename Eigen::internal::traits<T>::Scalar>&) const [with Derived = Eigen::Quaternion<double>; int _Dim = 3; Eigen::RotationBase<Derived, _Dim>::RotationMatrixType = Eigen::Matrix<double, 3, 3>; typename Eigen::internal::traits<T>::Scalar = double][m[K’
+   60 |     EIGEN_DEVICE_FUNC inline RotationMatrixType [01;36m[Koperator[m[K*(const UniformScaling<Scalar>& s) const
+      |                                                 [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:60:89:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::UniformScaling<double>&[m[K’
+   60 |     EIGEN_DEVICE_FUNC inline RotationMatrixType operator*([01;36m[Kconst UniformScaling<Scalar>& s[m[K) const
+      |                                                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:56:61:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Transform<typename Eigen::internal::traits<T>::Scalar, Dim, 1> Eigen::RotationBase<Derived, _Dim>::operator*(const Eigen::Translation<typename Eigen::internal::traits<T>::Scalar, Dim>&) const [with Derived = Eigen::Quaternion<double>; int _Dim = 3; typename Eigen::internal::traits<T>::Scalar = double][m[K’
+   56 |     EIGEN_DEVICE_FUNC inline Transform<Scalar,Dim,Isometry> [01;36m[Koperator[m[K*(const Translation<Scalar,Dim>& t) const
+      |                                                             [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:56:102:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst Eigen::Translation<double, 3>&[m[K’
+   56 |     EIGEN_DEVICE_FUNC inline Transform<Scalar,Dim,Isometry> operator*([01;36m[Kconst Translation<Scalar,Dim>& t[m[K) const
+      |                                                                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:487[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:543:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MatrixDerived, class PermutationDerived> const Eigen::Product<MatrixDerived, PermutationDerived, 2> Eigen::operator*(const Eigen::MatrixBase<Derived>&, const Eigen::PermutationBase<PermutationDerived>&)[m[K’
+  543 | [01;36m[Koperator[m[K*(const MatrixBase<MatrixDerived> &matrix,
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:543:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:50:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Quaternion<double>[m[K’ is not derived from ‘[01m[Kconst Eigen::MatrixBase<Derived>[m[K’
+  771 |       Quaterniond Deltak = k.inverse() * kd * (-1[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:487[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:555:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PermutationDerived, class MatrixDerived> const Eigen::Product<MatrixDerived, PermutationDerived, 2> Eigen::operator*(const Eigen::PermutationBase<PermutationDerived>&, const Eigen::MatrixBase<U>&)[m[K’
+  555 | [01;36m[Koperator[m[K*(const PermutationBase<PermutationDerived> &permutation,
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:555:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:50:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Quaternion<double>[m[K’ is not derived from ‘[01m[Kconst Eigen::PermutationBase<PermutationDerived>[m[K’
+  771 |       Quaterniond Deltak = k.inverse() * kd * (-1[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:488[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Transpositions.h:338:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MatrixDerived, class TranspositionsDerived> const Eigen::Product<MatrixDerived, PermutationDerived, 2> Eigen::operator*(const Eigen::MatrixBase<Derived>&, const Eigen::TranspositionsBase<TranspositionsDerived>&)[m[K’
+  338 | [01;36m[Koperator[m[K*(const MatrixBase<MatrixDerived> &matrix,
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Transpositions.h:338:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:50:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Quaternion<double>[m[K’ is not derived from ‘[01m[Kconst Eigen::MatrixBase<Derived>[m[K’
+  771 |       Quaterniond Deltak = k.inverse() * kd * (-1[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:488[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Transpositions.h:350:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class TranspositionsDerived, class MatrixDerived> const Eigen::Product<MatrixDerived, PermutationDerived, 2> Eigen::operator*(const Eigen::TranspositionsBase<TranspositionsDerived>&, const Eigen::MatrixBase<U>&)[m[K’
+  350 | [01;36m[Koperator[m[K*(const TranspositionsBase<TranspositionsDerived> &transpositions,
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Transpositions.h:350:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:50:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Quaternion<double>[m[K’ is not derived from ‘[01m[Kconst Eigen::TranspositionsBase<TranspositionsDerived>[m[K’
+  771 |       Quaterniond Deltak = k.inverse() * kd * (-1[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Householder:24[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/QR:17[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:4[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:438:99:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived, class VectorsType, class CoeffsType, int Side> typename Eigen::internal::matrix_type_times_scalar_type<typename VectorsType::Scalar, OtherDerived>::Type Eigen::operator*(const Eigen::MatrixBase<Derived>&, const Eigen::HouseholderSequence<VectorsType, CoeffsType, Side>&)[m[K’
+  438 | typename internal::matrix_type_times_scalar_type<typename VectorsType::Scalar,OtherDerived>::Type [01;36m[Koperator[m[K*(const MatrixBase<OtherDerived>& other, const HouseholderSequence<VectorsType,CoeffsType,Side>& h)
+      |                                                                                                   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:438:99:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:50:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Quaternion<double>[m[K’ is not derived from ‘[01m[Kconst Eigen::MatrixBase<Derived>[m[K’
+  771 |       Quaterniond Deltak = k.inverse() * kd * (-1[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:46[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Scaling.h:117:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Scalar> Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<typename Eigen::internal::traits<T>::Scalar, Scalar>, const Derived, const typename Eigen::internal::plain_constant_type<Expr, Scalar>::type> Eigen::operator*(const Eigen::MatrixBase<Derived>&, const Eigen::UniformScaling<Scalar>&)[m[K’
+  117 | [01;36m[Koperator[m[K*(const MatrixBase<Derived>& matrix, const UniformScaling<Scalar>& s)
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Scaling.h:117:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:50:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Quaternion<double>[m[K’ is not derived from ‘[01m[Kconst Eigen::MatrixBase<Derived>[m[K’
+  771 |       Quaterniond Deltak = k.inverse() * kd * (-1[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/SparseCore:62[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Sparse:26[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:2[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h:147:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class SparseDerived, class PermDerived> const Eigen::Product<MatrixDerived, PermutationDerived, 2> Eigen::operator*(const Eigen::SparseMatrixBase<OtherDerived>&, const Eigen::PermutationBase<PermutationDerived>&)[m[K’
+  147 | [01;36m[Koperator[m[K*(const SparseMatrixBase<SparseDerived>& matrix, const PermutationBase<PermDerived>& perm)
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h:147:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:50:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Quaternion<double>[m[K’ is not derived from ‘[01m[Kconst Eigen::SparseMatrixBase<OtherDerived>[m[K’
+  771 |       Quaterniond Deltak = k.inverse() * kd * (-1[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/SparseCore:62[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Sparse:26[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:2[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h:154:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class SparseDerived, class PermDerived> const Eigen::Product<PermDerived, SparseDerived, 2> Eigen::operator*(const Eigen::PermutationBase<PermutationDerived>&, const Eigen::SparseMatrixBase<OtherDerived>&)[m[K’
+  154 | [01;36m[Koperator[m[K*( const PermutationBase<PermDerived>& perm, const SparseMatrixBase<SparseDerived>& matrix)
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h:154:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:50:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Quaternion<double>[m[K’ is not derived from ‘[01m[Kconst Eigen::PermutationBase<PermutationDerived>[m[K’
+  771 |       Quaterniond Deltak = k.inverse() * kd * (-1[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/SparseCore:62[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Sparse:26[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:2[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h:162:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class SparseDerived, class PermutationType> const Eigen::Product<SparseDerived, Eigen::Inverse<Rhs>, 2> Eigen::operator*(const Eigen::SparseMatrixBase<OtherDerived>&, const Eigen::InverseImpl<PermutationType, Eigen::PermutationStorage>&)[m[K’
+  162 | [01;36m[Koperator[m[K*(const SparseMatrixBase<SparseDerived>& matrix, const InverseImpl<PermutationType, PermutationStorage>& tperm)
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h:162:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:50:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Quaternion<double>[m[K’ is not derived from ‘[01m[Kconst Eigen::SparseMatrixBase<OtherDerived>[m[K’
+  771 |       Quaterniond Deltak = k.inverse() * kd * (-1[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/SparseCore:62[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Sparse:26[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:2[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h:171:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class SparseDerived, class PermutationType> const Eigen::Product<Eigen::Inverse<Rhs>, SparseDerived, 2> Eigen::operator*(const Eigen::InverseImpl<PermutationType, Eigen::PermutationStorage>&, const Eigen::SparseMatrixBase<OtherDerived>&)[m[K’
+  171 | [01;36m[Koperator[m[K*(const InverseImpl<PermutationType,PermutationStorage>& tperm, const SparseMatrixBase<SparseDerived>& matrix)
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h:171:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:50:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Quaternion<double>[m[K’ is not derived from ‘[01m[Kconst Eigen::InverseImpl<PermutationType, Eigen::PermutationStorage>[m[K’
+  771 |       Quaterniond Deltak = k.inverse() * kd * (-1[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:40[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:80:66:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Transform<double, 3, 2> Eigen::operator*(const Eigen::DiagonalMatrix<double, 3>&, const Eigen::Quaternion<double>&)[m[K’
+   80 |     EIGEN_DEVICE_FUNC friend inline Transform<Scalar,Dim,Affine> [01;36m[Koperator[m[K*(const DiagonalMatrix<Scalar,Dim>& l, const Derived& r)
+      |                                                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:80:110:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Quaternion<double>[m[K’ to ‘[01m[Kconst Eigen::DiagonalMatrix<double, 3>&[m[K’
+   80 |     EIGEN_DEVICE_FUNC friend inline Transform<Scalar,Dim,Affine> operator*([01;36m[Kconst DiagonalMatrix<Scalar,Dim>& l[m[K, const Derived& r)
+      |                                                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:76:49:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::RotationBase<Eigen::Quaternion<double>, 3>::RotationMatrixType Eigen::operator*(const Eigen::EigenBase<Derived>&, const Eigen::Quaternion<double>&)[m[K’
+   76 |     EIGEN_DEVICE_FUNC inline RotationMatrixType [01;36m[Koperator[m[K*(const EigenBase<OtherDerived>& l, const Derived& r)
+      |                                                 [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:76:49:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:771:50:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Quaternion<double>[m[K’ is not derived from ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’
+  771 |       Quaterniond Deltak = k.inverse() * kd * (-1[01;36m[K)[m[K;
+      |                                                  [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

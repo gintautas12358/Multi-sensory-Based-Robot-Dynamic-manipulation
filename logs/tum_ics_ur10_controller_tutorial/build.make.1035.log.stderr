@@ -1,0 +1,29 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::impedance_control()[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:719:40:[m[K [01;31m[Kerror: [m[K‘[01m[KQ[m[K’ was not declared in this scope; did you mean ‘[01m[KQt[m[K’?
+  719 |       Matrix6d Fj_0 = calc_repel_force([01;31m[KQ[m[K, rad_influence);
+      |                                        [01;31m[K^[m[K
+      |                                        [32m[KQt[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:729:24:[m[K [01;31m[Kerror: [m[K‘[01m[KKp[m[K’ was not declared in this scope; did you mean ‘[01m[KqKp_[m[K’?
+  729 |       Vector3d F_att = [01;31m[KKp[m[K * (-DXef_0) - Kd * (Xef_0p);
+      |                        [01;31m[K^~[m[K
+      |                        [32m[KqKp_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:729:31:[m[K [01;31m[Kerror: [m[K‘[01m[KDXef_0[m[K’ was not declared in this scope
+  729 |       Vector3d F_att = Kp * (-[01;31m[KDXef_0[m[K) - Kd * (Xef_0p);
+      |                               [01;31m[K^~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:729:41:[m[K [01;31m[Kerror: [m[K‘[01m[KKd[m[K’ was not declared in this scope; did you mean ‘[01m[KqKd_[m[K’?
+  729 |       Vector3d F_att = Kp * (-DXef_0) - [01;31m[KKd[m[K * (Xef_0p);
+      |                                         [01;31m[K^~[m[K
+      |                                         [32m[KqKd_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:729:47:[m[K [01;31m[Kerror: [m[K‘[01m[KXef_0p[m[K’ was not declared in this scope
+  729 |       Vector3d F_att = Kp * (-DXef_0) - Kd * ([01;31m[KXef_0p[m[K);
+      |                                               [01;31m[K^~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:732:29:[m[K [01;31m[Kerror: [m[K‘[01m[KJ_ef_0[m[K’ was not declared in this scope
+  732 |       Vector6d torque_att = [01;31m[KJ_ef_0[m[K.topRows(3).transpose() * F_att;
+      |                             [01;31m[K^~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:749:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktau[m[K’ was not declared in this scope; did you mean ‘[01m[Ktan[m[K’?
+  749 |       [01;31m[Ktau[m[K +=  model_.gravityVector(Q) + torque_att + torque_rep;
+      |       [01;31m[K^~~[m[K
+      |       [32m[Ktan[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

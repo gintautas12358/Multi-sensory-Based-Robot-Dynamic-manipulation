@@ -1,0 +1,129 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::operational_control_obstacle_avoidance(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:660:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid ur::URModel::matrix_T1_0(cc::HomogeneousTransformation&, const JointPosition&) const[m[K’ is private within this context
+  660 |       T_1_0= model_.matrix_T1_0(T_1_0, Q[01;31m[K)[m[K;
+      |                                         [01;31m[K^[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:377:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+  377 |     void [01;36m[Kmatrix_T1_0[m[K(cc::HomogeneousTransformation &T1_0,
+      |          [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:660:41:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kcc::HomogeneousTransformation[m[K’ {aka ‘[01m[Kcontrol_core::HomogeneousTransformation<double>[m[K’} and ‘[01m[Kvoid[m[K’)
+  660 |       T_1_0= model_.matrix_T1_0(T_1_0, Q[01;31m[K)[m[K;
+      |                                         [01;31m[K^[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:49[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/homogeneous_transformation.h:161:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid control_core::HomogeneousTransformation<_Scalar>::operator=(const control_core::CartesianPosition<_Scalar>&) [with _Scalar = double][m[K’
+  161 |   void [01;36m[Koperator[m[K=(const CartesianPosition<Scalar>& other)
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/homogeneous_transformation.h:161:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst control_core::CartesianPosition<double>&[m[K’
+  161 |   void operator=([01;36m[Kconst CartesianPosition<Scalar>& other[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/homogeneous_transformation.h:170:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid control_core::HomogeneousTransformation<_Scalar>::operator=(const tf::Transform&) [with _Scalar = double][m[K’
+  170 |   void [01;36m[Koperator[m[K=(const tf::Transform& other)
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/homogeneous_transformation.h:170:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst tf::Transform&[m[K’
+  170 |   void operator=([01;36m[Kconst tf::Transform& other[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/homogeneous_transformation.h:179:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid control_core::HomogeneousTransformation<_Scalar>::operator=(const Pose&) [with _Scalar = double; geometry_msgs::Pose = geometry_msgs::Pose_<std::allocator<void> >][m[K’
+  179 |   void [01;36m[Koperator[m[K=(const geometry_msgs::Pose& other)
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/homogeneous_transformation.h:179:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::Pose_<std::allocator<void> >&[m[K’}
+  179 |   void operator=([01;36m[Kconst geometry_msgs::Pose& other[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:599:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived> Eigen::Transform<Scalar, Dim, Mode, Options>& Eigen::Transform<Scalar, Dim, Mode, _Options>::operator=(const Eigen::RotationBase<Derived, Dim>&) [with Derived = Derived; _Scalar = double; int _Dim = 3; int _Mode = 2; int _Options = 0][m[K’
+  599 |   EIGEN_DEVICE_FUNC inline Transform& [01;36m[Koperator[m[K=(const RotationBase<Derived,Dim>& r);
+      |                                       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:599:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:660:41:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<Derived, 3>[m[K’ and ‘[01m[Kvoid[m[K’
+  660 |       T_1_0= model_.matrix_T1_0(T_1_0, Q[01;36m[K)[m[K;
+      |                                         [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:1018:62:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Transform<Scalar, Dim, Mode, Options>& Eigen::Transform<Scalar, Dim, Mode, _Options>::operator=(const Eigen::UniformScaling<_Scalar>&) [with _Scalar = double; int _Dim = 3; int _Mode = 2; int _Options = 0][m[K’
+ 1018 | EIGEN_DEVICE_FUNC inline Transform<Scalar,Dim,Mode,Options>& [01;36m[KTransform<Scalar,Dim,Mode,Options>[m[K::operator=(const UniformScaling<Scalar>& s)
+      |                                                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:1018:138:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst Eigen::UniformScaling<double>&[m[K’
+ 1018 | EIGEN_DEVICE_FUNC inline Transform<Scalar,Dim,Mode,Options>& Transform<Scalar,Dim,Mode,Options>::operator=([01;36m[Kconst UniformScaling<Scalar>& s[m[K)
+      |                                                                                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:1001:62:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Transform<Scalar, Dim, Mode, Options>& Eigen::Transform<Scalar, Dim, Mode, _Options>::operator=(const TranslationType&) [with _Scalar = double; int _Dim = 3; int _Mode = 2; int _Options = 0; Eigen::Transform<Scalar, Dim, Mode, _Options>::TranslationType = Eigen::Translation<double, 3>][m[K’
+ 1001 | EIGEN_DEVICE_FUNC inline Transform<Scalar,Dim,Mode,Options>& [01;36m[KTransform<Scalar,Dim,Mode,Options>[m[K::operator=(const TranslationType& t)
+      |                                                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:1001:131:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst TranslationType&[m[K’ {aka ‘[01m[Kconst Eigen::Translation<double, 3>&[m[K’}
+ 1001 | EIGEN_DEVICE_FUNC inline Transform<Scalar,Dim,Mode,Options>& Transform<Scalar,Dim,Mode,Options>::operator=([01;36m[Kconst TranslationType& t[m[K)
+      |                                                                                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:369:32:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Transform<Scalar, Dim, Mode, _Options>& Eigen::Transform<Scalar, Dim, Mode, _Options>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Dim = 3; int _Mode = 2; int _Options = 0][m[K’
+  369 |   EIGEN_DEVICE_FUNC Transform& [01;36m[Koperator[m[K=(const ReturnByValue<OtherDerived>& other)
+      |                                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:369:32:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:660:41:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’ and ‘[01m[Kvoid[m[K’
+  660 |       T_1_0= model_.matrix_T1_0(T_1_0, Q[01;36m[K)[m[K;
+      |                                         [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:303:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Transform<Scalar, Dim, Mode, _Options>& Eigen::Transform<Scalar, Dim, Mode, _Options>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Dim = 3; int _Mode = 2; int _Options = 0][m[K’
+  303 |   EIGEN_DEVICE_FUNC inline Transform& [01;36m[Koperator[m[K=(const EigenBase<OtherDerived>& other)
+      |                                       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:303:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:660:41:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kvoid[m[K’
+  660 |       T_1_0= model_.matrix_T1_0(T_1_0, Q[01;36m[K)[m[K;
+      |                                         [01;36m[K^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:44[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:6[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:285:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>& Eigen::Transform<Scalar, Dim, Mode, _Options>::operator=(const Eigen::Transform<Scalar, Dim, Mode, _Options>&) [with _Scalar = double; int _Dim = 3; int _Mode = 2; int _Options = 0][m[K’
+  285 |   EIGEN_DEVICE_FUNC inline Transform& [01;36m[Koperator[m[K=(const Transform& other)
+      |                                       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Transform.h:285:66:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst Eigen::Transform<double, 3, 2>&[m[K’
+  285 |   EIGEN_DEVICE_FUNC inline Transform& operator=([01;36m[Kconst Transform& other[m[K)
+      |                                                 [01;36m[K~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:49[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/homogeneous_transformation.h:46:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcontrol_core::HomogeneousTransformation<double>& control_core::HomogeneousTransformation<double>::operator=(const control_core::HomogeneousTransformation<double>&)[m[K’
+   46 | class [01;36m[KHomogeneousTransformation[m[K :
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/homogeneous_transformation.h:46:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst control_core::HomogeneousTransformation<double>&[m[K’
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

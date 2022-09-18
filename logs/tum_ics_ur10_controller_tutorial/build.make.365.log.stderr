@@ -1,0 +1,112 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::operational_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:683:44:[m[K [01;31m[Kerror: [m[K‘[01m[KJp[m[K’ was not declared in this scope; did you mean ‘[01m[Kkp[m[K’?
+  683 |       Vector6d Qrpp = J.inverse()* (Xrpp - [01;31m[KJp[m[K * Qrp);
+      |                                            [01;31m[K^~[m[K
+      |                                            [32m[Kkp[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Matrix6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::Jacp(Tum::Vector6d, Tum::Vector6d)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2027:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kq1[m[K’ was not declared in this scope; did you mean ‘[01m[Ky1[m[K’?
+ 2027 |     double s1 = sin([01;31m[Kq1[m[K);
+      |                     [01;31m[K^~[m[K
+      |                     [32m[Ky1[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2028:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kq2[m[K’ was not declared in this scope; did you mean ‘[01m[Ks2[m[K’?
+ 2028 |     double s2 = sin([01;31m[Kq2[m[K);
+      |                     [01;31m[K^~[m[K
+      |                     [32m[Ks2[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2029:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kq3[m[K’ was not declared in this scope; did you mean ‘[01m[KZ3[m[K’?
+ 2029 |     double s3 = sin([01;31m[Kq3[m[K);
+      |                     [01;31m[K^~[m[K
+      |                     [32m[KZ3[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2030:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kq4[m[K’ was not declared in this scope; did you mean ‘[01m[KZ4[m[K’?
+ 2030 |     double s4 = sin([01;31m[Kq4[m[K);
+      |                     [01;31m[K^~[m[K
+      |                     [32m[KZ4[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2031:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kq5[m[K’ was not declared in this scope; did you mean ‘[01m[Ks5[m[K’?
+ 2031 |     double s5 = sin([01;31m[Kq5[m[K);
+      |                     [01;31m[K^~[m[K
+      |                     [32m[Ks5[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2037:18:[m[K [01;31m[Kerror: [m[K‘[01m[KL2[m[K’ was not declared in this scope; did you mean ‘[01m[KL_[m[K’?
+ 2037 |     double a37 = [01;31m[KL2[m[K * qp2;
+      |                  [01;31m[K^~[m[K
+      |                  [32m[KL_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2037:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kqp2[m[K’ was not declared in this scope
+ 2037 |     double a37 = L2 * [01;31m[Kqp2[m[K;
+      |                       [01;31m[K^~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2038:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kqp1[m[K’ was not declared in this scope
+ 2038 |     double a38 = L2 * [01;31m[Kqp1[m[K;
+      |                       [01;31m[K^~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2039:18:[m[K [01;31m[Kerror: [m[K‘[01m[KL6[m[K’ was not declared in this scope; did you mean ‘[01m[KL_[m[K’?
+ 2039 |     double a39 = [01;31m[KL6[m[K * qp1;
+      |                  [01;31m[K^~[m[K
+      |                  [32m[KL_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2040:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kqp5[m[K’ was not declared in this scope
+ 2040 |     double a40 = L6 * [01;31m[Kqp5[m[K;
+      |                       [01;31m[K^~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2041:18:[m[K [01;31m[Kerror: [m[K‘[01m[KL4[m[K’ was not declared in this scope; did you mean ‘[01m[KL_[m[K’?
+ 2041 |     double a41 = [01;31m[KL4[m[K * qp1;
+      |                  [01;31m[K^~[m[K
+      |                  [32m[KL_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2042:18:[m[K [01;31m[Kerror: [m[K‘[01m[KL3[m[K’ was not declared in this scope; did you mean ‘[01m[KL_[m[K’?
+ 2042 |     double a42 = [01;31m[KL3[m[K * qp1;
+      |                  [01;31m[K^~[m[K
+      |                  [32m[KL_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2043:18:[m[K [01;31m[Kerror: [m[K‘[01m[KL5[m[K’ was not declared in this scope; did you mean ‘[01m[KL_[m[K’?
+ 2043 |     double a45 = [01;31m[KL5[m[K * qp1;
+      |                  [01;31m[K^~[m[K
+      |                  [32m[KL_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2066:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kqp3[m[K’ was not declared in this scope
+ 2066 |     double d1 = (qp2 + [01;31m[Kqp3[m[K + qp4) * L5;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:2066:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kqp4[m[K’ was not declared in this scope
+ 2066 |     double d1 = (qp2 + qp3 + [01;31m[Kqp4[m[K) * L5;
+      |                              [01;31m[K^~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:366[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h: In instantiation of ‘[01m[Kconst Eigen::Product<Derived, OtherDerived> Eigen::MatrixBase<Derived>::operator*(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Matrix<double, 6, 1>; Derived = Eigen::Matrix<double, 7, 7>][m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:679:35:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:410:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: INVALID_MATRIX_PRODUCT
+  410 |   [01;31m[KEIGEN_STATIC_ASSERT[m[K(ProductIsValid || SameSizes, INVALID_MATRIX_PRODUCT)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h: In instantiation of ‘[01m[KEigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::CwiseBinaryOp(const Lhs&, const Rhs&, const BinaryOp&) [with BinaryOp = Eigen::internal::scalar_difference_op<double, double>; LhsType = const Eigen::Matrix<double, 6, 1>; RhsType = const Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 7, 1>, 0>; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Lhs = Eigen::Matrix<double, 6, 1>; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Rhs = Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 7, 1>, 0>][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:19:1:[m[K   required from ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<typename Eigen::internal::traits<T>::Scalar, typename Eigen::internal::traits<OtherDerived>::Scalar>, const Derived, const OtherDerived> Eigen::MatrixBase<Derived>::operator-(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 7, 1>, 0>; Derived = Eigen::Matrix<double, 6, 1>; typename Eigen::internal::traits<OtherDerived>::Scalar = double; typename Eigen::internal::traits<T>::Scalar = double][m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:678:33:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:109:7:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+  109 |       [01;31m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(Lhs, Rhs)
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h: In instantiation of ‘[01m[KEigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::CwiseBinaryOp(const Lhs&, const Rhs&, const BinaryOp&) [with BinaryOp = Eigen::internal::scalar_difference_op<double, double>; LhsType = const Eigen::Matrix<double, 6, 1>; RhsType = const Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 6, 1>, 0>; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Lhs = Eigen::Matrix<double, 6, 1>; Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::Rhs = Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 6, 1>, 0>][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:19:1:[m[K   required from ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<typename Eigen::internal::traits<T>::Scalar, typename Eigen::internal::traits<OtherDerived>::Scalar>, const Derived, const OtherDerived> Eigen::MatrixBase<Derived>::operator-(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 6, 1>, 0>; Derived = Eigen::Matrix<double, 6, 1>; typename Eigen::internal::traits<OtherDerived>::Scalar = double; typename Eigen::internal::traits<T>::Scalar = double][m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:679:35:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:109:7:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 6, 44>; Src = Eigen::Matrix<double, 6, 1>; Func = Eigen::internal::assign_op<double, double>][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:732:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 6, 1>; Derived = Eigen::Matrix<double, 6, 44>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:537:7:[m[K   required from ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 6, 1>; Derived = Eigen::Matrix<double, 6, 44>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:377:29:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 6, 1>; _Scalar = double; int _Rows = 6; int _Cols = 44; int _Options = 0; int _MaxRows = 6; int _MaxCols = 44][m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:684:42:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:833:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+  833 |   [01;31m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(ActualDstTypeCleaned,Src)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 6, 1>; Src = Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 7, 1>, 0>; Func = Eigen::internal::sub_assign_op<double, double>][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:224:29:[m[K   required from ‘[01m[Kstatic void Eigen::internal::assignment_from_xpr_op_product<DstXprType, OtherXpr, ProductType, Func1, Func2>::run(DstXprType&, const SrcXprType&, const InitialFunc&) [with SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 6, 1>, const Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 7, 1>, 0> >; InitialFunc = Eigen::internal::assign_op<double, double>; DstXprType = Eigen::Matrix<double, 6, 1>; OtherXpr = Eigen::Matrix<double, 6, 1>; ProductType = Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 7, 1>, 0>; Func1 = Eigen::internal::assign_op<double, double>; Func2 = Eigen::internal::sub_assign_op<double, double>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:836:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 6, 1>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 6, 1>, const Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 7, 1>, 0> >; Func = Eigen::internal::assign_op<double, double>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:732:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 6, 1>, const Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 7, 1>, 0> >; Derived = Eigen::Matrix<double, 6, 1>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:537:7:[m[K   required from ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 6, 1>, const Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 7, 1>, 0> >; Derived = Eigen::Matrix<double, 6, 1>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:377:29:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 6, 1>, const Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 7, 1>, 0> >; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:678:33:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:833:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 6, 1>; Src = Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 6, 1>, 0>; Func = Eigen::internal::sub_assign_op<double, double>][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:224:29:[m[K   required from ‘[01m[Kstatic void Eigen::internal::assignment_from_xpr_op_product<DstXprType, OtherXpr, ProductType, Func1, Func2>::run(DstXprType&, const SrcXprType&, const InitialFunc&) [with SrcXprType = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 6, 1>, const Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 6, 1>, 0> >; InitialFunc = Eigen::internal::assign_op<double, double>; DstXprType = Eigen::Matrix<double, 6, 1>; OtherXpr = Eigen::Matrix<double, 6, 1>; ProductType = Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 6, 1>, 0>; Func1 = Eigen::internal::assign_op<double, double>; Func2 = Eigen::internal::sub_assign_op<double, double>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:836:49:[m[K   required from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 6, 1>; Src = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 6, 1>, const Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 6, 1>, 0> >; Func = Eigen::internal::assign_op<double, double>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:732:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 6, 1>, const Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 6, 1>, 0> >; Derived = Eigen::Matrix<double, 6, 1>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:537:7:[m[K   required from ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 6, 1>, const Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 6, 1>, 0> >; Derived = Eigen::Matrix<double, 6, 1>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:377:29:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, 6, 1>, const Eigen::Product<Eigen::Matrix<double, 7, 7>, Eigen::Matrix<double, 6, 1>, 0> >; _Scalar = double; int _Rows = 6; int _Cols = 1; int _Options = 0; int _MaxRows = 6; int _MaxCols = 1][m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:679:35:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:833:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

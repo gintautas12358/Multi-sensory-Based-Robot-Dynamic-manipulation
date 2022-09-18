@@ -1,0 +1,26 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::impedance_control_with_orientation(Tum::Vector6d, Tum::Vector6d, Tum::Vector7d, Tum::Vector6d)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:897:29:[m[K [01;31m[Kerror: [m[K‘[01m[KQd[m[K’ was not declared in this scope; did you mean ‘[01m[KQt[m[K’?
+  897 |       DeltaX_.tail(3) = -ke([01;31m[KQd[m[K*Q_ef_0.inverse());
+      |                             [01;31m[K^~[m[K
+      |                             [32m[KQt[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:914:7:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[KDXef_0_w[m[K’
+  914 |       [01;31m[KDXef_0_w[m[K << DeltaX_.tail(3);
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:916:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+  916 |       Vector3d Xef_0p_w(Vector3d::Zero())[01;31m[K)[m[K;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:921:39:[m[K [01;31m[Kerror: [m[K‘[01m[KDXef_0_w[m[K’ was not declared in this scope; did you mean ‘[01m[KDXef_0_v[m[K’?
+  921 |       Vector3d F_att_w = imp_Kp_w * (-[01;31m[KDXef_0_w[m[K) - imp_Kd_w * (Xef_0p_w);
+      |                                       [01;31m[K^~~~~~~~[m[K
+      |                                       [32m[KDXef_0_v[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:932:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ktorque_att[m[K’ was not declared in this scope; did you mean ‘[01m[Ktorque_att_w[m[K’?
+  932 |       tau =  model_.gravityVector(Q) + [01;31m[Ktorque_att[m[K + torque_rep;
+      |                                        [01;31m[K^~~~~~~~~~[m[K
+      |                                        [32m[Ktorque_att_w[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:932:53:[m[K [01;31m[Kerror: [m[K‘[01m[Ktorque_rep[m[K’ was not declared in this scope; did you mean ‘[01m[Ktorque_rep_v[m[K’?
+  932 |       tau =  model_.gravityVector(Q) + torque_att + [01;31m[Ktorque_rep[m[K;
+      |                                                     [01;31m[K^~~~~~~~~~[m[K
+      |                                                     [32m[Ktorque_rep_v[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:76: CMakeFiles/ur10_control.dir/src/jointspace_controller_1.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

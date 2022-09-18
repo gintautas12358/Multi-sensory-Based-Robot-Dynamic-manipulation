@@ -1,0 +1,37 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::operational_control_obstacle_avoidance(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:625:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Quaterniond Qd[m[K’
+  625 |       Quaterniond [01;31m[KQd[m[K;
+      |                   [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:578:19:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Quaterniond Qd[m[K’ previously declared here
+  578 |       Quaterniond [01;36m[KQd[m[K = Q_start.slerp(std::min(1.0, t/4.0), Q_goal);
+      |                   [01;36m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:627:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Vector3d Xd_v[m[K’
+  627 |       Vector3d [01;31m[KXd_v[m[K = Xd.head(3);
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:581:16:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Vector3d Xd_v[m[K’ previously declared here
+  581 |       Vector3d [01;36m[KXd_v[m[K = T_ef_0_start_.position() + circular_offset(t);
+      |                [01;36m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:646:20:[m[K [01;31m[Kerror: [m[K‘[01m[KKp[m[K’ was not declared in this scope; did you mean ‘[01m[KJp[m[K’?
+  646 |       Vector6d F = [01;31m[KKp[m[K * (-DXef_0) - Kd * (Xef_0p - zeros(3,1));
+      |                    [01;31m[K^~[m[K
+      |                    [32m[KJp[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:646:37:[m[K [01;31m[Kerror: [m[K‘[01m[KKd[m[K’ was not declared in this scope; did you mean ‘[01m[Kkd[m[K’?
+  646 |       Vector6d F = Kp * (-DXef_0) - [01;31m[KKd[m[K * (Xef_0p - zeros(3,1));
+      |                                     [01;31m[K^~[m[K
+      |                                     [32m[Kkd[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:646:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kzeros[m[K’ was not declared in this scope; did you mean ‘[01m[Kros[m[K’?
+  646 |       Vector6d F = Kp * (-DXef_0) - Kd * (Xef_0p - [01;31m[Kzeros[m[K(3,1));
+      |                                                    [01;31m[K^~~~~[m[K
+      |                                                    [32m[Kros[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:657:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+  657 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:656:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  656 |       return
+      |             [01;31m[K^[m[K
+      |             [32m[K;[m[K
+  657 |     [32m[K}[m[K
+      |     [32m[K~[m[K        
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

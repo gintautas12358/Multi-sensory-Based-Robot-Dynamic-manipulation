@@ -1,0 +1,7 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In function ‘[01m[KTum::MatrixRegressor_1 tum_ics_ur_robot_lli::RobotControllers::calc_Yr(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:971:50:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+  971 |        (pow(qp1,2)*sin(2*q2 + 2*q3 + 2*q4 + 2*q5)[01;31m[K)[m[K/8 - (pow(qp1,2)*sin(2*q2 + 2*q3 + 2*q4 - 2*q5))/8 - (pow(qp1,2)*sin(2*q5))/4 + (pow(qp2,2)*sin(2*q5))/2 + (pow(qp3,2)*sin(2*q5))/2 + (pow(qp4,2)*sin(2*q5))/2 + qp2*qp6*sin(q5) + qp3*qp6*sin(q5) + qp4*qp6*sin(q5) - (qp1*qp2*sin(q2 + q3 + q4 - 2*q5))/2 - (qp1*qp2*sin(q2 + q3 + q4 + 2*q5))/2 - (qp1*qp3*sin(q2 + q3 + q4 - 2*q5))/2 - (qp1*qp3*sin(q2 + q3 + q4 + 2*q5))/2 - (qp1*qp4*sin(q2 + q3 + q4 - 2*q5))/2 - (qp1*qp4*sin(q2 + q3 + q4 + 2*q5))/2 - (qp1*qp6*sin(q2 + q3 + q4 - q5))/2 + qp2*qp3*sin(2*q5) + qp2*qp4*sin(2*q5) + qp3*qp4*sin(2*q5) - (qp1*qp6*sin(q2 + q3 + q4 + q5))/2, 0;
+      |                                                  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1831: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

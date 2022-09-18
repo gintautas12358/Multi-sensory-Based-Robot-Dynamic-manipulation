@@ -1,0 +1,418 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[Kvirtual Tum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::update(const tum_ics_ur_robot_lli::RobotTime&, const tum_ics_ur_robot_lli::JointState&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:13:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} and ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’})
+  507 |       [32m[KGamma[m[K [01;31m[K<<[m[K [34m[Kpow(10,-5) * VectorRegressor_1::Ones()[m[K;
+      |       [32m[K~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |       [32m[K|[m[K                   [34m[K|[m[K
+      |       [32m[K|[m[K                   [34m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type {aka const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >}[m[K
+      |       [32m[KTum::DiagMatrix144d {aka Eigen::DiagonalMatrix<double, 144>}[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:433[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:5[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/IO.h:216:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived> std::ostream& Eigen::operator<<(std::ostream&, const Eigen::DenseBase<Derived>&)[m[K’
+  216 | std::ostream & [01;36m[Koperator[m[K <<
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/IO.h:216:16:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:7:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KGamma[m[K’ (type ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’}) to type ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+  507 |       [01;36m[KGamma[m[K << pow(10,-5) * VectorRegressor_1::Ones();
+      |       [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:48[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:47[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QVector:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathDefs.h:4[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:4[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h:625:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, QChar)[m[K’
+  625 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, QChar);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h:625:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQDataStream&[m[K’
+  625 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, QChar);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:49[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:47[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QVector:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathDefs.h:4[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:4[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:695:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QByteArray&)[m[K’
+  695 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QByteArray &);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:695:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQDataStream&[m[K’
+  695 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QByteArray &);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:47[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QVector:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathDefs.h:4[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:4[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1415:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QString&)[m[K’
+ 1415 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QString &);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1415:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQDataStream&[m[K’
+ 1415 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QString &);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h:47[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:1097[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QVector:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathDefs.h:4[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:4[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h:124:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QRegExp&)[m[K’
+  124 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &out, const QRegExp &regExp);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h:124:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQDataStream&[m[K’
+  124 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &out[m[K, const QRegExp &regExp);
+      |                                       [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h:129:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QRegExp&)[m[K’
+  129 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QRegExp &);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h:129:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQDebug[m[K’
+  129 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QRegExp &);
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/node_handle.h:52[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotTime.h:10[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:15[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/xmlrpcpp/XmlRpcValue.h:207:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& operator<<(std::ostream&, const XmlRpc::XmlRpcValue&)[m[K’
+  207 | XMLRPCPP_DECL std::ostream& [01;36m[Koperator[m[K<<(std::ostream& os, const XmlRpc::XmlRpcValue& v);
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/xmlrpcpp/XmlRpcValue.h:207:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+  207 | XMLRPCPP_DECL std::ostream& operator<<([01;36m[Kstd::ostream& os[m[K, const XmlRpc::XmlRpcValue& v);
+      |                                        [01;36m[K~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:49[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:531:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QObject*)[m[K’
+  531 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QObject *);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:531:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQDebug[m[K’
+  531 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QObject *);
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:49[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h:189:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, QIODevice::OpenMode)[m[K’
+  189 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug debug, QIODevice::OpenMode modes);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h:189:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQDebug[m[K’
+  189 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug debug[m[K, QIODevice::OpenMode modes);
+      |                                 [01;36m[K~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:49[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:565:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QVariant&)[m[K’
+  565 | Q_CORE_EXPORT QDataStream& [01;36m[Koperator[m[K<< (QDataStream& s, const QVariant& p);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:565:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQDataStream&[m[K’
+  565 | Q_CORE_EXPORT QDataStream& operator<< ([01;36m[KQDataStream& s[m[K, const QVariant& p);
+      |                                        [01;36m[K~~~~~~~~~~~~~^[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:567:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, QVariant::Type)[m[K’
+  567 | Q_CORE_EXPORT QDataStream& [01;36m[Koperator[m[K<< (QDataStream& s, const QVariant::Type p);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:567:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQDataStream&[m[K’
+  567 | Q_CORE_EXPORT QDataStream& operator<< ([01;36m[KQDataStream& s[m[K, const QVariant::Type p);
+      |                                        [01;36m[K~~~~~~~~~~~~~^[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:885:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QVariant&)[m[K’
+  885 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QVariant &);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:472:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQDebug[m[K’
+  472 |     friend Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QVariant &);
+      |                                            [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:886:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, QVariant::Type)[m[K’
+  886 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QVariant::Type);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:886:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQDebug[m[K’
+  886 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QVariant::Type);
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:49[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:1122:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QLocale&)[m[K’
+ 1122 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QLocale &);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:1122:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQDataStream&[m[K’
+ 1122 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QLocale &);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:1127:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QLocale&)[m[K’
+ 1127 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QLocale &);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:1127:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQDebug[m[K’
+ 1127 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QLocale &);
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:49[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:230:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQTextStream& operator<<(QTextStream&, QTextStreamFunction)[m[K’
+  230 | inline QTextStream &[01;36m[Koperator[m[K<<(QTextStream &s, QTextStreamFunction f)
+      |                     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:230:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQTextStream&[m[K’
+  230 | inline QTextStream &operator<<([01;36m[KQTextStream &s[m[K, QTextStreamFunction f)
+      |                                [01;36m[K~~~~~~~~~~~~~^[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:233:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQTextStream& operator<<(QTextStream&, QTextStreamManipulator)[m[K’
+  233 | inline QTextStream &[01;36m[Koperator[m[K<<(QTextStream &s, QTextStreamManipulator m)
+      |                     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:233:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’} to ‘[01m[KQTextStream&[m[K’
+  233 | inline QTextStream &operator<<([01;36m[KQTextStream &s[m[K, QTextStreamManipulator m)
+      |                                [01;36m[K~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:236:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> QDebug operator<<(QDebug, const QList<T>&)[m[K’
+  236 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const QList<T> &list)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:236:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:53:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’} is not derived from ‘[01m[Kconst QList<T>[m[K’
+  507 |       Gamma << pow(10,-5) * VectorRegressor_1::Ones([01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:242:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> QDebug operator<<(QDebug, const QVector<T>&)[m[K’
+  242 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const QVector<T> &vec)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:242:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:53:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’} is not derived from ‘[01m[Kconst QVector<T>[m[K’
+  507 |       Gamma << pow(10,-5) * VectorRegressor_1::Ones([01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:248:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class Alloc> QDebug operator<<(QDebug, const std::vector<_Tp, _Alloc>&)[m[K’
+  248 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const std::vector<T, Alloc> &vec)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:248:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:53:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’} is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+  507 |       Gamma << pow(10,-5) * VectorRegressor_1::Ones([01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:254:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class Alloc> QDebug operator<<(QDebug, const std::__cxx11::list<_Tp, _Alloc>&)[m[K’
+  254 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const std::list<T, Alloc> &vec)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:254:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:53:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+  507 |       Gamma << pow(10,-5) * VectorRegressor_1::Ones([01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:260:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Key, class T, class Compare, class Alloc> QDebug operator<<(QDebug, const std::map<_Key, _Tp, _Compare, _Alloc>&)[m[K’
+  260 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const std::map<Key, T, Compare, Alloc> &map)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:260:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:53:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’} is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Alloc>[m[K’
+  507 |       Gamma << pow(10,-5) * VectorRegressor_1::Ones([01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:266:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Key, class T, class Compare, class Alloc> QDebug operator<<(QDebug, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)[m[K’
+  266 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const std::multimap<Key, T, Compare, Alloc> &map)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:266:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:53:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’} is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Alloc>[m[K’
+  507 |       Gamma << pow(10,-5) * VectorRegressor_1::Ones([01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:272:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Key, class T> QDebug operator<<(QDebug, const QMap<K, V>&)[m[K’
+  272 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const QMap<Key, T> &map)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:272:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:53:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’} is not derived from ‘[01m[Kconst QMap<K, V>[m[K’
+  507 |       Gamma << pow(10,-5) * VectorRegressor_1::Ones([01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:286:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Key, class T> QDebug operator<<(QDebug, const QHash<K, V>&)[m[K’
+  286 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const QHash<Key, T> &hash)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:286:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:53:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’} is not derived from ‘[01m[Kconst QHash<K, V>[m[K’
+  507 |       Gamma << pow(10,-5) * VectorRegressor_1::Ones([01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:299:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T1, class T2> QDebug operator<<(QDebug, const QPair<T1, T2>&)[m[K’
+  299 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const QPair<T1, T2> &pair)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:299:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:53:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’} is not derived from ‘[01m[Kconst QPair<T1, T2>[m[K’
+  507 |       Gamma << pow(10,-5) * VectorRegressor_1::Ones([01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:308:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T1, class T2> QDebug operator<<(QDebug, const std::pair<_T1, _T2>&)[m[K’
+  308 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const std::pair<T1, T2> &pair)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:308:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:53:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’} is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+  507 |       Gamma << pow(10,-5) * VectorRegressor_1::Ones([01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:317:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> QDebug operator<<(QDebug, const QSet<T>&)[m[K’
+  317 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const QSet<T> &set)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:317:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:53:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’} is not derived from ‘[01m[Kconst QSet<T>[m[K’
+  507 |       Gamma << pow(10,-5) * VectorRegressor_1::Ones([01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:323:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> QDebug operator<<(QDebug, const QContiguousCache<T>&)[m[K’
+  323 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const QContiguousCache<T> &cache)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:323:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:53:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’} is not derived from ‘[01m[Kconst QContiguousCache<T>[m[K’
+  507 |       Gamma << pow(10,-5) * VectorRegressor_1::Ones([01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:338:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> QDebug operator<<(QDebug, const QSharedPointer<T>&)[m[K’
+  338 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const QSharedPointer<T> &ptr)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:338:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:53:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’} is not derived from ‘[01m[Kconst QSharedPointer<T>[m[K’
+  507 |       Gamma << pow(10,-5) * VectorRegressor_1::Ones([01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:372:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> typename std::enable_if<QtPrivate::IsQEnumHelper<T>::Value, QDebug>::type operator<<(QDebug, T)[m[K’
+  372 | [01;36m[Koperator[m[K<<(QDebug dbg, T value)
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:372:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:7:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KGamma[m[K’ (type ‘[01m[KTum::DiagMatrix144d[m[K’ {aka ‘[01m[KEigen::DiagonalMatrix<double, 144>[m[K’}) to type ‘[01m[KQDebug[m[K’
+  507 |       [01;36m[KGamma[m[K << pow(10,-5) * VectorRegressor_1::Ones();
+      |       [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathTools.h:6[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:384:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class A, class B, class C, class D> QDebug operator<<(QDebug, T)[m[K’
+  384 | inline QDebug [01;36m[Koperator[m[K<<(QDebug dbg, T value)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:384:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:380:10:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+  380 |          [01;31m[Ktypename[m[K A = typename std::enable_if<std::is_enum<T>::value, void>::type,
+      |          [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:418:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> QDebug operator<<(QDebug, const QFlags<T>&)[m[K’
+  418 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const QFlags<T> &flags)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:418:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:507:53:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::internal::enable_if<true, const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > > >::type[m[K’ {aka ‘[01m[Kconst Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 144, 1> >, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 144, 1> > >[m[K’} is not derived from ‘[01m[Kconst QFlags<T>[m[K’
+  507 |       Gamma << pow(10,-5) * VectorRegressor_1::Ones([01;36m[K)[m[K;
+      |                                                     [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1905: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

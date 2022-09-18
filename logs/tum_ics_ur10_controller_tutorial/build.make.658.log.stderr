@@ -1,0 +1,20 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::operational_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:680:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdelta_t[m[K’ was not declared in this scope; did you mean ‘[01m[Kdev_t[m[K’?
+  680 |       DeltaXi_ = DeltaXi_ +  [01;31m[Kdelta_t[m[K * DeltaX_;
+      |                              [01;31m[K^~~~~~~[m[K
+      |                              [32m[Kdev_t[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:684:33:[m[K [01;31m[Kerror: [m[K‘[01m[KDeltaX[m[K’ was not declared in this scope; did you mean ‘[01m[KDeltaX_[m[K’?
+  684 |       Vector6d Xrp = Xdp - xKp_*[01;31m[KDeltaX[m[K - Ki_*DeltaXi_;
+      |                                 [01;31m[K^~~~~~[m[K
+      |                                 [32m[KDeltaX_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:684:42:[m[K [01;31m[Kerror: [m[K‘[01m[KKi_[m[K’ was not declared in this scope; did you mean ‘[01m[KqKi_[m[K’?
+  684 |       Vector6d Xrp = Xdp - xKp_*DeltaX - [01;31m[KKi_[m[K*DeltaXi_;
+      |                                          [01;31m[K^~~[m[K
+      |                                          [32m[KqKi_[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:685:35:[m[K [01;31m[Kerror: [m[K‘[01m[KDeltaXp[m[K’ was not declared in this scope; did you mean ‘[01m[KDeltaX_[m[K’?
+  685 |       Vector6d Xrpp = Xdpp - xKp_*[01;31m[KDeltaXp[m[K - Ki_*DeltaXi_;
+      |                                   [01;31m[K^~~~~~~[m[K
+      |                                   [32m[KDeltaX_[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

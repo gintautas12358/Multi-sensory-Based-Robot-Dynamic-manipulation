@@ -1,0 +1,11 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1256:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ has not been declared
+ 1256 |     void vis_pose(Quaterniond Q, Vector3d X, [01;31m[Kstring[m[K id, ros::Publisher pub) {
+      |                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In function ‘[01m[Kvoid tum_ics_ur_robot_lli::RobotControllers::vis_pose(Eigen::Quaterniond, Eigen::Vector3d, int, ros::Publisher)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1258:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_d[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose[m[K’?
+ 1258 |       [01;31m[Kpose_d[m[K.header.frame_id = id;
+      |       [01;31m[K^~~~~~[m[K
+      |       [32m[Kpose[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

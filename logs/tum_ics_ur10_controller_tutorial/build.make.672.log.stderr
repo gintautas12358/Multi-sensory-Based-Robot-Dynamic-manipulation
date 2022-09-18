@@ -1,0 +1,18 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/subscriber.h:33[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:33[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotTime.h:10[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:15[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+/opt/ros/noetic/include/ros/parameter_adapter.h: In instantiation of ‘[01m[Kstatic ros::ParameterAdapter<M>::Parameter ros::ParameterAdapter<M>::getParameter(const Event&) [with M = visualization_msgs::MarkerArray_<std::allocator<void> >&; ros::ParameterAdapter<M>::Parameter = visualization_msgs::MarkerArray_<std::allocator<void> >&; ros::ParameterAdapter<M>::Event = ros::MessageEvent<const visualization_msgs::MarkerArray_<std::allocator<void> > >; typename boost::remove_reference<typename boost::remove_const<M>::type>::type = visualization_msgs::MarkerArray_<std::allocator<void> >][m[K’:
+[01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:144:48:[m[K   required from ‘[01m[Kvoid ros::SubscriptionCallbackHelperT<P, Enabled>::call(ros::SubscriptionCallbackHelperCallParams&) [with P = visualization_msgs::MarkerArray_<std::allocator<void> >&; Enabled = void][m[K’
+[01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:141:16:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/parameter_adapter.h:78:30:[m[K [01;31m[Kerror: [m[Kbinding reference of type ‘[01m[Kros::ParameterAdapter<visualization_msgs::MarkerArray_<std::allocator<void> >&>::Parameter[m[K’ {aka ‘[01m[Kvisualization_msgs::MarkerArray_<std::allocator<void> >&[m[K’} to ‘[01m[Kconst visualization_msgs::MarkerArray_<std::allocator<void> >[m[K’ discards qualifiers
+   78 |     return *event.getMessage([01;31m[K)[m[K;
+      |                              [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

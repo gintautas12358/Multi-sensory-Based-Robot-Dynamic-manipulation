@@ -1,0 +1,52 @@
+In file included from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:171:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ does not name a type
+  171 |       void marker_sub_callback(const [01;31m[Kvisualization_msgs[m[K::MarkerArraymsg::ConstPtr& msg);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:171:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+  171 |       void marker_sub_callback(const visualization_msgs::MarkerArraymsg[01;31m[K::[m[KConstPtr& msg);
+      |                                                                        [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:171:72:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+  171 |       void marker_sub_callback[34m[K([m[Kconst visualization_msgs::MarkerArraymsg[01;31m[K:[m[K[32m[K:[m[KConstPtr& msg);
+      |                               [34m[K~[m[K                                        [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                        [32m[K)[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:171:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  171 |       void marker_sub_callback(const visualization_msgs::[01;31m[KMarkerArraymsg[m[K::ConstPtr& msg);
+      |                                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                                        [32m[K;[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:171:74:[m[K [01;31m[Kerror: [m[K‘[01m[KConstPtr[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+  171 |       void marker_sub_callback(const visualization_msgs::MarkerArraymsg::[01;31m[KConstPtr[m[K& msg);
+      |                                                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In constructor ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::JointSpaceController_1(double, const QString&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:226:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_sub[m[K’ was not declared in this scope
+  226 |       [01;31m[Kmarker_sub[m[K = nh_.subscribe("target_markers", 1000, marker_sub_callback);
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:226:58:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::marker_sub_callback(...)[m[K’
+  226 |       marker_sub = nh_.subscribe("target_markers", 1000, [01;31m[Kmarker_sub_callback[m[K);
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:171:12:[m[K [01;36m[Knote: [m[Kdeclared here
+  171 |       void [01;36m[Kmarker_sub_callback[m[K(const visualization_msgs::MarkerArraymsg::ConstPtr& msg);
+      |            [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[Kvirtual Tum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::update(const tum_ics_ur_robot_lli::RobotTime&, const tum_ics_ur_robot_lli::JointState&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:483:15:[m[K [01;31m[Kerror: [m[K‘[01m[Koperational_control[m[K’ was not declared in this scope; did you mean ‘[01m[Koperational_control_test1[m[K’?
+  483 |         tau = [01;31m[Koperational_control[m[K( Q,  Qp,  Qpp,  8, totalTime_, time);
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |               [32m[Koperational_control_test1[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K At global scope:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:591:80:[m[K [01;31m[Kerror: [m[K‘[01m[KMarkerArraymsg[m[K’ in namespace ‘[01m[Kvisualization_msgs[m[K’ does not name a type; did you mean ‘[01m[KMarkerArrayPtr[m[K’?
+  591 |     void JointSpaceController_1::marker_sub_callback(const visualization_msgs::[01;31m[KMarkerArraymsg[m[K::ConstPtr& msg) {
+      |                                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                                                [32m[KMarkerArrayPtr[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:591:104:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  591 |     void JointSpaceController_1::marker_sub_callback(const visualization_msgs::MarkerArraymsg::ConstPtr[01;31m[K&[m[K msg) {
+      |                                                                                                        [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:591:104:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  591 |     void JointSpaceController_1::marker_sub_callback[34m[K([m[Kconst visualization_msgs::MarkerArraymsg::ConstPtr[01;31m[K&[m[K msg) {
+      |                                                     [34m[K~[m[K                                                  [01;31m[K^[m[K
+      |                                                                                                        [32m[K)[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:591:106:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+  591 |     void JointSpaceController_1::marker_sub_callback(const visualization_msgs::MarkerArraymsg::ConstPtr& [01;31m[Kmsg[m[K) {
+      |                                                                                                          [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

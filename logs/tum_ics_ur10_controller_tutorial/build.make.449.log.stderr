@@ -1,0 +1,146 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:521:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+  521 |       [01;31m[Kmsg[m[K.header.stamp = ros::Time::now();
+      |       [01;31m[K^~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:522:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+  522 |       [01;31m[Kmsg[m[K.time = time.tD();
+      |       [01;31m[K^~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:523:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+  523 |       [01;31m[Kfor[m[K (int i = 0; i < STD_DOF; i++)
+      |       [01;31m[K^~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:523:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+  523 |       for (int i = 0; [01;31m[Ki[m[K < STD_DOF; i++)
+      |                       [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:523:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+  523 |       for (int i = 0; i < STD_DOF; [01;31m[Ki[m[K++)
+      |                                    [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:540:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_data_pub_[m[K’ does not name a type
+  540 |       [01;31m[Kcontrol_data_pub_[m[K.publish(msg);
+      |       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:543:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+  543 |       cc::HomogeneousTransformation T_ef = [01;31m[Kmodel_[m[K.T_ef_0(Q);
+      |                                            [01;31m[K^~~~~~[m[K
+      |                                            [32m[Kmode_t[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:543:58:[m[K [01;31m[Kerror: [m[K‘[01m[KQ[m[K’ was not declared in this scope; did you mean ‘[01m[KQt[m[K’?
+  543 |       cc::HomogeneousTransformation T_ef = model_.T_ef_0([01;31m[KQ[m[K);
+      |                                                          [01;31m[K^[m[K
+      |                                                          [32m[KQt[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:574:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_ef[m[K’ does not name a type
+  574 |       [01;31m[Kpose_ef[m[K.position.x = ef_v(0);
+      |       [01;31m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:575:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_ef[m[K’ does not name a type
+  575 |       [01;31m[Kpose_ef[m[K.position.y = ef_v(1);
+      |       [01;31m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:576:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_ef[m[K’ does not name a type
+  576 |       [01;31m[Kpose_ef[m[K.position.z = ef_v(2);
+      |       [01;31m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:577:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_ef[m[K’ does not name a type
+  577 |       [01;31m[Kpose_ef[m[K.orientation.w = ef_k.w();
+      |       [01;31m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:578:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_ef[m[K’ does not name a type
+  578 |       [01;31m[Kpose_ef[m[K.orientation.x = ef_k.x();
+      |       [01;31m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:579:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_ef[m[K’ does not name a type
+  579 |       [01;31m[Kpose_ef[m[K.orientation.y = ef_k.y();
+      |       [01;31m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:580:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_ef[m[K’ does not name a type
+  580 |       [01;31m[Kpose_ef[m[K.orientation.z = ef_k.z();
+      |       [01;31m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:581:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kvis_pub_ef[m[K’ does not name a type
+  581 |       [01;31m[Kvis_pub_ef[m[K.publish( pose_ef );
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:585:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  585 |       [01;31m[Kreturn[m[K tau;
+      |       [01;31m[K^~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:588:14:[m[K [01;31m[Kerror: [m[K‘[01m[KJointSpaceController_1[m[K’ has not been declared
+  588 |     Vector6d [01;31m[KJointSpaceController_1[m[K::joint_control(Vector6d Q, Vector6d Qp, Vector6d Qpp, double start_time, double end_time, const RobotTime &time) {
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::joint_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:590:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kq_goal_[m[K’ was not declared in this scope
+  590 |       Qg << [01;31m[Kq_goal_[m[K;
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:592:12:[m[K [01;31m[Kerror: [m[K‘[01m[KstartFlag_[m[K’ was not declared in this scope
+  592 |       if (![01;31m[KstartFlag_[m[K)
+      |            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:594:9:[m[K [01;31m[Kerror: [m[K‘[01m[KQinit_[m[K’ was not declared in this scope; did you mean ‘[01m[Kfinite[m[K’?
+  594 |         [01;31m[KQinit_[m[K = Q;
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kfinite[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:597:43:[m[K [01;31m[Kerror: [m[K‘[01m[KQinit_[m[K’ was not declared in this scope; did you mean ‘[01m[Kfinite[m[K’?
+  597 |        Vector18d out = interpolate_joint2([01;31m[KQinit_[m[K, Qg, start_time, end_time, time.tD());
+      |                                           [01;31m[K^~~~~~[m[K
+      |                                           [32m[Kfinite[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:597:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterpolate_joint2[m[K’ was not declared in this scope
+  597 |        Vector18d out = [01;31m[Kinterpolate_joint2[m[K(Qinit_, Qg, start_time, end_time, time.tD());
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:624:7:[m[K [01;31m[Kerror: [m[K‘[01m[KDeltaQ_[m[K’ was not declared in this scope
+  624 |       [01;31m[KDeltaQ_[m[K = Q - Qd;
+      |       [01;31m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:625:7:[m[K [01;31m[Kerror: [m[K‘[01m[KDeltaQp_[m[K’ was not declared in this scope
+  625 |       [01;31m[KDeltaQp_[m[K = Qp - Qdp;
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:626:7:[m[K [01;31m[Kerror: [m[K‘[01m[KDeltaQi_[m[K’ was not declared in this scope
+  626 |       [01;31m[KDeltaQi_[m[K = DeltaQi_ +  delta_t * DeltaQ_;
+      |       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:639:28:[m[K [01;31m[Kerror: [m[K‘[01m[KqKp_[m[K’ was not declared in this scope
+  639 |       Vector6d Qrp = Qdp - [01;31m[KqKp_[m[K*DeltaQ_ - qKi_ * DeltaQi_;
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:639:43:[m[K [01;31m[Kerror: [m[K‘[01m[KqKi_[m[K’ was not declared in this scope
+  639 |       Vector6d Qrp = Qdp - qKp_*DeltaQ_ - [01;31m[KqKi_[m[K * DeltaQi_;
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:646:7:[m[K [01;31m[Kerror: [m[K‘[01m[KYr_[m[K’ was not declared in this scope
+  646 |       [01;31m[KYr_[m[K = model_.regressor(Q, Qp, Qrp, Qrpp);
+      |       [01;31m[K^~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:646:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+  646 |       Yr_ = [01;31m[Kmodel_[m[K.regressor(Q, Qp, Qrp, Qrpp);
+      |             [01;31m[K^~~~~~[m[K
+      |             [32m[Kmode_t[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:659:7:[m[K [01;31m[Kerror: [m[K‘[01m[KTheta_hat_[m[K’ was not declared in this scope
+  659 |       [01;31m[KTheta_hat_[m[K = Theta_hat_ - A;
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:667:23:[m[K [01;31m[Kerror: [m[K‘[01m[KqKd_[m[K’ was not declared in this scope
+  667 |       Vector6d tau = -[01;31m[KqKd_[m[K * Sq + Yr_*Theta_hat_;
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K At global scope:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:673:14:[m[K [01;31m[Kerror: [m[K‘[01m[KJointSpaceController_1[m[K’ has not been declared
+  673 |     Vector6d [01;31m[KJointSpaceController_1[m[K::operational_control(Vector6d Q, Vector6d Qp, Vector6d Qpp, double start_time, double end_time, const RobotTime &time) {
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::operational_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:690:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_goal_[m[K’ was not declared in this scope
+  690 |       Xd_v << [01;31m[Kx_goal_[m[K;
+      |               [01;31m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:732:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+  732 |       cc::HomogeneousTransformation T_ef = [01;31m[Kmodel_[m[K.T_ef_0(Q);
+      |                                            [01;31m[K^~~~~~[m[K
+      |                                            [32m[Kmode_t[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:781:28:[m[K [01;31m[Kerror: [m[K‘[01m[KxKp_[m[K’ was not declared in this scope
+  781 |       Vector6d Xrp = Xdp - [01;31m[KxKp_[m[K*DeltaX;
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:790:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodfl[m[K’?
+  790 |       Matrix6d Js = [01;31m[Kmodel[m[K.Jp_ef_0(Q, Qp);
+      |                     [01;31m[K^~~~~[m[K
+      |                     [32m[Kmodfl[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:792:7:[m[K [01;31m[Kerror: [m[K‘[01m[KYr_[m[K’ was not declared in this scope
+  792 |       [01;31m[KYr_[m[K = model_.regressor(Q, Qp, Qrp, Qrpp);
+      |       [01;31m[K^~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:808:7:[m[K [01;31m[Kerror: [m[K‘[01m[KTheta_hat_[m[K’ was not declared in this scope
+  808 |       [01;31m[KTheta_hat_[m[K = Theta_hat_ - A;
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:810:23:[m[K [01;31m[Kerror: [m[K‘[01m[KxKd_[m[K’ was not declared in this scope
+  810 |       Vector6d tau = -[01;31m[KxKd_[m[K * Sx + Yr_*Theta_hat_;
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:826:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kvis_pub_d[m[K’ was not declared in this scope
+  826 |       [01;31m[Kvis_pub_d[m[K.publish( pose_d );
+      |       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K At global scope:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:833:14:[m[K [01;31m[Kerror: [m[K‘[01m[KJointSpaceController_1[m[K’ has not been declared
+  833 |     Vector6d [01;31m[KJointSpaceController_1[m[K::interpolate_joint(Vector6d pc, Vector6d pg, double total_time, double ct) {
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:846:15:[m[K [01;31m[Kerror: [m[K‘[01m[KJointSpaceController_1[m[K’ has not been declared
+  846 |     Vector18d [01;31m[KJointSpaceController_1[m[K::interpolate_joint2(Vector6d c, Vector6d g, double ti, double tg, double t) {
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:899:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  899 | [01;31m[K}[m[K // namespace tum_ics_ur_robot_lli
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,36 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:[m[K In function ‘[01m[Kvoid tum_ics_ur_robot_lli::RobotControllers::plot_joint_data(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:1034:29:[m[K [01;31m[Kerror: [m[Kambiguous overload for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::Header_<std::allocator<void> >::_frame_id_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kint[m[K’)
+ 1034 |       msg.header.frame_id = [01;31m[K0[m[K;
+      |                             [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:52[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:49[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:47[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h:45[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QVector:1[m[K,
+                 from [01m[K/usr/include/tumtools/Math/MathDefs.h:4[m[K,
+                 from [01m[K/usr/include/tumtools/Math/EigenDefs.h:4[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller_1.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:665:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  665 |       [01;36m[Koperator[m[K=(const basic_string& __str)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:704:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  704 |       [01;36m[Koperator[m[K=(const _CharT* __s)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:715:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  715 |       [01;36m[Koperator[m[K=(_CharT __c)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:732:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator=(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  732 |       [01;36m[Koperator[m[K=(basic_string&& __str)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:1044:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kplot_pub_joints[m[K’ was not declared in this scope
+ 1044 |       [01;31m[Kplot_pub_joints[m[K.publish(msg);
+      |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:76: CMakeFiles/ur10_control.dir/src/jointspace_controller_1.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,43 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::VectorRegressor_1 tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::calc_Theta()[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1120:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_[m[K’ was not declared in this scope
+ 1120 | [01;31m[K_[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1120:1:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37[m[K,
+                 from [01m[K/usr/include/boost/mpl/placeholders.hpp:43[m[K,
+                 from [01m[K/usr/include/boost/mpl/apply.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/iter_apply.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/find_if_pred.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/mpl/find_if.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/mpl/find.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/mpl/aux_/contains_impl.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/mpl/contains.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/math/policies/policy.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/serialization.h:34[m[K,
+                 from [01m[K/opt/ros/noetic/include/sensor_msgs/JointState.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:13[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:14:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_[m[K’
+   14 | typedef arg< -1 > [01;36m[K_[m[K;
+      |                   [01;36m[K^[m[K
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:14:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_[m[K’
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:14:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmpl_::_[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1153:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KVectorRegressor_1[m[K’
+ 1153 | _
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+ 1154 |       [32m[KVectorRegressor_1[m[K Theta;
+      |       [32m[K~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1156:95:[m[K [01;31m[Kerror: [m[K‘[01m[Ki411[m[K’ was not declared in this scope; did you mean ‘[01m[Ki611[m[K’?
+ 1156 |       Theta <<  i133, i211, i212, i213, i222, i223, i233, i311, i312, i313, i322, i323, i333, [01;31m[Ki411[m[K, i412, i413, i422, i423, i433, i511, i512, i513, i522, i523, i533, i611, i612, i613, i622, i623, i633, pow(L2,2)*m3, pow(L2,2)*m4, pow(L3,2)*m3, pow(L2,2)*m5, pow(L3,2)*m4, pow(L2,2)*m6, pow(L3,2)*m5, pow(L3,2)*m6, pow(L7,2)*m2, pow(L4,2)*m6, pow(L8,2)*m2, pow(L9,2)*m3, pow(L8,2)*m5, pow(L10,2)*m3, pow(L11,2)*m4, pow(L12,2)*m3, pow(L11,2)*m5, pow(L12,2)*m4, pow(L11,2)*m6, pow(L12,2)*m5, pow(L12,2)*m6, L2*L3*m3, L2*L3*m4, L2*L3*m5, L2*L3*m6, L2*L4*m6, L3*L4*m6, L2*L9*m3, L2*L8*m5, L2*L10*m3, L3*L9*m3, L3*L8*m5, L3*L10*m3, L2*L11*m4, L2*L12*m3, L7*L8*m2, L2*L11*m5, L2*L12*m4, L3*L11*m4, L3*L12*m3, L2*L11*m6, L2*L12*m5, L3*L11*m5, L3*L12*m4, L2*L12*m6, L3*L11*m6, L3*L12*m5, L3*L12*m6, L4*L11*m6, L4*L12*m6, L9*L10*m3, L8*L11*m5, L9*L12*m3, L8*L12*m5, L10*L12*m3, L11*L12*m4, L11*L12*m5, L11*L12*m6, L2*gx*m3, L2*gx*m4, L3*gx*m3, L2*gx*m5, L3*gx*m4, L2*gx*m6, L3*gx*m5, L3*gx*m6, L7*gx*m2, L4*gx*m6, L8*gx*m2, L9*gx*m3, L8*gx*m5, L10*gx*m3, L11*gx*m4, L12*gx*m3, L11*gx*m5, L12*gx*m4, L11*gx*m6, L12*gx*m5, L12*gx*m6, L2*gy*m3, L2*gy*m4, L3*gy*m3, L2*gy*m5, L3*gy*m4, L2*gy*m6, L3*gy*m5, L3*gy*m6, L7*gy*m2, L4*gy*m6, L8*gy*m2, L9*gy*m3, L8*gy*m5, L10*gy*m3, L11*gy*m4, L12*gy*m3, L11*gy*m5, L12*gy*m4, L11*gy*m6, L12*gy*m5, L12*gy*m6, L3*gz*m3, L3*gz*m4, L3*gz*m5, L3*gz*m6, L4*gz*m6, L8*gz*m2, L8*gz*m5, L10*gz*m3, L11*gz*m4, L11*gz*m5, L11*gz*m6, L12*gz*m5, L12*gz*m6;
+      |                                                                                               [01;31m[K^~~~[m[K
+      |                                                                                               [32m[Ki611[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1905: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

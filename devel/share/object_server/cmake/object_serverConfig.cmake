@@ -1,0 +1,1 @@
+/home/gin/ros/workspaces/final/devel/.private/object_server/share/object_server/cmake/object_serverConfig.cmake

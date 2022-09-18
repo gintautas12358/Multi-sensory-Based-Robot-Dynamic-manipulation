@@ -1,0 +1,14 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::operational_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:668:16:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[KEigen::Vector4d Deltakp[m[K’
+  668 |       Vector4d [01;31m[KDeltakp[m[K;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:666:19:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[KEigen::Quaterniond Deltakp[m[K’
+  666 |       Quaterniond [01;36m[KDeltakp[m[K = kp * kdp.inverse();
+      |                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:669:7:[m[K [01;31m[Kerror: [m[K‘[01m[KvDeltakp[m[K’ was not declared in this scope; did you mean ‘[01m[KDeltakp[m[K’?
+  669 |       [01;31m[KvDeltakp[m[K << Deltakp.w(), Deltakp.x(), Deltakp.y(), Deltakp.z();
+      |       [01;31m[K^~~~~~~~[m[K
+      |       [32m[KDeltakp[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

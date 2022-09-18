@@ -1,0 +1,1072 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::MatrixRegressor_1 tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::calc_Yr(Tum::MatrixRegressor_1, Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, Tum::Vector6d)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1285:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1285 |       [01;31m[Kcc[m[K::Scalar s1 = sin(q1);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1286:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1286 |       [01;31m[Kcc[m[K::Scalar s2 = sin(q2);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1287:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1287 |       [01;31m[Kcc[m[K::Scalar s3 = sin(q3);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1288:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1288 |       [01;31m[Kcc[m[K::Scalar s4 = sin(q4);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1289:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1289 |       [01;31m[Kcc[m[K::Scalar s5 = sin(q5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1290:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1290 |       [01;31m[Kcc[m[K::Scalar s6 = sin(q6);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1291:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1291 |       [01;31m[Kcc[m[K::Scalar c1 = cos(q1);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1292:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1292 |       [01;31m[Kcc[m[K::Scalar c2 = cos(q2);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1293:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1293 |       [01;31m[Kcc[m[K::Scalar c3 = cos(q3);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1294:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1294 |       [01;31m[Kcc[m[K::Scalar c4 = cos(q4);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1295:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1295 |       [01;31m[Kcc[m[K::Scalar c5 = cos(q5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1296:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1296 |       [01;31m[Kcc[m[K::Scalar c6 = cos(q6);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1297:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1297 |       [01;31m[Kcc[m[K::Scalar c2c2 = c2 * c2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1298:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1298 |       [01;31m[Kcc[m[K::Scalar c2s2 = c2 * s2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1299:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1299 |       [01;31m[Kcc[m[K::Scalar c3c3 = c3 * c3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1300:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1300 |       [01;31m[Kcc[m[K::Scalar c2c2c3c3 = (c2c2 * c3) * c3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1301:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1301 |       [01;31m[Kcc[m[K::Scalar c3s3 = c3 * s3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1302:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1302 |       [01;31m[Kcc[m[K::Scalar c2s2c3s3 = (c2s2 * c3) * s3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1303:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1303 |       [01;31m[Kcc[m[K::Scalar c4c4 = c4 * c4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1304:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1304 |       [01;31m[Kcc[m[K::Scalar c4c4c2c2 = c4c4 * c2c2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1305:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1305 |       [01;31m[Kcc[m[K::Scalar c4c4c3c3 = c4c4 * c3c3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1306:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1306 |       [01;31m[Kcc[m[K::Scalar c4c4c3c3c2c2 = c4c4c3c3 * c2c2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1307:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1307 |       [01;31m[Kcc[m[K::Scalar c4s4 = c4 * s4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1308:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1308 |       [01;31m[Kcc[m[K::Scalar c4s4c2s2 = c4s4 * c2s2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1309:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1309 |       [01;31m[Kcc[m[K::Scalar c4s4c3s3 = c4s4 * c3s3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1310:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1310 |       [01;31m[Kcc[m[K::Scalar c4c4c3s3c2s2 = (c4c4 * c3s3) * c2s2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1311:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1311 |       [01;31m[Kcc[m[K::Scalar c3c3c4s4c2s2 = (c3c3 * c4s4) * c2s2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1312:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1312 |       [01;31m[Kcc[m[K::Scalar c2c2c4s4c3s3 = (c2c2 * c4s4) * c3s3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1313:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1313 |       [01;31m[Kcc[m[K::Scalar c3c2s4 = (c3 * c2) * s4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1314:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1314 |       [01;31m[Kcc[m[K::Scalar c2s3c4 = (c2 * s3) * c4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1315:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1315 |       [01;31m[Kcc[m[K::Scalar c3s2c4 = (c3 * s2) * c4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1316:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1316 |       [01;31m[Kcc[m[K::Scalar s3s2s4 = (s3 * s2) * s4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1317:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1317 |       [01;31m[Kcc[m[K::Scalar c5c5 = c5 * c5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1318:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1318 |       [01;31m[Kcc[m[K::Scalar c5s5 = c5 * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1319:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1319 |       [01;31m[Kcc[m[K::Scalar c4s5 = c4 * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1320:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1320 |       [01;31m[Kcc[m[K::Scalar c5c4 = c5 * c4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1321:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1321 |       [01;31m[Kcc[m[K::Scalar s5s4 = s5 * s4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1322:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1322 |       [01;31m[Kcc[m[K::Scalar c6c6 = c6 * c6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1323:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1323 |       [01;31m[Kcc[m[K::Scalar c6s6 = c6 * s6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1324:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1324 |       [01;31m[Kcc[m[K::Scalar c6c6c5s5 = c6c6 * c5s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1325:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1325 |       [01;31m[Kcc[m[K::Scalar c6s6c5 = c6s6 * c5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1326:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1326 |       [01;31m[Kcc[m[K::Scalar c6s6c5s5 = c6s6c5 * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1327:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1327 |       [01;31m[Kcc[m[K::Scalar s6s5 = s6 * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1328:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1328 |       [01;31m[Kcc[m[K::Scalar c5s5c6 = c5s5 * c6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1329:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1329 |       [01;31m[Kcc[m[K::Scalar c5s5s6 = c5s5 * s6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1330:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1330 |       [01;31m[Kcc[m[K::Scalar c6s5 = c6 * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1331:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1331 |       [01;31m[Kcc[m[K::Scalar c6s6s5 = c6s6 * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1332:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1332 |       [01;31m[Kcc[m[K::Scalar c5s6 = c5 * s6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1333:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1333 |       [01;31m[Kcc[m[K::Scalar c6c5 = c6 * c5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1334:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1334 |       [01;31m[Kcc[m[K::Scalar a1 = qp1 * qrp1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1335:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1335 |       [01;31m[Kcc[m[K::Scalar a2 = qp1 * qrp2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1336:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1336 |       [01;31m[Kcc[m[K::Scalar a3 = qp1 * qrp3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1337:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1337 |       [01;31m[Kcc[m[K::Scalar a4 = qp1 * qrp4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1338:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1338 |       [01;31m[Kcc[m[K::Scalar a5 = qp1 * qrp5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1339:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1339 |       [01;31m[Kcc[m[K::Scalar a7 = qp2 * qrp1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1340:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1340 |       [01;31m[Kcc[m[K::Scalar a8 = qp2 * qrp2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1341:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1341 |       [01;31m[Kcc[m[K::Scalar a9 = qp2 * qrp3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1342:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1342 |       [01;31m[Kcc[m[K::Scalar a10 = qp2 * qrp4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1343:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1343 |       [01;31m[Kcc[m[K::Scalar a11 = qp2 * qrp5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1344:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1344 |       [01;31m[Kcc[m[K::Scalar a12 = qp2 * qrp6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1345:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1345 |       [01;31m[Kcc[m[K::Scalar a13 = qp3 * qrp1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1346:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1346 |       [01;31m[Kcc[m[K::Scalar a14 = qp3 * qrp2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1347:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1347 |       [01;31m[Kcc[m[K::Scalar a15 = qp3 * qrp3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1348:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1348 |       [01;31m[Kcc[m[K::Scalar a16 = qp3 * qrp4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1349:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1349 |       [01;31m[Kcc[m[K::Scalar a17 = qp3 * qrp5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1350:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1350 |       [01;31m[Kcc[m[K::Scalar a18 = qp3 * qrp6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1351:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1351 |       [01;31m[Kcc[m[K::Scalar a19 = qp4 * qrp1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1352:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1352 |       [01;31m[Kcc[m[K::Scalar a20 = qp4 * qrp2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1353:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1353 |       [01;31m[Kcc[m[K::Scalar a21 = qp4 * qrp3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1354:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1354 |       [01;31m[Kcc[m[K::Scalar a22 = qp4 * qrp4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1355:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1355 |       [01;31m[Kcc[m[K::Scalar a23 = qp4 * qrp5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1356:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1356 |       [01;31m[Kcc[m[K::Scalar a24 = qp4 * qrp6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1357:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1357 |       [01;31m[Kcc[m[K::Scalar a25 = qp5 * qrp1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1358:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1358 |       [01;31m[Kcc[m[K::Scalar a26 = qp5 * qrp2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1359:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1359 |       [01;31m[Kcc[m[K::Scalar a27 = qp5 * qrp3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1360:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1360 |       [01;31m[Kcc[m[K::Scalar a28 = qp5 * qrp4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1361:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1361 |       [01;31m[Kcc[m[K::Scalar a29 = qp5 * qrp5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1362:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1362 |       [01;31m[Kcc[m[K::Scalar a30 = qp5 * qrp6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1363:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1363 |       [01;31m[Kcc[m[K::Scalar a32 = qp6 * qrp2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1364:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1364 |       [01;31m[Kcc[m[K::Scalar a33 = qp6 * qrp3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1365:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1365 |       [01;31m[Kcc[m[K::Scalar a34 = qp6 * qrp4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1366:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1366 |       [01;31m[Kcc[m[K::Scalar a35 = qp6 * qrp5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1367:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1367 |       [01;31m[Kcc[m[K::Scalar a36 = qp6 * qrp6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1368:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1368 |       [01;31m[Kcc[m[K::Scalar a37 = L2 * L2 * qrpp1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1369:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1369 |       [01;31m[Kcc[m[K::Scalar a38 = L2 * gy;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1370:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1370 |       [01;31m[Kcc[m[K::Scalar a39 = L2 * gx;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1371:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1371 |       [01;31m[Kcc[m[K::Scalar a40 = L2 * L2 * a2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1372:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1372 |       [01;31m[Kcc[m[K::Scalar a41 = L2 * L2 * a7;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1373:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1373 |       [01;31m[Kcc[m[K::Scalar a42 = L2 * qrpp1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1374:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1374 |       [01;31m[Kcc[m[K::Scalar a43 = L2 * a2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1375:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1375 |       [01;31m[Kcc[m[K::Scalar a44 = L2 * a7;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1376:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1376 |       [01;31m[Kcc[m[K::Scalar a45 = L2 * a3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1377:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1377 |       [01;31m[Kcc[m[K::Scalar a46 = L2 * a13;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1378:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1378 |       [01;31m[Kcc[m[K::Scalar a47 = L3 * L3 * qrpp1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1379:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1379 |       [01;31m[Kcc[m[K::Scalar a48 = L2 * L3 * qrpp1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1380:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1380 |       [01;31m[Kcc[m[K::Scalar a49 = L3 * gy;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1381:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1381 |       [01;31m[Kcc[m[K::Scalar a50 = L3 * gx;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1382:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1382 |       [01;31m[Kcc[m[K::Scalar a59 = L2 * qrpp2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1383:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1383 |       [01;31m[Kcc[m[K::Scalar a60 = L2 * a8;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1384:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1384 |       [01;31m[Kcc[m[K::Scalar a61 = L3 * qrpp2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1385:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1385 |       [01;31m[Kcc[m[K::Scalar a62 = L3 * qrpp3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1386:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1386 |       [01;31m[Kcc[m[K::Scalar a63 = L3 * a8;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1387:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1387 |       [01;31m[Kcc[m[K::Scalar a64 = L3 * a9;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1388:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1388 |       [01;31m[Kcc[m[K::Scalar a65 = L3 * a14;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1389:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1389 |       [01;31m[Kcc[m[K::Scalar a66 = L3 * a15;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1390:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1390 |       [01;31m[Kcc[m[K::Scalar a67 = L4 * L4 * qrpp1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1391:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1391 |       [01;31m[Kcc[m[K::Scalar a68 = L4 * gx;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1392:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1392 |       [01;31m[Kcc[m[K::Scalar a69 = L4 * gy;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1393:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1393 |       [01;31m[Kcc[m[K::Scalar a70 = L2 * L4 * qrpp2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1394:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1394 |       [01;31m[Kcc[m[K::Scalar a73 = L2 * L4 * a8;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1395:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1395 |       [01;31m[Kcc[m[K::Scalar a78 = L3 * qrpp1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1396:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1396 |       [01;31m[Kcc[m[K::Scalar a85 = L4 * qrpp2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1397:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1397 |       [01;31m[Kcc[m[K::Scalar a86 = L4 * qrpp3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1398:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1398 |       [01;31m[Kcc[m[K::Scalar a87 = L4 * qrpp4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1399:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1399 |       [01;31m[Kcc[m[K::Scalar a88 = L4 * a8;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1400:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1400 |       [01;31m[Kcc[m[K::Scalar a89 = L4 * a9;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1401:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1401 |       [01;31m[Kcc[m[K::Scalar a90 = L4 * a14;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1402:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1402 |       [01;31m[Kcc[m[K::Scalar a91 = L4 * a10;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1403:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1403 |       [01;31m[Kcc[m[K::Scalar a92 = L4 * a15;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1404:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1404 |       [01;31m[Kcc[m[K::Scalar a93 = L4 * a20;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1405:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1405 |       [01;31m[Kcc[m[K::Scalar a94 = L4 * a16;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1406:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1406 |       [01;31m[Kcc[m[K::Scalar a95 = L4 * a21;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1407:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1407 |       [01;31m[Kcc[m[K::Scalar a96 = L4 * a22;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1408:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1408 |       [01;31m[Kcc[m[K::Scalar a117 = L5 * gy;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1409:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1409 |       [01;31m[Kcc[m[K::Scalar a120 = L5 * gx;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1410:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1410 |       [01;31m[Kcc[m[K::Scalar a134 = L4 * qrpp1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1411:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1411 |       [01;31m[Kcc[m[K::Scalar a143 = L2 * qrpp5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1412:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1412 |       [01;31m[Kcc[m[K::Scalar a146 = L2 * a29;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1413:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1413 |       [01;31m[Kcc[m[K::Scalar a147 = L3 * qrpp5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1414:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1414 |       [01;31m[Kcc[m[K::Scalar a148 = L5 * qrpp1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1415:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1415 |       [01;31m[Kcc[m[K::Scalar a149 = L3 * a29;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1416:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1416 |       [01;31m[Kcc[m[K::Scalar a150 = L5 * a5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1417:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1417 |       [01;31m[Kcc[m[K::Scalar a151 = L5 * a25;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1418:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1418 |       [01;31m[Kcc[m[K::Scalar a152 = L5 * qrpp2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1419:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1419 |       [01;31m[Kcc[m[K::Scalar a153 = L5 * qrpp3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1420:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1420 |       [01;31m[Kcc[m[K::Scalar a155 = L5 * qrpp4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1421:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1421 |       [01;31m[Kcc[m[K::Scalar a156 = L5 * qrpp5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1422:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1422 |       [01;31m[Kcc[m[K::Scalar a157 = L5 * a8;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1423:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1423 |       [01;31m[Kcc[m[K::Scalar a158 = L5 * a9;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1424:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1424 |       [01;31m[Kcc[m[K::Scalar a159 = L5 * a14;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1425:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1425 |       [01;31m[Kcc[m[K::Scalar a162 = L5 * a10;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1426:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1426 |       [01;31m[Kcc[m[K::Scalar a163 = L5 * a15;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1427:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1427 |       [01;31m[Kcc[m[K::Scalar a164 = L5 * a20;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1428:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1428 |       [01;31m[Kcc[m[K::Scalar a167 = L5 * a16;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1429:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1429 |       [01;31m[Kcc[m[K::Scalar a168 = L5 * a21;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1430:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1430 |       [01;31m[Kcc[m[K::Scalar a171 = L5 * a22;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1431:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1431 |       [01;31m[Kcc[m[K::Scalar a173 = L5 * a29;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1432:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1432 |       [01;31m[Kcc[m[K::Scalar a174 = L2 * a5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1433:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1433 |       [01;31m[Kcc[m[K::Scalar a175 = L2 * a25;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1434:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1434 |       [01;31m[Kcc[m[K::Scalar a176 = L2 * L2 * qrpp2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1435:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1435 |       [01;31m[Kcc[m[K::Scalar a177 = L2 * gz;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1436:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1436 |       [01;31m[Kcc[m[K::Scalar a178 = L2 * L2 * a1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1437:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1437 |       [01;31m[Kcc[m[K::Scalar a179 = L2 * qrpp3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1438:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1438 |       [01;31m[Kcc[m[K::Scalar a180 = L2 * a1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1439:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1439 |       [01;31m[Kcc[m[K::Scalar a181 = L2 * a9;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1440:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1440 |       [01;31m[Kcc[m[K::Scalar a182 = L2 * a14;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1441:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1441 |       [01;31m[Kcc[m[K::Scalar a183 = L2 * a15;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1442:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1442 |       [01;31m[Kcc[m[K::Scalar a184 = L3 * L3 * qrpp2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1443:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1443 |       [01;31m[Kcc[m[K::Scalar a185 = L3 * L3 * qrpp3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1444:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1444 |       [01;31m[Kcc[m[K::Scalar a186 = L2 * a61;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1445:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1445 |       [01;31m[Kcc[m[K::Scalar a187 = L2 * a62;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1446:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1446 |       [01;31m[Kcc[m[K::Scalar a188 = L3 * gz;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1447:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1447 |       [01;31m[Kcc[m[K::Scalar a189 = L3 * L3 * a1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1448:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1448 |       [01;31m[Kcc[m[K::Scalar a190 = L2 * L3 * a1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1449:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1449 |       [01;31m[Kcc[m[K::Scalar a191 = L2 * a64;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1450:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1450 |       [01;31m[Kcc[m[K::Scalar a192 = L2 * a65;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1451:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1451 |       [01;31m[Kcc[m[K::Scalar a193 = L2 * a66;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1452:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1452 |       [01;31m[Kcc[m[K::Scalar a194 = L2 * a134;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1453:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1453 |       [01;31m[Kcc[m[K::Scalar a195 = L3 * a134;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1454:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1454 |       [01;31m[Kcc[m[K::Scalar a196 = L3 * qrpp4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1455:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1455 |       [01;31m[Kcc[m[K::Scalar a197 = L3 * a1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1456:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1456 |       [01;31m[Kcc[m[K::Scalar a198 = L3 * a10;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1457:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1457 |       [01;31m[Kcc[m[K::Scalar a199 = L3 * a20;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1458:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1458 |       [01;31m[Kcc[m[K::Scalar a200 = L3 * a16;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1459:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1459 |       [01;31m[Kcc[m[K::Scalar a201 = L3 * a21;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1460:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1460 |       [01;31m[Kcc[m[K::Scalar a202 = L3 * a22;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1461:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1461 |       [01;31m[Kcc[m[K::Scalar a204 = L2 * a10;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1462:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1462 |       [01;31m[Kcc[m[K::Scalar a205 = L2 * a20;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1463:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1463 |       [01;31m[Kcc[m[K::Scalar a206 = L2 * a16;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1464:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1464 |       [01;31m[Kcc[m[K::Scalar a207 = L2 * a21;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1465:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1465 |       [01;31m[Kcc[m[K::Scalar a208 = L2 * a22;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1466:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1466 |       [01;31m[Kcc[m[K::Scalar a209 = L5 * L5 * qrpp2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1467:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1467 |       [01;31m[Kcc[m[K::Scalar a210 = L5 * L5 * qrpp3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1468:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1468 |       [01;31m[Kcc[m[K::Scalar a211 = L5 * L5 * qrpp4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1469:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1469 |       [01;31m[Kcc[m[K::Scalar a212 = L3 * a152;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1470:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1470 |       [01;31m[Kcc[m[K::Scalar a213 = L3 * a153;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1471:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1471 |       [01;31m[Kcc[m[K::Scalar a214 = L3 * a155;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1472:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1472 |       [01;31m[Kcc[m[K::Scalar a215 = L2 * a152;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1473:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1473 |       [01;31m[Kcc[m[K::Scalar a218 = L5 * gz;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1474:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1474 |       [01;31m[Kcc[m[K::Scalar a219 = L5 * L5 * a1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1475:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1475 |       [01;31m[Kcc[m[K::Scalar a220 = L3 * L5 * a1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1476:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1476 |       [01;31m[Kcc[m[K::Scalar a221 = L3 * a162;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1477:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1477 |       [01;31m[Kcc[m[K::Scalar a222 = L3 * a164;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1478:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1478 |       [01;31m[Kcc[m[K::Scalar a223 = L3 * a167;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1479:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1479 |       [01;31m[Kcc[m[K::Scalar a224 = L3 * a168;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1480:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1480 |       [01;31m[Kcc[m[K::Scalar a225 = L3 * a171;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1481:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1481 |       [01;31m[Kcc[m[K::Scalar a226 = L4 * a148;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1482:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1482 |       [01;31m[Kcc[m[K::Scalar a227 = L2 * L5 * a1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1483:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1483 |       [01;31m[Kcc[m[K::Scalar a236 = L5 * a1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1484:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1484 |       [01;31m[Kcc[m[K::Scalar a237 = L3 * a11;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1485:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1485 |       [01;31m[Kcc[m[K::Scalar a238 = L3 * a26;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1486:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1486 |       [01;31m[Kcc[m[K::Scalar a239 = L3 * a17;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1487:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1487 |       [01;31m[Kcc[m[K::Scalar a240 = L3 * a27;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1488:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1488 |       [01;31m[Kcc[m[K::Scalar a241 = L3 * a23;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1489:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1489 |       [01;31m[Kcc[m[K::Scalar a242 = L3 * a28;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1490:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1490 |       [01;31m[Kcc[m[K::Scalar a249 = L2 * a63;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1491:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1491 |       [01;31m[Kcc[m[K::Scalar a250 = L2 * a157;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1492:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1492 |       [01;31m[Kcc[m[K::Scalar b2 = -1 + 2 * c2c2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1493:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1493 |       [01;31m[Kcc[m[K::Scalar b3 = (c2 * c3 - s2 * s3) * c1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1494:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1494 |       [01;31m[Kcc[m[K::Scalar b4 = (c2 * c3 - s2 * s3) * s1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1495:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1495 |       [01;31m[Kcc[m[K::Scalar b5 = -s3 + 2 * (c3 * c2s2 + c2c2 * s3);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1496:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1496 |       [01;31m[Kcc[m[K::Scalar b6 = 2 * (c3 * c2c2 - c2s2 * s3);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1497:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1497 |       [01;31m[Kcc[m[K::Scalar b7 = c3 * c2s2 + c2c2 * s3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1498:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1498 |       [01;31m[Kcc[m[K::Scalar b8 = -c2s2 - c3s3 + 2 * (c3 * c3 * c2s2 + c3 * c2c2 * s3);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1499:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1499 |       [01;31m[Kcc[m[K::Scalar b9 = c2c2 + c3c3 - 1 + 2 * (c2s2c3s3 - c2c2c3c3);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1500:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1500 |       [01;31m[Kcc[m[K::Scalar b12 = -1 + 2 * (c2c2 + c3c3 + 2 * (c2s2c3s3 - c2c2c3c3));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1501:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1501 |       [01;31m[Kcc[m[K::Scalar b13 = c2 * c3 - s2 * s3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1502:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1502 |       [01;31m[Kcc[m[K::Scalar b14 = c2 * s3 + c3 * s2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1503:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1503 |       [01;31m[Kcc[m[K::Scalar b15 = c2c2 + c3c3 + c4c4 - 1 + 2 * (c2s2c3s3 - c4c4c2c2 - c4c4c3c3 - c2c2c3c3 + c4s4c2s2 + c4s4c3s3 + 2 * (c4c4c3c3c2c2 - c3c3c4s4c2s2 - c2c2c4s4c3s3 - c4c4c3s3c2s2));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1504:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1504 |       [01;31m[Kcc[m[K::Scalar b16 = -c2s2 - c3s3 - c4s4 + 2 * ((c4s4 + c3 * s3) * c2c2 + (c4c4 * c2s2 + c3c3 * c4s4 + c3s3 * c4c4 + c3 * c3 * c2s2) + 2 * ((c4s4c3s3 - c4c4c3c3) * c2s2 - (c2c2c3c3 * c4s4 + c3s3 * c4c4c2c2)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1505:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1505 |       [01;31m[Kcc[m[K::Scalar b17 = c2c2 + c3c3 + c4c4 + 2 * (c2s2c3s3 - c4c4c2c2 - c4c4c3c3 - c2c2c3c3 + c4s4c2s2 + c4s4c3s3 + 2 * (c4c4c3c3c2c2 - c3c3c4s4c2s2 - c2c2c4s4c3s3 - c4c4c3s3c2s2));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1506:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1506 |       [01;31m[Kcc[m[K::Scalar b20 = c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1507:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1507 |       [01;31m[Kcc[m[K::Scalar b21 = (s3 * s4 - c3 * c4) * c2 + ((c4 * s2) * s3 + s2 * c3 * s4);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1508:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1508 |       [01;31m[Kcc[m[K::Scalar b22 = (c2 * c3 - s2 * s3) * c1 * s4 + (c2s3c4 + c3s2c4) * c1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1509:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1509 |       [01;31m[Kcc[m[K::Scalar b23 = (s3 * s4 - c3 * c4) * c2c2 + (c3c2s4 + c2s3c4) * s2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1510:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1510 |       [01;31m[Kcc[m[K::Scalar b24 = 2 * ((c2s2 + c3 * s3) * c4 + (c2c2 + c3c3 - 1) * s4 + 2 * ((-c2s2 * c3 * c3 - c2c2 * s3 * c3) * c4 + (c2s2c3s3 - c2c2c3c3) * s4));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1511:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1511 |       [01;31m[Kcc[m[K::Scalar b25 = (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * s1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1512:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1512 |       [01;31m[Kcc[m[K::Scalar b26 = 2 * ((c2c2 * s4 + c2 * c4 * s2) * c3 + ((-c2 * s2 * s3) * s4 + s3 * c4 * c2c2));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1513:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1513 |       [01;31m[Kcc[m[K::Scalar b27 = (c2c2 + c3c3 - 1) * c4 + (-c2s2 - c3s3) * s4 + 2 * ((c2s2 * c3 * c3 + c2c2 * s3 * c3) * s4 + ((-c2c2c3c3) * c4 + (c2 * s2) * c3 * c4 * s3));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1514:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1514 |       [01;31m[Kcc[m[K::Scalar b28 = c3 * c4 - s3 * s4 + 2 * ((s3 * s4 - c3 * c4) * c2c2 + (c3c2s4 + c2s3c4) * s2);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1515:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1515 |       [01;31m[Kcc[m[K::Scalar b29 = -c4 + 2 * ((c2c2 + c3c3) * c4 + (-c2s2 - c3s3) * s4 + 2 * ((c2s2 * c3 * c3 + c2c2 * s3 * c3) * s4 + ((-c2c2c3c3) * c4 + (c2 * s2) * c3 * c4 * s3)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1516:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1516 |       [01;31m[Kcc[m[K::Scalar b30 = (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1517:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1517 |       [01;31m[Kcc[m[K::Scalar b31 = (-c2s2 - c3s3 - c4s4) * c5c5 + 2 * (c2c2 * c5c5 * c3s3 + c4s4 * c2c2 * c5c5 + (c2s2 + c4s4) * c3c3 * c5c5 + c4c4 * c5c5 * c3s3 + (c4c4 * c2s2) * c5c5 + 2 * ((c2s2 * c3s3 * c4s4 - c2c2 * c4c4 * c3s3 - c3c3 * c4c4 * c2s2 - c2c2 * c3c3 * c4s4) * c5c5));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1518:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1518 |       [01;31m[Kcc[m[K::Scalar b32 = (c2 * s3 * s4 - c2 * c3 * c4 + c3 * s2 * s4 + c4 * s2 * s3) * c5s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1519:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1519 |       [01;31m[Kcc[m[K::Scalar b34 = (c2c2 + c3c3 + c4c4 - 1) * c5s5 + 2 * ((c2s2c3s3 - c4c4c2c2 - c4c4c3c3 - c2c2c3c3 + c4s4c2s2 + c4s4c3s3) * c5s5 + 2 * ((c4c4c3c3c2c2 - c3c3c4s4c2s2 - c2c2c4s4c3s3 - c4c4c3s3c2s2) * c5s5));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1520:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1520 |       [01;31m[Kcc[m[K::Scalar b35 = (s3s2s4 - c2s3c4 - c3s2c4 - c3c2s4) * c5c5 + 0.5 * (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1521:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1521 |       [01;31m[Kcc[m[K::Scalar b36 = (1 - c3c3 - c4c4 - c2c2) * c5c5 + (c2c2 + c3c3 + c4c4 - 1) + 2 * (c2c2 * c3c3 * c5c5 + c2c2 * c4c4 * c5c5 + c3c3 * c4c4 * c5c5 + (-c2s2 * c3s3 - c2s2 * c4s4 - c3s3 * c4s4) * c5c5 + (c2s2c3s3 - c4c4c2c2 - c4c4c3c3 - c2c2c3c3 + c4s4c2s2 + c4s4c3s3) + 2 * ((c2c2 * c3s3 * c4s4 - c2c2 * c3c3 * c4c4 + c3c3 * c2s2 * c4s4 + c4c4 * c2s2 * c3s3) * c5c5 + (c4c4c3c3c2c2 - c3c3c4s4c2s2 - c2c2c4s4c3s3 - c4c4c3s3c2s2)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1522:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1522 |       [01;31m[Kcc[m[K::Scalar b37 = (c2s2 + c3s3 + c4s4) * c5c5 - (1 * c2s2 + 1 * c3s3 + 1 * c4s4) + 2 * ((-c3s3) * c2c2 * c5c5 - c2c2 * c5c5 * c4s4 + c2c2 * c4s4 + (c3 * s3) * c2c2 + (-c2s2 - c3s3) * c4c4 * c5c5 + (c2s2 + c3s3) * c4c4 + (-c3c3) * c5c5 * c4s4 + (-c3c3 * c2s2) * c5c5 + c3c3 * c4s4 + c3 * c3 * c2s2 + 2 * ((c3c3 * c4c4) * c5c5 * c2s2 - c5c5 * c2s2 * c3s3 * c4s4 + (c2c2 * c4c4) * c5c5 * c3s3 + (c2c2 * c3c3) * c5c5 * c4s4 + (c4s4c3s3 - c4c4c3c3) * c2s2 + (-c4c4c2c2) * c3s3 + (-c2c2c3c3) * c4s4));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1523:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1523 |       [01;31m[Kcc[m[K::Scalar b38 = 0.5 * (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1524:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1524 |       [01;31m[Kcc[m[K::Scalar b39 = 2 * ((-c2s2 - c3s3 - c4s4) * c5s5 + 2 * (c2c2 * c3s3 * c5s5 + c4s4 * c2c2 * c5s5 + (c2s2 + c4s4) * c3c3 * c5s5 + c4c4 * c3s3 * c5s5 + (c4c4 * c2s2) * c5s5 + 2 * ((c4s4c3s3 - c4c4c3c3) * c2s2 * c5s5 + (-c2c2c3c3 * c4s4 - c3s3 * c4c4c2c2) * c5s5)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1525:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1525 |       [01;31m[Kcc[m[K::Scalar b40 = 2 * ((c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5s5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1526:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1526 |       [01;31m[Kcc[m[K::Scalar b41 = c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4 + 2 * ((s3s2s4 - c2s3c4 - c3s2c4 - c3c2s4) * c5c5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1527:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1527 |       [01;31m[Kcc[m[K::Scalar b42 = c2c2 + c3c3 + c4c4 - 1 + 2 * ((1 - c3c3 - c4c4 - c2c2) * c5c5 + (c2s2c3s3 - c4c4c2c2 - c4c4c3c3 - c2c2c3c3 + c4s4c2s2 + c4s4c3s3) + 2 * (c2c2 * c3c3 * c5c5 + c2c2 * c4c4 * c5c5 + c3c3 * c4c4 * c5c5 + (-c2s2 * c3s3 - c2s2 * c4s4 - c3s3 * c4s4) * c5c5 + (c4c4c3c3c2c2 - c3c3c4s4c2s2 - c2c2c4s4c3s3 - c4c4c3s3c2s2) + 2 * ((c2c2 * c3s3 * c4s4 - c2c2 * c3c3 * c4c4 + c3c3 * c2s2 * c4s4 + c4c4 * c2s2 * c3s3) * c5c5)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1528:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1528 |       [01;31m[Kcc[m[K::Scalar b46 = (-c2s2 - c3s3 - c4s4) * s5 + 2 * (c2c2 * c4s4 * s5 + (c3 * s3) * c2c2 * s5 + (c2s2 + c3s3) * c4c4 * s5 + c3c3 * c4s4 * s5 + (c3 * c3 * c2s2) * s5 + 2 * ((c4s4c3s3 - c4c4c3c3) * c2s2 * s5 + (-c2c2c3c3 * c4s4 - c3s3 * c4c4c2c2) * s5));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1529:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1529 |       [01;31m[Kcc[m[K::Scalar b47 = (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1530:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1530 |       [01;31m[Kcc[m[K::Scalar b48 = (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1531:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1531 |       [01;31m[Kcc[m[K::Scalar b49 = (c2 * s3 * s4 - c2 * c3 * c4 + c3 * s2 * s4 + c4 * s2 * s3) * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1532:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1532 |       [01;31m[Kcc[m[K::Scalar b50 = c5 + 2 * ((-c2c2 - c3c3 - c4c4) * c5 + 2 * ((c2c2c3c3 + c4c4c2c2 + c4c4c3c3 - c2s2c3s3 - c4s4c2s2 - c4s4c3s3) * c5 + 2 * ((c2c2c4s4c3s3 + c3c3c4s4c2s2 - c4c4c3c3c2c2 + c4c4c3s3c2s2) * c5)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1533:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1533 |       [01;31m[Kcc[m[K::Scalar b51 = (-c2s2 - c3s3 - c4s4) * c5 + 2 * (c5 * c2c2 * c4s4 + (c3 * s3) * c5 * c2c2 + (c2s2 + c3s3) * c5 * c4c4 + c3c3 * c5 * c4s4 + (c3 * c3 * c2s2) * c5 + 2 * ((c4s4c3s3 - c4c4c3c3) * c5 * c2s2 + (-c2c2c3c3 * c4s4 - c3s3 * c4c4c2c2) * c5));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1534:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1534 |       [01;31m[Kcc[m[K::Scalar b52 = 2 * ((-c2s2 - c3s3 - c4s4) * s5 + 2 * (c2c2 * c4s4 * s5 + (c3 * s3) * c2c2 * s5 + (c2s2 + c3s3) * c4c4 * s5 + c3c3 * c4s4 * s5 + (c3 * c3 * c2s2) * s5 + 2 * ((c4s4c3s3 - c4c4c3c3) * c2s2 * s5 + (-c2c2c3c3 * c4s4 - c3s3 * c4c4c2c2) * s5)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1535:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1535 |       [01;31m[Kcc[m[K::Scalar b53 = (c2 * s3 * s4 - c2 * c3 * c4 + c3 * s2 * s4 + c4 * s2 * s3) * c5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1536:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1536 |       [01;31m[Kcc[m[K::Scalar b54 = -s5 + 2 * ((c2c2 + c3c3 + c4c4) * s5 + 2 * ((c2s2c3s3 - c4c4c2c2 - c4c4c3c3 - c2c2c3c3 + c4s4c2s2 + c4s4c3s3) * s5 + 2 * ((c4c4c3c3c2c2 - c3c3c4s4c2s2 - c2c2c4s4c3s3 - c4c4c3s3c2s2) * s5)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1537:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1537 |       [01;31m[Kcc[m[K::Scalar b55 = -s5s4 + 2 * ((c2s2 + c3 * s3) * c4 * s5 + (c2c2 + c3c3) * s4 * s5 + 2 * ((c3c2s4 * s2 * s3 - c4 * c2c2 * s3 * c3 - c2c2c3c3 * s4 - c4 * c2s2 * c3 * c3) * s5));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1538:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1538 |       [01;31m[Kcc[m[K::Scalar b57 = (c3 * c2c2 * s4 + c4 * c2c2 * s3 - c2 * s2 * s3 * s4 + c2 * c3 * c4 * s2) * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1539:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1539 |       [01;31m[Kcc[m[K::Scalar b58 = (s3 * s4 - c3 * c4) * c5 * c2c2 + (c3c2s4 + c2s3c4) * c5 * s2;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1540:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1540 |       [01;31m[Kcc[m[K::Scalar b60 = (c2c2 + c3c3) * c4 * c5 + (-c2s2 - c3s3) * c5 * s4 - c5c4 + 2 * ((c3 * c2s3c4 * s2 - c4 * c2c2c3c3 + c3 * c3 * c2s2 * s4 + c3 * c2c2 * s3 * s4) * c5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1541:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1541 |       [01;31m[Kcc[m[K::Scalar b62 = (c2 * c3 - s2 * s3) * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1542:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1542 |       [01;31m[Kcc[m[K::Scalar b64 = (c2s2 + c3 * s3) * c4 * s5 + (c2c2 + c3c3) * s4 * s5 - s5s4 + 2 * ((c3c2s4 * s2 * s3 - c4 * c2c2 * s3 * c3 - c2c2c3c3 * s4 - c4 * c2s2 * c3 * c3) * s5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1543:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1543 |       [01;31m[Kcc[m[K::Scalar b66 = (c2 * s3 + c3 * s2) * c5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1544:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1544 |       [01;31m[Kcc[m[K::Scalar b67 = c4s5 * s3 + c3 * s5s4 + 2 * ((c2 * s2 * s3 * s4 - c4 * c2c2 * s3 - c3 * c2c2 * s4 - c2 * c3 * c4 * s2) * s5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1545:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1545 |       [01;31m[Kcc[m[K::Scalar b70 = (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c6s6 * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1546:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1546 |       [01;31m[Kcc[m[K::Scalar b72 = (c2c2 + c3c3 + c4c4) * c6c6 * c5s5 + (-c2s2 - c3s3 - c4s4) * c6s6 * s5 - c6c6c5s5 + 2 * ((c2s2 * c3s3 - c2c2 * c4c4 - c3c3 * c4c4 - c2c2 * c3c3 + c2s2 * c4s4 + c3s3 * c4s4) * c6c6 * c5s5 + (c2s2 * c3 * c3 + c2c2 * s3 * c3 + c2c2 * c4s4 + c4c4 * c2s2 + c3c3 * c4s4 + c4c4 * c3s3) * c6s6 * s5 + 2 * ((-c3c3 * c4s4 * c5s5 - c4c4 * c3s3 * c5s5) * c6c6 * c2s2 + (c2c2 * c3c3 * c4c4 * c5s5 - c2c2 * c3s3 * c4s4 * c5s5) * c6c6 + (c4s4c3s3 - c4c4c3c3) * c2s2 * c6s6 * s5 + (-c2c2c3c3 * c4s4 - c3s3 * c4c4c2c2) * c6s6 * s5));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1547:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1547 |       [01;31m[Kcc[m[K::Scalar b73 = (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5 * c6s6 * s5 + (c2 * s3 * s4 - c2 * c3 * c4 + c3 * s2 * s4 + c4 * s2 * s3) * c6c6 * s5 + 0.5 * ((c2 * c3 * c4 - c2 * s3 * s4 - c3 * s2 * s4 - c4 * s2 * s3) * s5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1548:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1548 |       [01;31m[Kcc[m[K::Scalar b74 = c5 * c5 * c2c2 * c6s6 + (c3c3 + c4c4) * c5 * c5 * c6s6 + (-c2s2 - c3s3 - c4s4) * c5 + c2c2 * c6s6 + (c3c3 + c4c4 - c5c5) * c6s6 + 2 * ((c2s2c3s3 - c4c4c2c2 - c4c4c3c3 - c2c2c3c3 + c4s4c2s2 + c4s4c3s3) * c5 * c5 * c6s6 + (c2c2 + c3c3 + c6c6) * c5 * c4s4 + (c2s2 * c3 * c3 + c2c2 * s3 * c3 + c4c4 * c2s2 + c4c4 * c3s3 + c6c6 * c2s2 + c6c6 * c3s3) * c5 + (c2s2c3s3 - c4c4c2c2 - c4c4c3c3 - c2c2c3c3 + c4s4c2s2 + c4s4c3s3) * c6s6 + 2 * ((c4c4c3c3c2c2 - c3c3c4s4c2s2 - c2c2c4s4c3s3 - c4c4c3s3c2s2) * c5 * c5 * c6s6 + (-c3c3 - c4c4) * c5 * c6c6 * c2s2 + (-c2c2 * c3s3 - c2c2 * c4s4 - c3c3 * c4s4 - c4c4 * c3s3) * c5 * c6c6 + (c4s4c3s3 - c4c4c3c3) * c5 * c2s2 + (-c2c2c3c3 * c4s4 - c3s3 * c4c4c2c2) * c5 + (c4c4c3c3c2c2 - c3c3c4s4c2s2 - c2c2c4s4c3s3 - c4c4c3s3c2s2) * c6s6 + 2 * ((c2c2 * c3c3 * c6c6 * c4s4 + c2c2 * c4c4 * c6c6 * c3s3 + c3c3 * c4c4 * c6c6 * c2s2 - c6c6 * c2s2 * c3s3 * c4s4) * c5)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1549:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1549 |       [01;31m[Kcc[m[K::Scalar b75 = (-c5 * c5 - 1) * c6c6 * c2s2 + (-c5 * c5 - 1) * c6c6 * c3s3 + (-c5 * c5 - 1) * c6c6 * c4s4 + c2s2 + c3s3 + c4s4 + c6s6c5 + 2 * ((c3s3 + c4s4 + c5 * c5 * c3s3 + c5 * c5 * c4s4) * c2c2 * c6c6 + (-c4s4 - c5 * c6s6 - c3 * s3) * c2c2 + (c5 * c5 + 1) * c4c4 * c6c6 * c2s2 + (c3s3 * c5 * c5 + c3s3) * c4c4 * c6c6 - c4c4 * c2s2 + (-c3s3 - c5 * c6s6) * c4c4 + (c3c3 * c5 * c5 + c3c3) * c6c6 * c2s2 + (c3c3 * c4s4 * c5 * c5 + c3c3 * c4s4) * c6c6 + (-c3 * c3) * c2s2 - (c3c3 * c4s4 + c5 * c3c3 * c6s6) + 2 * ((c3s3 * c4s4 - c3c3 * c4c4) * c5 * c5 * c6c6 * c2s2 + (-c2c2 * c3c3 * c4s4 - c2c2 * c4c4 * c3s3) * c5 * c5 * c6c6 + (c2c2c3c3 + c4c4c2c2 + c4c4c3c3 - c2s2c3s3 - c4s4c2s2 - c4s4c3s3) * c5 * c6s6 + (c3s3 * c4s4 - c3c3 * c4c4) * c6c6 * c2s2 + (-c2c2 * c3c3 * c4s4 - c2c2 * c4c4 * c3s3) * c6c6 + (c4c4c3c3 - c4s4c3s3) * c2s2 + (c2c2c3c3 * c4s4 + c3s3 * c4c4c2c2) + 2 * ((c2c2c4s4c3s3 + c3c3c4s4c2s2 - c4c4c3c3c2c2 + c4c4c3s3c2s2) * c5 * c6s6)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1550:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1550 |       [01;31m[Kcc[m[K::Scalar b76 = (1 - c6c6) * c2 * c3 * c4 + (c6c6 * s3 * s4 - s3 * s4) * c2 + (c6c6 * s2 * s4 - s2 * s4) * c3 + (c6c6 * s2 * s3 - s2 * s3) * c4 + (c3c2s4 * c6s6 + c6s6 * c2s3c4 + c6s6 * c3s2c4 - c6s6 * s3s2s4) * c5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1551:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1551 |       [01;31m[Kcc[m[K::Scalar b78 = (s3s2s4 - c2s3c4 - c3s2c4 - c3c2s4) * c6c6 * c5s5 + (c2 * s3 * s4 - c2 * c3 * c4 + c3 * s2 * s4 + c4 * s2 * s3) * c6s6 * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1552:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1552 |       [01;31m[Kcc[m[K::Scalar b79 = (s3 * s4 - c3 * c4) * c2 * c6s6 + (s3s2s4 - c2s3c4 - c3s2c4 - c3c2s4) * c5 * c6c6 + (c3 * s2 * s4 + c4 * s2 * s3) * c6s6 + 0.5 * ((c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1553:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1553 |       [01;31m[Kcc[m[K::Scalar b81 = (s3 * s4 - c3 * c4) * c2 * c6c6 + (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5 * c6s6 + (c3 * s2 * s4 + c4 * s2 * s3) * c6c6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1554:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1554 |       [01;31m[Kcc[m[K::Scalar b83 = (c2c2 + c3c3 + c4c4) * c6c6 * c5s5 + (1 - c3c3 - c4c4 - c2c2) * c5s5 + (-c2s2 - c3s3 - c4s4) * c6s6 * s5 - c6c6c5s5 + 2 * ((c2s2 * c3s3 - c2c2 * c4c4 - c3c3 * c4c4 - c2c2 * c3c3 + c2s2 * c4s4 + c3s3 * c4s4) * c6c6 * c5s5 + (c2c2c3c3 + c4c4c2c2 + c4c4c3c3 - c2s2c3s3 - c4s4c2s2 - c4s4c3s3) * c5s5 + (c2s2 * c3 * c3 + c2c2 * s3 * c3 + c2c2 * c4s4 + c4c4 * c2s2 + c3c3 * c4s4 + c4c4 * c3s3) * c6s6 * s5 + 2 * ((-c3c3 * c6c6 * c4s4 - c4c4 * c6c6 * c3s3) * c2s2 * c5s5 + (c4s4c3s3 - c4c4c3c3) * c2s2 * c6s6 * s5 + (c2c2c4s4c3s3 + c3c3c4s4c2s2 - c4c4c3c3c2c2 + c4c4c3s3c2s2 + c2c2 * c3c3 * c4c4 * c6c6 - c2c2 * c6c6 * c3s3 * c4s4) * c5s5 + (-c2c2c3c3 * c4s4 - c3s3 * c4c4c2c2) * c6s6 * s5));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1555:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1555 |       [01;31m[Kcc[m[K::Scalar b84 = c5c5 * c2s2 + c5c5 * c3s3 + c4s4 * c5c5 + (-c5 * c5 - 1) * c6c6 * c2s2 + (-c5 * c5 - 1) * c6c6 * c3s3 + (-c4s4 * c5 * c5 - c4s4) * c6c6 + c6s6c5 + 2 * ((c3s3 + c4s4 + c5 * c5 * c3s3 + c5 * c5 * c4s4) * c2c2 * c6c6 + (-c5 * c6s6 - c5c5 * c3s3 - c5c5 * c4s4) * c2c2 + (c2s2 + c4s4 + c5 * c5 * c2s2 + c5 * c5 * c4s4) * c3c3 * c6c6 + (-c5 * c6s6 - c5c5 * c2s2 - c5c5 * c4s4) * c3c3 + (c2s2 + c3s3 + c5 * c5 * c2s2 + c5 * c5 * c3s3) * c4c4 * c6c6 + (-c5 * c6s6 - c5c5 * c2s2 - c5c5 * c3s3) * c4c4 + 2 * ((-c3c3 * c4s4 - c4c4 * c3s3) * c5 * c5 * c2c2 * c6c6 + (c2s2 * c3s3 * c4s4 - c3c3 * c4c4 * c2s2) * c5 * c5 * c6c6 + (c2c2c3c3 + c4c4c2c2 + c4c4c3c3 - c2s2c3s3 - c4s4c2s2 - c4s4c3s3) * c5 * c6s6 + (-c3c3 * c4s4 - c4c4 * c3s3) * c2c2 * c6c6 + (c3c3 * c5c5 * c4s4 + c4c4 * c5c5 * c3s3) * c2c2 + (c2s2 * c3s3 * c4s4 - c3c3 * c4c4 * c2s2) * c6c6 + (c3c3 * c4c4 * c5c5 * c2s2 - c5c5 * c2s2 * c3s3 * c4s4) + 2 * ((c2c2c4s4c3s3 + c3c3c4s4c2s2 - c4c4c3c3c2c2 + c4c4c3s3c2s2) * c5 * c6s6)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1556:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1556 |       [01;31m[Kcc[m[K::Scalar b87 = (s3s2s4 - c2s3c4 - c3s2c4 - c3c2s4) * c6c6 * c5s5 + (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5s5 + (c2 * s3 * s4 - c2 * c3 * c4 + c3 * s2 * s4 + c4 * s2 * s3) * c6s6 * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1557:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1557 |       [01;31m[Kcc[m[K::Scalar b88 = 0.5 * ((c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1558:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1558 |       [01;31m[Kcc[m[K::Scalar b89 = 0.5 * ((c2 * s3 * s4 - c2 * c3 * c4 + c3 * s2 * s4 + c4 * s2 * s3) * s5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1559:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1559 |       [01;31m[Kcc[m[K::Scalar b90 = (c3 * c4 - s3 * s4) * c2 + ((-s2 * s4) * c3 + (-s2) * c4 * s3) + 2 * ((s3 * s4 - c3 * c4) * c2 * c6c6 + (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5 * c6s6 + (c3 * s2 * s4 + c4 * s2 * s3) * c6c6);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1560:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1560 |       [01;31m[Kcc[m[K::Scalar b91 = (c2 * c3 * c4 - c2 * s3 * s4 - c3 * s2 * s4 - c4 * s2 * s3) * s5 + 2 * ((c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5 * c6s6 * s5 + (c2 * s3 * s4 - c2 * c3 * c4 + c3 * s2 * s4 + c4 * s2 * s3) * c6c6 * s5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1561:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1561 |       [01;31m[Kcc[m[K::Scalar b94 = (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5s5 + 2 * ((s3s2s4 - c2s3c4 - c3s2c4 - c3c2s4) * c6c6 * c5s5 + (c2 * s3 * s4 - c2 * c3 * c4 + c3 * s2 * s4 + c4 * s2 * s3) * c6s6 * s5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1562:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1562 |       [01;31m[Kcc[m[K::Scalar b96 = (1 - c3c3 - c4c4 - c2c2) * c5c5 - (1 * c2c2 + 1 * c3c3 + 1 * c4c4) + 2 * (c2c2 * c3c3 * c5c5 + c2c2 * c5c5 * c6c6 + c4c4 * c2c2 * c5c5 + c2c2 * c6c6 + c3c3 * c5c5 * c6c6 + c4c4 * c3c3 * c5c5 + c3c3 * c6c6 + (c4c4 - 1) * c5c5 * c6c6 + (-c2s2 * c3s3 - c2s2 * c4s4 - c3s3 * c4s4) * c5c5 + c4c4 * c6c6 + (c2c2c3c3 + c4c4c2c2 + c4c4c3c3 - c2s2c3s3 - c4s4c2s2 - c4s4c3s3) + 2 * ((c5 * c5 + 1) * c6c6 * c2s2 * c3s3 + (c5 * c5 + 1) * c6c6 * c2s2 * c4s4 + (c5 * c5 + 1) * c6c6 * c3s3 * c4s4 + (-c2c2 * c3c3 - c2c2 * c4c4 - c3c3 * c4c4 - c2c2 * c3c3 * c5c5 - c2c2 * c4c4 * c5c5 - c3c3 * c4c4 * c5c5) * c6c6 + (c4c4 * c5c5) * c2s2 * c3s3 + (c3c3 * c5c5) * c2s2 * c4s4 + (-c6s6c5) * c2s2 + (c2c2 * c5c5) * c3s3 * c4s4 + (-c6s6c5) * c3s3 + (-c6s6c5) * c4s4 + (c2c2c4s4c3s3 + c3c3c4s4c2s2 - c4c4c3c3c2c2 + c4c4c3s3c2s2 - c2c2 * c3c3 * c4c4 * c5c5) + 2 * ((-c4s4) * c5 * c5 * c2c2 * c6c6 * c3s3 + (-c4c4 * c2s2) * c5 * c5 * c6c6 * c3s3 + (-c3c3 * c2s2 * c4s4) * c5 * c5 * c6c6 + c6s6 * c5 * c2c2 * c3s3 + (c4s4 * c6s6) * c5 * c2c2 + (c4c4 * c6s6) * c5 * c3s3 + (c3c3 * c2s2 * c6s6 + c4c4 * c2s2 * c6s6 + c3c3 * c4s4 * c6s6) * c5 + (-c4s4) * c2c2 * c6c6 * c3s3 + (c3c3 * c4c4 + c3c3 * c4c4 * c5c5) * c2c2 * c6c6 + (-c4c4 * c2s2) * c6c6 * c3s3 + (-c3c3 * c2s2 * c4s4) * c6c6 + 2 * ((c4s4c3s3 - c4c4c3c3) * c5 * c2s2 * c6s6 + (-c2c2c3c3 * c4s4 - c3s3 * c4c4c2c2) * c5 * c6s6))));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1563:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1563 |       [01;31m[Kcc[m[K::Scalar b97 = (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5 + 2 * ((s3 * s4 - c3 * c4) * c2 * c6s6 + (s3s2s4 - c2s3c4 - c3s2c4 - c3c2s4) * c5 * c6c6 + (c3 * s2 * s4 + c4 * s2 * s3) * c6s6);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1564:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1564 |       [01;31m[Kcc[m[K::Scalar b98 = (c2s2 + c3s3 + c4s4) * s5 + 2 * ((-c5 * c6s6 - c3 * s3) * c2c2 * s5 - c2c2 * c4s4 * s5 + (-c2s2 - c3s3 - c5 * c6s6) * c4c4 * s5 + (-c3c3 - c6c6) * c4s4 * s5 + (-c2s2 * c3 * c3 - c6c6 * c2s2 - c6c6 * c3s3 - c5 * c3c3 * c6s6) * s5 + c6s6c5s5 + 2 * ((c2c2c3c3 + c4c4c2c2 + c4c4c3c3 - c2s2c3s3 - c4s4c2s2 - c4s4c3s3) * c5 * c6s6 * s5 + (c2c2 * c3s3 + c3c3 * c2s2 + c2c2 * c4s4 + c4c4 * c2s2 + c3c3 * c4s4 + c4c4 * c3s3) * c6c6 * s5 + (c2c2c3c3 * c4s4 + c2s2 * c4c4c3c3 + c3s3 * c4c4c2c2 - c2s2 * c4s4c3s3) * s5 + 2 * ((c2c2c4s4c3s3 + c3c3c4s4c2s2 - c4c4c3c3c2c2 + c4c4c3s3c2s2) * c5 * c6s6 * s5 + (c2s2 * c3s3 * c4s4 - c2c2 * c4c4 * c3s3 - c3c3 * c4c4 * c2s2 - c2c2 * c3c3 * c4s4) * c6c6 * s5)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1565:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1565 |       [01;31m[Kcc[m[K::Scalar b100 = c5 + 2 * ((-c3s3 - c4s4) * c5 * c6s6c5 - c5 * c2s2 * c6s6c5 + (-c2c2 - c3c3 - c4c4 - c6c6) * c5 - c2s2 * c6s6 + (-c3s3 - c4s4) * c6s6 + 2 * ((c3s3 + c4s4) * c5 * c5 * c2c2 * c6s6 + (c3c3 * c2s2 + c4c4 * c2s2 + c3c3 * c4s4 + c4c4 * c3s3) * c5 * c5 * c6s6 + c6c6 * c5 * c2c2 + (c2c2c3c3 + c4c4c2c2 + c4c4c3c3 - c2s2c3s3 - c4s4c2s2 - c4s4c3s3 + c3c3 * c6c6 + c4c4 * c6c6) * c5 + (c3s3 + c4s4) * c2c2 * c6s6 + (c3c3 * c2s2 + c4c4 * c2s2 + c3c3 * c4s4 + c4c4 * c3s3) * c6s6 + 2 * ((c4s4c3s3 - c4c4c3c3) * c5 * c5 * c2s2 * c6s6 + (-c2c2c3c3 * c4s4 - c3s3 * c4c4c2c2) * c5 * c5 * c6s6 + (c3s3 + c4s4) * c5 * c6c6 * c2s2 + (c3s3 * c4s4 - c2c2 * c4c4 - c3c3 * c4c4 - c2c2 * c3c3) * c5 * c6c6 + (c2c2c4s4c3s3 + c3c3c4s4c2s2 - c4c4c3c3c2c2 + c4c4c3s3c2s2) * c5 + (c4s4c3s3 - c4c4c3c3) * c2s2 * c6s6 + (-c2c2c3c3 * c4s4 - c3s3 * c4c4c2c2) * c6s6 + 2 * ((c2c2 * c3c3 * c4c4 * c6c6 - c2c2 * c6c6 * c3s3 * c4s4 - c3c3 * c6c6 * c2s2 * c4s4 - c4c4 * c6c6 * c2s2 * c3s3) * c5))));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1566:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1566 |       [01;31m[Kcc[m[K::Scalar b102 = (s3 * s4 - c3 * c4) * c2 * c6 + (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5 * s6 + (c3 * s2 * s4 + c4 * s2 * s3) * c6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1567:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1567 |       [01;31m[Kcc[m[K::Scalar b105 = (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * s5 * s6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1568:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1568 |       [01;31m[Kcc[m[K::Scalar b107 = (s3 * s4 - c3 * c4) * c2 * c5 * s6 + (c3 * s2 * s4 + c4 * s2 * s3) * c5 * s6 + (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c6 + 2 * ((s3s2s4 - c2s3c4 - c3s2c4 - c3c2s4) * c6 * c5c5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1569:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1569 |       [01;31m[Kcc[m[K::Scalar b108 = (-c2s2 - c3s3 - c4s4) * c5 * s6 + (1 - c3c3 - c4c4 - c2c2) * c6 + 2 * ((c2s2 * c3 * c3 + c2c2 * s3 * c3 + c2c2 * c4s4 + c4c4 * c2s2 + c3c3 * c4s4 + c4c4 * c3s3) * c5 * s6 + (c2c2 + c3c3 + c4c4 - 1) * c6 * c5c5 + (c2c2c3c3 + c4c4c2c2 + c4c4c3c3 - c2s2c3s3 - c4s4c2s2 - c4s4c3s3) * c6 + 2 * ((c4s4c3s3 * s6 - c4c4c3c3 * s6) * c5 * c2s2 + (-c2c2c3c3 * c4s4 * s6 - c3s3 * c4c4c2c2 * s6) * c5 + (c3s3 + c4s4) * c6 * c5c5 * c2s2 + (c3s3 * c4s4 - c2c2 * c4c4 - c3c3 * c4c4 - c2c2 * c3c3) * c6 * c5c5 + (c2c2c4s4c3s3 + c3c3c4s4c2s2 - c4c4c3c3c2c2 + c4c4c3s3c2s2) * c6 + 2 * ((c2c2 * c3c3 * c4c4 * c5c5 - c2c2 * c5c5 * c3s3 * c4s4 - c3c3 * c5c5 * c2s2 * c4s4 - c4c4 * c5c5 * c2s2 * c3s3) * c6)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1570:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1570 |       [01;31m[Kcc[m[K::Scalar b109 = (-c2s2 - c3s3 - c4s4) * c6 * s5 + (-c2c2 - c3c3 - c4c4) * c5s5 * s6 + c5s5s6 + 2 * ((c2s2 * c3 * c3 + c2c2 * s3 * c3 + c2c2 * c4s4 + c4c4 * c2s2 + c3c3 * c4s4 + c4c4 * c3s3) * c6 * s5 + (c2c2c3c3 + c4c4c2c2 + c4c4c3c3 - c2s2c3s3 - c4s4c2s2 - c4s4c3s3) * c5s5 * s6 + 2 * ((c2s2 * c4s4c3s3 - c2s2 * c4c4c3c3 - c3s3 * c4c4c2c2 - c2c2c3c3 * c4s4) * c6 * s5 + (c2c2c4s4c3s3 + c3c3c4s4c2s2 - c4c4c3c3c2c2 + c4c4c3s3c2s2) * c5s5 * s6));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1571:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1571 |       [01;31m[Kcc[m[K::Scalar b110 = s6s5 + 2 * ((-c2s2 - c3s3 - c4s4) * c5 * c6 * s5 + (-c2c2 - c3c3 - c4c4) * s5 * s6 + 2 * ((c2s2 * c3 * c3 + c2c2 * s3 * c3 + c2c2 * c4s4 + c4c4 * c2s2 + c3c3 * c4s4 + c4c4 * c3s3) * c5 * c6 * s5 + (c2c2c3c3 + c4c4c2c2 + c4c4c3c3 - c2s2c3s3 - c4s4c2s2 - c4s4c3s3) * s5 * s6 + 2 * ((c2s2 * c4s4c3s3 - c2s2 * c4c4c3c3 - c3s3 * c4c4c2c2 - c2c2c3c3 * c4s4) * c5 * c6 * s5 + (c2c2c4s4c3s3 + c3c3c4s4c2s2 - c4c4c3c3c2c2 + c4c4c3s3c2s2) * s5 * s6)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1572:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1572 |       [01;31m[Kcc[m[K::Scalar b111 = (c3 * c4 - s3 * s4) * c2 * s6 + (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5 * c6 + (-c3 * s2 * s4 - c4 * s2 * s3) * s6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1573:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1573 |       [01;31m[Kcc[m[K::Scalar b114 = -c6s5 + 2 * ((-c2s2 - c3s3 - c4s4) * c5 * s5 * s6 + (c2c2 + c3c3 + c4c4) * c6 * s5 + 2 * ((c2s2 * c3 * c3 + c2c2 * s3 * c3 + c2c2 * c4s4 + c4c4 * c2s2 + c3c3 * c4s4 + c4c4 * c3s3) * c5 * s5 * s6 + (c2s2c3s3 - c4c4c2c2 - c4c4c3c3 - c2c2c3c3 + c4s4c2s2 + c4s4c3s3) * c6 * s5 + 2 * ((c2s2 * c4s4c3s3 - c2s2 * c4c4c3c3 - c3s3 * c4c4c2c2 - c2c2c3c3 * c4s4) * c5 * s5 * s6 + (c4c4c3c3c2c2 - c3c3c4s4c2s2 - c2c2c4s4c3s3 - c4c4c3s3c2s2) * c6 * s5)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1574:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1574 |       [01;31m[Kcc[m[K::Scalar b116 = (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c6 * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1575:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1575 |       [01;31m[Kcc[m[K::Scalar b119 = (-c2s2 - c3s3 - c4s4) * c5 * c6 + (c2c2 + c3c3 + c4c4 - 1) * s6 + 2 * ((c2s2 * c3 * c3 + c2c2 * s3 * c3 + c2c2 * c4s4 + c4c4 * c2s2 + c3c3 * c4s4 + c4c4 * c3s3) * c5 * c6 + (1 - c3c3 - c4c4 - c2c2) * c5c5 * s6 + (c2s2c3s3 - c4c4c2c2 - c4c4c3c3 - c2c2c3c3 + c4s4c2s2 + c4s4c3s3) * s6 + 2 * ((c2s2 * c4s4c3s3 - c2s2 * c4c4c3c3 - c3s3 * c4c4c2c2 - c2c2c3c3 * c4s4) * c5 * c6 + (c2c2 * c3c3 + c2c2 * c4c4 + c3c3 * c4c4 - c2s2 * c3s3 - c2s2 * c4s4 - c3s3 * c4s4) * c5c5 * s6 + (c4c4c3c3c2c2 - c3c3c4s4c2s2 - c2c2c4s4c3s3 - c4c4c3s3c2s2) * s6 + 2 * ((c2c2 * c3s3 * c4s4 * s6 - c2c2 * c3c3 * c4c4 * s6 + c3c3 * c2s2 * c4s4 * s6 + c4c4 * c2s2 * c3s3 * s6) * c5c5)));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1576:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1576 |       [01;31m[Kcc[m[K::Scalar b121 = (c2c2 + c3c3 + c4c4) * c6 * c5s5 + (-c2s2 - c3s3 - c4s4) * s5 * s6 - c5s5c6 + 2 * ((c2s2c3s3 - c4c4c2c2 - c4c4c3c3 - c2c2c3c3 + c4s4c2s2 + c4s4c3s3) * c6 * c5s5 + (c2s2 * c3 * c3 + c2c2 * s3 * c3 + c2c2 * c4s4 + c4c4 * c2s2 + c3c3 * c4s4 + c4c4 * c3s3) * s5 * s6 + 2 * ((c4c4c3c3c2c2 - c3c3c4s4c2s2 - c2c2c4s4c3s3 - c4c4c3s3c2s2) * c6 * c5s5 + (c2s2 * c4s4c3s3 - c2s2 * c4c4c3c3 - c3s3 * c4c4c2c2 - c2c2c3c3 * c4s4) * s5 * s6));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1577:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1577 |       [01;31m[Kcc[m[K::Scalar b122 = (s3 * s4 - c3 * c4) * c2 * c5 * c6 + (c3 * s2 * s4 + c4 * s2 * s3) * c5 * c6 + (s3s2s4 - c2s3c4 - c3s2c4 - c3c2s4) * s6 + 2 * ((c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5c5 * s6);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1578:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1578 |       [01;31m[Kcc[m[K::Scalar b123 = (c2 * s3 + c3 * s2) * c1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1579:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1579 |       [01;31m[Kcc[m[K::Scalar b124 = (c2 * s3 + c3 * s2) * s1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1580:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1580 |       [01;31m[Kcc[m[K::Scalar b125 = -1 + 2 * (c2c2c3c3 * s4 * s4 + c4c4c2c2 * s3 * s3 + c4c4c3c3 * s2 * s2 + s3s2s4 * s3s2s4 + 2 * (c2c2c4s4c3s3 + c3c3c4s4c2s2 + c4c4c3s3c2s2 - c2s2c3s3 * s4 * s4 - c4s4c2s2 * s3 * s3 - c4s4c3s3 * s2 * s2));
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1581:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1581 |       [01;31m[Kcc[m[K::Scalar b126 = (c2 * s3 * s4 - c2 * c3 * c4 + c3 * s2 * s4 + c4 * s2 * s3) * c1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1582:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1582 |       [01;31m[Kcc[m[K::Scalar b127 = (c2 * s3 * s4 - c2 * c3 * c4 + c3 * s2 * s4 + c4 * s2 * s3) * s1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1583:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1583 |       [01;31m[Kcc[m[K::Scalar b128 = c3 * c4 - s3 * s4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1584:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1584 |       [01;31m[Kcc[m[K::Scalar b129 = 2 * (c3 * s4 + c4 * s3);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1585:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1585 |       [01;31m[Kcc[m[K::Scalar b130 = c3 * s4 + c4 * s3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1586:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1586 |       [01;31m[Kcc[m[K::Scalar b131 = c5c5 - 1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1587:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1587 |       [01;31m[Kcc[m[K::Scalar b132 = -1 + 2 * c5c5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1588:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1588 |       [01;31m[Kcc[m[K::Scalar b133 = (c2 * c3 - s2 * s3) * c1 * s4 * s5 + (c2s3c4 + c3s2c4) * c1 * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1589:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1589 |       [01;31m[Kcc[m[K::Scalar b134 = (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * s1 * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1590:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1590 |       [01;31m[Kcc[m[K::Scalar b135 = c3 * c5c4 - c5 * s3 * s4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1591:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1591 |       [01;31m[Kcc[m[K::Scalar b136 = c3 * c4 * s5 - s3 * s5s4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1592:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1592 |       [01;31m[Kcc[m[K::Scalar b138 = c5c4 * s3 + c3 * c5 * s4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1593:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1593 |       [01;31m[Kcc[m[K::Scalar b139 = (c2 * s3 + c3 * s2) * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1594:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1594 |       [01;31m[Kcc[m[K::Scalar b140 = c4s5 * s3 + c3 * s5s4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1595:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1595 |       [01;31m[Kcc[m[K::Scalar b141 = (s3s2s4 - c2s3c4 - c3s2c4 - c3c2s4) * c5c5 + (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1596:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1596 |       [01;31m[Kcc[m[K::Scalar b142 = (1 - c5c5) * c6s6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1597:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1597 |       [01;31m[Kcc[m[K::Scalar b143 = (1 - c5c5) * c6c6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1598:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1598 |       [01;31m[Kcc[m[K::Scalar b144 = c6c6 * s5 - 0.5 * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1599:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1599 |       [01;31m[Kcc[m[K::Scalar b145 = (c2 * s3 * s4 * s6 + c3 * s2 * s4 * s6 + c4 * s2 * s3 * s6 - c2 * c3 * c4 * s6) * c5 * c6 + (s3s2s4 - c2s3c4 - c3s2c4 - c3c2s4) * c5c5 * c6c6 + 0.5 * (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1600:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1600 |       [01;31m[Kcc[m[K::Scalar b146 = c5s5 - c6c6c5s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1601:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1601 |       [01;31m[Kcc[m[K::Scalar b147 = (c2 * c3 * c4 * s6 - c3 * s2 * s4 * s6 - c4 * s2 * s3 * s6 - c2 * s3 * s4 * s6) * c5 * c6 + (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5c5 * c6c6 + (s3s2s4 - c2s3c4 - c3s2c4 - c3c2s4) * c5c5 + 0.5 * (c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1602:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1602 |       [01;31m[Kcc[m[K::Scalar b148 = (1 - c6c6) * c5c5 + (c6c6 - 1);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1603:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1603 |       [01;31m[Kcc[m[K::Scalar b149 = c5c5 - 1 + 2 * ((1 - c5c5) * c6c6);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1604:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1604 |       [01;31m[Kcc[m[K::Scalar b150 = (c2 * c3 * c4 - c2 * s3 * s4 - c3 * s2 * s4 - c4 * s2 * s3) * c5 + 2 * ((c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5 * c5 * c6s6 + (c2 * s3 * s4 - c2 * c3 * c4 + c3 * s2 * s4 + c4 * s2 * s3) * c5 * c6c6);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1605:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1605 |       [01;31m[Kcc[m[K::Scalar b151 = c5 - 2 * c5 * c6c6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1606:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1606 |       [01;31m[Kcc[m[K::Scalar b152 = 2 * ((1 - c5c5) * c6s6);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1607:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1607 |       [01;31m[Kcc[m[K::Scalar b153 = -s5 + 2 * c6c6 * s5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1608:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1608 |       [01;31m[Kcc[m[K::Scalar b154 = (c2 * s3 * s4 * s6 + c3 * s2 * s4 * s6 + c4 * s2 * s3 * s6 - c2 * c3 * c4 * s6) * s5 + 2 * ((s3s2s4 - c2s3c4 - c3s2c4 - c3c2s4) * c5 * c6 * s5);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1609:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1609 |       [01;31m[Kcc[m[K::Scalar b155 = c6 - 2 * c6 * c5c5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1610:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1610 |       [01;31m[Kcc[m[K::Scalar b156 = (s3s2s4 - c3s2c4) * c5c5 * s6 - c5c5 * c2s3c4 * s6 - c5c5 * c3c2s4 * s6 + c3c2s4 * s6 + c2s3c4 * s6 + (c3s2c4 - s3s2s4) * s6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1611:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1611 |       [01;31m[Kcc[m[K::Scalar b157 = (c2 * s3 * s4 * s5 + c3 * s2 * s4 * s5 + c4 * s2 * s3 * s5 - c2 * c3 * c4 * s5) * c6 + 2 * ((c3c2s4 + c2s3c4 + c3s2c4 - s3s2s4) * c5 * s5 * s6);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1612:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1612 |       [01;31m[Kcc[m[K::Scalar b158 = -s6 + 2 * c5c5 * s6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1613:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1613 |       [01;31m[Kcc[m[K::Scalar b159 = (s3s2s4 - c3s2c4) * c6 * c5c5 - c6 * c5c5 * c2s3c4 - c6 * c5c5 * c3c2s4 + c6 * c3c2s4 + c6 * c2s3c4 + (c3s2c4 - s3s2s4) * c6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1614:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1614 |       [01;31m[Kcc[m[K::Scalar b163 = -1 + 2 * c6c6;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1615:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1615 |       [01;31m[Kcc[m[K::Scalar d2 = a43 + a44;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1616:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1616 |       [01;31m[Kcc[m[K::Scalar d4 = a2 + a3 + a7 + a13;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1617:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1617 |       [01;31m[Kcc[m[K::Scalar d5 = qrpp2 + qrpp3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1618:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1618 |       [01;31m[Kcc[m[K::Scalar d6 = a8 + a9 + a14 + a15;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1619:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1619 |       [01;31m[Kcc[m[K::Scalar d7 = (a2 + a3 + a7 + a13) * L3 * L3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1620:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1620 |       [01;31m[Kcc[m[K::Scalar d8 = (a2 + a7) * L2 * L3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1621:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1621 |       [01;31m[Kcc[m[K::Scalar d9 = (a3 + a13) * L2 * L3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1622:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1622 |       [01;31m[Kcc[m[K::Scalar d11 = a61 + a62;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1623:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1623 |       [01;31m[Kcc[m[K::Scalar d12 = a2 + a3 + a4 + a7 + a13 + a19;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1624:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1624 |       [01;31m[Kcc[m[K::Scalar d13 = qrpp2 + qrpp3 + qrpp4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1625:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1625 |       [01;31m[Kcc[m[K::Scalar d14 = a8 + a9 + a10 + a14 + a15 + a16 + a20 + a21 + a22;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1626:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1626 |       [01;31m[Kcc[m[K::Scalar d15 = (a8 + a9 + a14 + a15) * L3 * L4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1627:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1627 |       [01;31m[Kcc[m[K::Scalar d16 = (qrpp2 + qrpp3) * L3 * L4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1628:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1628 |       [01;31m[Kcc[m[K::Scalar d19 = (a4 + a19) * L2 + (a45 + a46);
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1629:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1629 |       [01;31m[Kcc[m[K::Scalar d20 = (a2 + a3 + a7 + a13) * L3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1630:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1630 |       [01;31m[Kcc[m[K::Scalar d21 = (a4 + a19) * L3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1631:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1631 |       [01;31m[Kcc[m[K::Scalar d22 = a11 + a17 + a23 + a26 + a27 + a28;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1632:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1632 |       [01;31m[Kcc[m[K::Scalar d23 = a5 + a25;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1633:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1633 |       [01;31m[Kcc[m[K::Scalar d24 = a8 + a9 + a10 + a14 + a15 + a16 + a20 + a21 + a22 - a29;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1634:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1634 |       [01;31m[Kcc[m[K::Scalar d34 = (a2 + a3 + a4 + a7 + a13 + a19) * L5;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1635:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1635 |       [01;31m[Kcc[m[K::Scalar d37 = (a5 + a25) * L3;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1636:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1636 |       [01;31m[Kcc[m[K::Scalar d41 = a12 + a18 + a24 + a32 + a33 + a34;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1637:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1637 |       [01;31m[Kcc[m[K::Scalar d42 = qp1 * qrp6 + qp6 * qrp1;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1638:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1638 |       [01;31m[Kcc[m[K::Scalar d43 = a30 + a35;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1639:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1639 |       [01;31m[Kcc[m[K::Scalar d45 = a179 + L2 * qrpp4;
+      |       [01;31m[K^~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1640:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcc[m[K’ has not been declared
+ 1640 |       [01;31m[Kcc[m[K::Scalar d48 = a150 + a151 + gz;
+      |       [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

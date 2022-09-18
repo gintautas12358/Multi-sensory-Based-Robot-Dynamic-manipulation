@@ -1,0 +1,27 @@
+In file included from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/JointState.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/Controller.h:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/tum_ics_ur_robot_lli/RobotControllers/ControlEffort.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:4[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/usr/include/tumtools/Math/EigenDefs.h:66:36:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Ktypedef class Eigen::Matrix<double, 18, 1> Tum::Vector15d[m[K’
+   66 | typedef Eigen::Matrix<double,18,1> [01;31m[KVector15d[m[K;
+      |                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/tumtools/Math/EigenDefs.h:24:36:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Ktypedef class Eigen::Matrix<double, 15, 1> Tum::Vector15d[m[K’
+   24 | typedef Eigen::Matrix<double,15,1> [01;36m[KVector15d[m[K;
+      |                                    [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:142:7:[m[K [01;31m[Kerror: [m[K‘[01m[KVector18d[m[K’ does not name a type
+  142 |       [01;31m[KVector18d[m[K interpolate_joint2(Vector6d c, Vector6d g, double ti, double tg, double t);
+      |       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::joint_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:516:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterpolate_joint2[m[K’ was not declared in this scope; did you mean ‘[01m[Kinterpolate_joint[m[K’?
+  516 |        Vector12d out = [01;31m[Kinterpolate_joint2[m[K(Qinit_, Qg, start_time, end_time, time.tD());
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                        [32m[Kinterpolate_joint[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K At global scope:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:664:5:[m[K [01;31m[Kerror: [m[K‘[01m[KVector18d[m[K’ does not name a type
+  664 |     [01;31m[KVector18d[m[K JointSpaceController_1::interpolate_joint2(Vector6d c, Vector6d g, double ti, double tg, double t) {
+      |     [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1905: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

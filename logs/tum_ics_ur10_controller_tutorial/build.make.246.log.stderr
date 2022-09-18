@@ -1,0 +1,23 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::joint_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:530:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::calc_Yr(Tum::Vector6d&, Tum::Vector6d&, Tum::Vector6d&, Tum::Vector6d&, Tum::Vector6d&)[m[K’
+  530 |       MatrixRegressor_1 Yr = calc_Yr(Q, Qp, Qpp, Qp, Qpp[01;31m[K)[m[K;
+      |                                                         [01;31m[K^[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:133:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KTum::MatrixRegressor_1 tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::calc_Yr(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d)[m[K’
+  133 |       MatrixRegressor_1 [01;36m[Kcalc_Yr[m[K(Vector6d Q, Vector6d Qp,  Vector6d Qpp);
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:133:25:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 5 provided
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K At global scope:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1202:23:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KTum::MatrixRegressor_1 tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::calc_Yr(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, Tum::Vector6d)[m[K’
+ 1202 |     MatrixRegressor_1 [01;31m[KJointSpaceController_1[m[K::calc_Yr(Vector6d Q, Vector6d Qp,  Vector6d Qpp, Vector6d Qrp,  Vector6d Qrpp) {
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:133:25:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KTum::MatrixRegressor_1 tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::calc_Yr(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d)[m[K’
+  133 |       MatrixRegressor_1 [01;36m[Kcalc_Yr[m[K(Vector6d Q, Vector6d Qp,  Vector6d Qpp);
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:64:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1[m[K’ defined here
+   64 |     class [01;36m[KJointSpaceController_1[m[K : public ControlEffort
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1905: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

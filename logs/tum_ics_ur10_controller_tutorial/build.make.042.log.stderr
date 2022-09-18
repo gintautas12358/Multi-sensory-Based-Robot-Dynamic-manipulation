@@ -1,0 +1,12 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/Applications/test_jointspace_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/Applications/test_jointspace_controller.cpp:33:107:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::JointSpaceController_1(double, const char [22])[m[K’
+   33 |     tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1 controller(1.0, "jointspace_controller"[01;31m[K)[m[K;
+      |                                                                                                           [01;31m[K^[m[K
+In file included from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/Applications/test_jointspace_controller.cpp:2[m[K:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:64:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::JointSpaceController_1()[m[K’
+   64 |     class [01;36m[KJointSpaceController_1[m[K : public JointSpaceController
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:64:11:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+make[2]: *** [CMakeFiles/test_jointspace_controller.dir/build.make:63: CMakeFiles/test_jointspace_controller.dir/src/Applications/test_jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:329: CMakeFiles/test_jointspace_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

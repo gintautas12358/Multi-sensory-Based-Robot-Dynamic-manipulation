@@ -1,0 +1,11 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[Kvoid tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::obstacle_sub_callback(const Objects&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:879:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemplate<class _Tp, class _Alloc> class std::vector[m[K’ used without template arguments
+  879 |       for (std::[01;31m[Kvector[m[K::iterator it = msg.objects.begin(); it != msg.objects.end(); it++) {
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:879:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kit[m[K’ was not declared in this scope; did you mean ‘[01m[Kt[m[K’?
+  879 |       for (std::vector::iterator it = msg.objects.begin(); [01;31m[Kit[m[K != msg.objects.end(); it++) {
+      |                                                            [01;31m[K^~[m[K
+      |                                                            [32m[Kt[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

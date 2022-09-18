@@ -1,0 +1,17 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:1019:26:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kplot_joint_data[m[K’ declared void
+ 1019 |     void plot_joint_data([01;31m[KQ[m[K, Qp, Qpp) {
+      |                          [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:1019:26:[m[K [01;31m[Kerror: [m[K‘[01m[KQ[m[K’ was not declared in this scope; did you mean ‘[01m[KQt[m[K’?
+ 1019 |     void plot_joint_data([01;31m[KQ[m[K, Qp, Qpp) {
+      |                          [01;31m[K^[m[K
+      |                          [32m[KQt[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:1019:29:[m[K [01;31m[Kerror: [m[K‘[01m[KQp[m[K’ was not declared in this scope; did you mean ‘[01m[KQt[m[K’?
+ 1019 |     void plot_joint_data(Q, [01;31m[KQp[m[K, Qpp) {
+      |                             [01;31m[K^~[m[K
+      |                             [32m[KQt[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller_1.cpp:1019:33:[m[K [01;31m[Kerror: [m[K‘[01m[KQpp[m[K’ was not declared in this scope
+ 1019 |     void plot_joint_data(Q, Qp, [01;31m[KQpp[m[K) {
+      |                                 [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:76: CMakeFiles/ur10_control.dir/src/jointspace_controller_1.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

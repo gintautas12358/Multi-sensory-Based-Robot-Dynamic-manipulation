@@ -1,0 +1,25 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::operational_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:822:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped[m[K’ {aka ‘[01m[Kstruct geometry_msgs::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  822 |       pose_d.[01;31m[Kposition[m[K.x = Xd_v(0);
+      |              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:823:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped[m[K’ {aka ‘[01m[Kstruct geometry_msgs::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  823 |       pose_d.[01;31m[Kposition[m[K.y = Xd_v(1);
+      |              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:824:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped[m[K’ {aka ‘[01m[Kstruct geometry_msgs::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  824 |       pose_d.[01;31m[Kposition[m[K.z = Xd_v(2);
+      |              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:825:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped[m[K’ {aka ‘[01m[Kstruct geometry_msgs::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+  825 |       pose_d.[01;31m[Korientation[m[K.w = kd.w();
+      |              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:826:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped[m[K’ {aka ‘[01m[Kstruct geometry_msgs::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+  826 |       pose_d.[01;31m[Korientation[m[K.x = kd.x();
+      |              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:827:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped[m[K’ {aka ‘[01m[Kstruct geometry_msgs::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+  827 |       pose_d.[01;31m[Korientation[m[K.y = kd.y();
+      |              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:828:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped[m[K’ {aka ‘[01m[Kstruct geometry_msgs::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+  828 |       pose_d.[01;31m[Korientation[m[K.z = kd.z();
+      |              [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

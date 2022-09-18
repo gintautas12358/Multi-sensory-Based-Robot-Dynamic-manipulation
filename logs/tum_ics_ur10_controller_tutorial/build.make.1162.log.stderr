@@ -1,0 +1,55 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::operational_control_multi_obstacle_avoidance(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:645:30:[m[K [01;31m[Kerror: [m[Kthe value of ‘[01m[Kobstacle_num[m[K’ is not usable in a constant expression
+  645 |       Eigen::Matrix<double,6,[01;31m[Kobstacle_num[m[K> joint_distances_0(Eigen::Matrix<double,6,obstacle_num>::Zero());
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:644:11:[m[K [01;36m[Knote: [m[K‘[01m[Kint obstacle_num[m[K’ is not const
+  644 |       int [01;36m[Kobstacle_num[m[K = obstacle_poses_.size();
+      |           [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:645:42:[m[K [01;31m[Kerror: [m[Kthe value of ‘[01m[Kobstacle_num[m[K’ is not usable in a constant expression
+  645 |       Eigen::Matrix<double,6,obstacle_num[01;31m[K>[m[K joint_distances_0(Eigen::Matrix<double,6,obstacle_num>::Zero());
+      |                                          [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:644:11:[m[K [01;36m[Knote: [m[K‘[01m[Kint obstacle_num[m[K’ is not const
+  644 |       int [01;36m[Kobstacle_num[m[K = obstacle_poses_.size();
+      |           [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:645:42:[m[K [01;36m[Knote: [m[Kin template argument for type ‘[01m[Kint[m[K’
+  645 |       Eigen::Matrix<double,6,obstacle_num[01;36m[K>[m[K joint_distances_0(Eigen::Matrix<double,6,obstacle_num>::Zero());
+      |                                          [01;36m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:645:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:645:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 6 is invalid
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:645:85:[m[K [01;31m[Kerror: [m[Kthe value of ‘[01m[Kobstacle_num[m[K’ is not usable in a constant expression
+  645 |       Eigen::Matrix<double,6,obstacle_num> joint_distances_0(Eigen::Matrix<double,6,[01;31m[Kobstacle_num[m[K>::Zero());
+      |                                                                                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:644:11:[m[K [01;36m[Knote: [m[K‘[01m[Kint obstacle_num[m[K’ is not const
+  644 |       int [01;36m[Kobstacle_num[m[K = obstacle_poses_.size();
+      |           [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:645:97:[m[K [01;31m[Kerror: [m[Kthe value of ‘[01m[Kobstacle_num[m[K’ is not usable in a constant expression
+  645 |       Eigen::Matrix<double,6,obstacle_num> joint_distances_0(Eigen::Matrix<double,6,obstacle_num[01;31m[K>[m[K::Zero());
+      |                                                                                                 [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:644:11:[m[K [01;36m[Knote: [m[K‘[01m[Kint obstacle_num[m[K’ is not const
+  644 |       int [01;36m[Kobstacle_num[m[K = obstacle_poses_.size();
+      |           [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:645:97:[m[K [01;36m[Knote: [m[Kin template argument for type ‘[01m[Kint[m[K’
+  645 |       Eigen::Matrix<double,6,obstacle_num> joint_distances_0(Eigen::Matrix<double,6,obstacle_num[01;36m[K>[m[K::Zero());
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:645:97:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:645:97:[m[K [01;31m[Kerror: [m[Ktemplate argument 6 is invalid
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:648:29:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kint (*)()[m[K’ [[01;31m[K-fpermissive[m[K]
+  648 |           joint_distances_0([01;31m[Ki[m[K,j) = distance_to_j_joint(Q, i, j).norm();
+      |                             [01;31m[K^[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Kint[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:648:32:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kint tum_ics_ur_robot_lli::RobotControllers::joint_distances_0(int (*)())[m[K’
+  648 |           joint_distances_0(i,j[01;31m[K)[m[K = distance_to_j_joint(Q, i, j).norm();
+      |                                [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:645:44:[m[K [01;36m[Knote: [m[Kdeclared here
+  645 |       Eigen::Matrix<double,6,obstacle_num> [01;36m[Kjoint_distances_0[m[K(Eigen::Matrix<double,6,obstacle_num>::Zero());
+      |                                            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:648:70:[m[K [01;31m[Kerror: [m[Klvalue required as left operand of assignment
+  648 |           joint_distances_0(i,j) = distance_to_j_joint(Q, i, j).norm([01;31m[K)[m[K;
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:657:29:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KmaxCoeff[m[K’ in ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::joint_distances_0[m[K’, which is of non-class type ‘[01m[Kint(int (*)())[m[K’
+  657 |       if (joint_distances_0.[01;31m[KmaxCoeff[m[K() > rad_influence) {
+      |                             [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

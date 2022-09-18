@@ -1,0 +1,92 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[Kvirtual Tum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::update(const tum_ics_ur_robot_lli::RobotTime&, const tum_ics_ur_robot_lli::JointState&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:568:26:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >::_position_type[m[K’ {aka ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >[m[K’} and ‘[01m[KEigen::Vector3d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 1>[m[K’})
+  568 |       pose_ef.position = [01;31m[Kef_v[m[K;
+      |                          [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/geometry_msgs/PointStamped.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf/transform_datatypes.h:36[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf_conversions/tf_eigen.h:35[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/conversions.h:31[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/rotation_base.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/rotation3_base.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/rotation3.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:35[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/geometry_msgs/Point.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::Point_<std::allocator<void> >& geometry_msgs::Point_<std::allocator<void> >::operator=(const geometry_msgs::Point_<std::allocator<void> >&)[m[K’
+   22 | struct [01;36m[KPoint_[m[K
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/noetic/include/geometry_msgs/Point.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Vector3d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 1>[m[K’} to ‘[01m[Kconst geometry_msgs::Point_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/noetic/include/geometry_msgs/Point.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::Point_<std::allocator<void> >& geometry_msgs::Point_<std::allocator<void> >::operator=(geometry_msgs::Point_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/noetic/include/geometry_msgs/Point.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Vector3d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 1>[m[K’} to ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >&&[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:569:29:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >::_orientation_type[m[K’ {aka ‘[01m[Kgeometry_msgs::Quaternion_<std::allocator<void> >[m[K’} and ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’})
+  569 |       pose_ef.orientation = [01;31m[Kef_k[m[K;
+      |                             [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/geometry_msgs/QuaternionStamped.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf/transform_datatypes.h:38[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf_conversions/tf_eigen.h:35[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/conversions.h:31[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/rotation_base.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/rotation3_base.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/rotation3.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:35[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/geometry_msgs/Quaternion.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::Quaternion_<std::allocator<void> >& geometry_msgs::Quaternion_<std::allocator<void> >::operator=(const geometry_msgs::Quaternion_<std::allocator<void> >&)[m[K’
+   22 | struct [01;36m[KQuaternion_[m[K
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/geometry_msgs/Quaternion.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’} to ‘[01m[Kconst geometry_msgs::Quaternion_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/noetic/include/geometry_msgs/Quaternion.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::Quaternion_<std::allocator<void> >& geometry_msgs::Quaternion_<std::allocator<void> >::operator=(geometry_msgs::Quaternion_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/noetic/include/geometry_msgs/Quaternion.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’} to ‘[01m[Kgeometry_msgs::Quaternion_<std::allocator<void> >&&[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::operational_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector6d, double, double, const tum_ics_ur_robot_lli::RobotTime&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:737:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+  737 |       Matrix6d J = model.J_ef_0([01;31m[Kq[m[K)
+      |                                 [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:741:13:[m[K [01;31m[Kerror: [m[K‘[01m[KXp_v[m[K’ was not declared in this scope; did you mean ‘[01m[KXp_w[m[K’?
+  741 |       Xp << [01;31m[KXp_v[m[K, Xp_w;
+      |             [01;31m[K^~~~[m[K
+      |             [32m[KXp_w[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:805:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >::_position_type[m[K’ {aka ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >[m[K’} and ‘[01m[KEigen::Vector3d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 1>[m[K’})
+  805 |       pose_d.position = [01;31m[KXd_v[m[K;
+      |                         [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/geometry_msgs/PointStamped.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf/transform_datatypes.h:36[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf_conversions/tf_eigen.h:35[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/conversions.h:31[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/rotation_base.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/rotation3_base.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/rotation3.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:35[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/geometry_msgs/Point.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::Point_<std::allocator<void> >& geometry_msgs::Point_<std::allocator<void> >::operator=(const geometry_msgs::Point_<std::allocator<void> >&)[m[K’
+   22 | struct [01;36m[KPoint_[m[K
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/noetic/include/geometry_msgs/Point.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Vector3d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 1>[m[K’} to ‘[01m[Kconst geometry_msgs::Point_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/noetic/include/geometry_msgs/Point.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::Point_<std::allocator<void> >& geometry_msgs::Point_<std::allocator<void> >::operator=(geometry_msgs::Point_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/noetic/include/geometry_msgs/Point.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Vector3d[m[K’ {aka ‘[01m[KEigen::Matrix<double, 3, 1>[m[K’} to ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >&&[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:806:28:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >::_orientation_type[m[K’ {aka ‘[01m[Kgeometry_msgs::Quaternion_<std::allocator<void> >[m[K’} and ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’})
+  806 |       pose_d.orientation = [01;31m[Kkd[m[K;
+      |                            [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/noetic/include/geometry_msgs/QuaternionStamped.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf/transform_datatypes.h:38[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf_conversions/tf_eigen.h:35[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/conversions.h:31[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/rotation_base.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/type_bases/rotation3_base.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types/rotation3.h:28[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/utilities/control_core/include/control_core/types.h:35[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/ur_model/include/ur_model/ur_model.h:27[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/include/tum_ics_ur10_controller_tutorial/jointspace_controller.h:5[m[K,
+                 from [01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/geometry_msgs/Quaternion.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::Quaternion_<std::allocator<void> >& geometry_msgs::Quaternion_<std::allocator<void> >::operator=(const geometry_msgs::Quaternion_<std::allocator<void> >&)[m[K’
+   22 | struct [01;36m[KQuaternion_[m[K
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/geometry_msgs/Quaternion.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’} to ‘[01m[Kconst geometry_msgs::Quaternion_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/noetic/include/geometry_msgs/Quaternion.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::Quaternion_<std::allocator<void> >& geometry_msgs::Quaternion_<std::allocator<void> >::operator=(geometry_msgs::Quaternion_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/noetic/include/geometry_msgs/Quaternion.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’} to ‘[01m[Kgeometry_msgs::Quaternion_<std::allocator<void> >&&[m[K’
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,22 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[KTum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::impedance_control(Tum::Vector6d, Tum::Vector6d, Tum::Vector7d, Tum::Vector6d, double, double)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:796:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Eigen::Matrix<double, 6, 3>[m[K’ has no member named ‘[01m[KP[m[K’
+  796 |       F1_0 = Fj_0.[01;31m[KP[m[K.row(0).transpose();
+      |                   [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:797:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Eigen::Matrix<double, 6, 3>[m[K’ has no member named ‘[01m[KP[m[K’
+  797 |       F2_0 = Fj_0.[01;31m[KP[m[K.row(1).transpose();
+      |                   [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:798:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Eigen::Matrix<double, 6, 3>[m[K’ has no member named ‘[01m[KP[m[K’
+  798 |       F3_0 = Fj_0.[01;31m[KP[m[K.row(2).transpose();
+      |                   [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:799:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Eigen::Matrix<double, 6, 3>[m[K’ has no member named ‘[01m[KP[m[K’
+  799 |       F4_0 = Fj_0.[01;31m[KP[m[K.row(3).transpose();
+      |                   [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:800:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Eigen::Matrix<double, 6, 3>[m[K’ has no member named ‘[01m[KP[m[K’
+  800 |       F5_0 = Fj_0.[01;31m[KP[m[K.row(4).transpose();
+      |                   [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:801:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Eigen::Matrix<double, 6, 3>[m[K’ has no member named ‘[01m[KP[m[K’
+  801 |       F6_0 = Fj_0.[01;31m[KP[m[K.row(5).transpose();
+      |                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

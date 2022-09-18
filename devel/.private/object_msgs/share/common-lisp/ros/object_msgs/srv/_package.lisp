@@ -1,0 +1,10 @@
+(cl:defpackage object_msgs-srv
+  (:use )
+  (:export
+   "ADDMOVINGOBJECTS"
+   "<ADDMOVINGOBJECTS-REQUEST>"
+   "ADDMOVINGOBJECTS-REQUEST"
+   "<ADDMOVINGOBJECTS-RESPONSE>"
+   "ADDMOVINGOBJECTS-RESPONSE"
+  ))
+

@@ -1,0 +1,26 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[Kvirtual Tum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::update(const tum_ics_ur_robot_lli::RobotTime&, const tum_ics_ur_robot_lli::JointState&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:509:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+  509 |       for (int [01;31m[K=[m[K 0; i < 144; i++)
+      |                [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:509:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K=[m[K’ token
+  509 |       for (int[01;31m[K [m[K[32m[K=[m[K 0; i < 144; i++)
+      |               [01;31m[K^[m[K[32m[K~[m[K
+      |               [32m[K;[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:509:16:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+  509 |       for (int [01;31m[K=[m[K 0; i < 144; i++)
+      |                [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:509:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope; did you mean ‘[01m[Kpi[m[K’?
+  509 |       for (int = 0; [01;31m[Ki[m[K < 144; i++)
+      |                     [01;31m[K^[m[K
+      |                     [32m[Kpi[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:509:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  509 |       for [34m[K([m[Kint = 0; i < 144[01;31m[K;[m[K i++)
+      |           [34m[K~[m[K                [01;31m[K^[m[K
+      |                            [32m[K)[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:509:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope; did you mean ‘[01m[Kpi[m[K’?
+  509 |       for (int = 0; i < 144; [01;31m[Ki[m[K++)
+      |                              [01;31m[K^[m[K
+      |                              [32m[Kpi[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1905: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

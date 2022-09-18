@@ -1,0 +1,8 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In member function ‘[01m[Kvirtual Tum::Vector6d tum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::update(const tum_ics_ur_robot_lli::RobotTime&, const tum_ics_ur_robot_lli::JointState&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:556:70:[m[K [01;31m[Kerror: [m[K‘[01m[KtotalTime[m[K’ was not declared in this scope; did you mean ‘[01m[KtotalTime_[m[K’?
+  556 |       tau = joint_control( Q,  Qp,  Qpp,  L,  I,  masses,  g,  time, [01;31m[KtotalTime[m[K);
+      |                                                                      [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[KtotalTime_[m[K
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1905: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

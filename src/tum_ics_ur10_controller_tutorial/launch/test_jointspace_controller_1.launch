@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!-- ur10 settings -->
+  <arg name="CONFIG_FILE_PATH" default="$(find tum_ics_ur10_controller_tutorial)/launch/configs/configUR10.ini"/>
+
+  <!-- our test controller -->
+  <node name="jointspace_controller_1" pkg="tum_ics_ur10_controller_tutorial" type="test_jointspace_controller_1" args="$(arg CONFIG_FILE_PATH)" output="screen">
+    <!-- internal parameter --> 
+    <rosparam file="$(find tum_ics_ur_robot_controllers)/launch/configs/pidInt.yaml" command="load" />
+    <!-- our controller parameter --> 
+    <rosparam file="$(find tum_ics_ur10_controller_tutorial)/launch/configs/jointspace_controller_1.yaml" command="load" />
+  </node>
+
+</launch>

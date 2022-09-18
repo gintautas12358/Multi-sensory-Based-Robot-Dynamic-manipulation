@@ -1,0 +1,16 @@
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:[m[K In constructor ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::JointSpaceController_1(double, const QString&)[m[K’:
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:236:5:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+  236 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:195:5:[m[K [01;31m[Kerror: [m[Kmultiple initializations given for ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::Qinit_[m[K’
+  195 |     [01;31m[KJointSpaceController_1[m[K::JointSpaceController_1(double weight, const QString &name) :
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:195:5:[m[K [01;31m[Kerror: [m[Kmultiple initializations given for ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::DeltaQi_[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:195:5:[m[K [01;31m[Kerror: [m[Kmultiple initializations given for ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::DeltaQ_[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:195:5:[m[K [01;31m[Kerror: [m[Kmultiple initializations given for ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::DeltaQp_[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:195:5:[m[K [01;31m[Kerror: [m[Kmultiple initializations given for ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::DeltaXi_[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:195:5:[m[K [01;31m[Kerror: [m[Kmultiple initializations given for ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::DeltaX_[m[K’
+[01m[K/home/gin/ros/workspaces/final/src/tum_ics_ur10_controller_tutorial/src/jointspace_controller.cpp:195:5:[m[K [01;31m[Kerror: [m[Kmultiple initializations given for ‘[01m[Ktum_ics_ur_robot_lli::RobotControllers::JointSpaceController_1::DeltaXp_[m[K’
+make[2]: *** [CMakeFiles/ur10_control.dir/build.make:63: CMakeFiles/ur10_control.dir/src/jointspace_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2045: CMakeFiles/ur10_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
